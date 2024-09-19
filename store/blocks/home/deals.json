@@ -14,7 +14,14 @@
   "flex-layout.col#deals1": {
     "children": [
       "image#deal1",
-      "rich-text#deal1"
+      "flex-layout.col#deals1-0"
+    ]
+  },
+
+  "flex-layout.col#deals1-0": {
+    "children": [
+        "rich-text#deal1",
+       "rich-text#deal1-1"
     ]
   },
   "image#deal1": {
@@ -23,16 +30,31 @@
       "maxHeight": "24px"
     }
   },
+  
   "rich-text#deal1": {
     "props": {
-      "text": "Free shipping",
+      "text": "FRETE GRÁTIS",
+      "blockClass": "deals"
+    }
+  },
+
+  "rich-text#deal1-1": {
+    "props": {
+      "text": "para todo Brasil A PARTIR DE R$ 399",
       "blockClass": "deals"
     }
   },
   "flex-layout.col#deals2": {
     "children": [
       "image#deal2",
-      "rich-text#deal2"
+    "flex-layout.col#deals2-0"
+    ]
+  },
+
+  "flex-layout.col#deals2-0": {
+    "children": [
+        "rich-text#deal2",
+      "rich-text#deal2-1"
     ]
   },
   "image#deal2": {
@@ -43,14 +65,28 @@
   },
   "rich-text#deal2": {
     "props": {
-      "text": "One day delivery",
+      "text": "Novidades",
+      "blockClass": "deals"
+    }
+  },
+
+  "rich-text#deal2-1": {
+    "props": {
+      "text": "peças novas todos os dias",
       "blockClass": "deals"
     }
   },
   "flex-layout.col#deals3": {
     "children": [
       "image#deal3",
-      "rich-text#deal3"
+    "flex-layout.col#deals3-0"
+    ]
+  },
+
+  "flex-layout.col#deals3-0": {
+    "children": [
+      "rich-text#deal3",
+      "rich-text#deal3-1"
     ]
   },
   "image#deal3": {
@@ -61,14 +97,27 @@
   },
   "rich-text#deal3": {
     "props": {
-      "text": "Pick up in store",
+      "text": "Parcelamento",
+      "blockClass": "deals"
+    }
+  },
+  "rich-text#deal3-1": {
+    "props": {
+      "text": "em até 6x",
       "blockClass": "deals"
     }
   },
   "flex-layout.col#deals4": {
     "children": [
       "image#deal4",
-      "rich-text#deal4"
+   "flex-layout.col#deals4-0"
+    ]
+  },
+
+  "flex-layout.col#deals4-0": {
+    "children": [
+     "rich-text#deal4",
+      "rich-text#deal4-1"
     ]
   },
   "image#deal4": {
@@ -79,8 +128,16 @@
   },
   "rich-text#deal4": {
     "props": {
-      "text": "Exclusive deals",
+      "text": "10% off",
+      "blockClass": "deals"
+    }
+  },
+  "rich-text#deal4-1": {
+    "props": {
+      "text": "cupom PIX10",
       "blockClass": "deals"
     }
   }
+
+  
 }

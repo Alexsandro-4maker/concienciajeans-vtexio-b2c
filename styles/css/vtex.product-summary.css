@@ -24,14 +24,27 @@
 }
 
 .brandName {
-  font-weight: 600;
-  font-size: 18px;
-  color: #2E2E2E;
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000;
 }
 
 .container {
   text-align: start;
 }
+
+.spacer {
+  display: none;
+}
+
+.element{
+  border: 1px solid;
+}
+
+.container .clearLink .element :global(.vtex-button){
+  display: none;
+}
+
 
 .imageContainer {
   text-align: center;
