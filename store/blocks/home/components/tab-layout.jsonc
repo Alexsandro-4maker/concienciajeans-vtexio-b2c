@@ -1,0 +1,176 @@
+{
+    "tab-layout#home": {
+        "children": [
+            "tab-list#home",
+            "tab-content#home"
+        ],
+        "title": "Tab layout Home",
+        "props": {
+            "blockClass": "home",
+            "defaultActiveTabId": "home1"
+        }
+    },
+    "tab-list#home": {
+        "children": [
+            "tab-list.item#home1",
+            "tab-list.item#home2"
+        ]
+    },
+    "tab-list.item#home1": {
+        "props": {
+            "tabId": "home1",
+            "label": "Home 1",
+            "defaultActiveTab": true
+        }
+    },
+    "tab-list.item#home2": {
+        "props": {
+            "tabId": "home2",
+            "label": "Home 2"
+        }
+    },
+    "tab-content#home": {
+        "children": [
+            "tab-content.item#home1",
+            "tab-content.item#home2"
+        ]
+    },
+    "tab-content.item#home1": {
+        "title": "Tab Feminino",
+        "children": [
+            "flex-layout.row#tab-feminino-1",
+            "flex-layout.row#tab-feminino-2",
+            "flex-layout.row#tab-feminino-3",
+            "flex-layout.row#tab-feminino-4",
+            "flex-layout.row#tab-feminino-5",
+            "flex-layout.row#tab-feminino-6"
+        ],
+        "props": {
+            "tabId": "home1",
+            "blockClass":"Bloco-contant-feminino"
+        }
+    },
+    "tab-content.item#home2": {
+        "children": [
+            "flex-layout.row#tab-feminino-1"
+        ],
+        "props": {
+            "tabId": "home2"
+        }
+    },
+
+    "flex-layout.row#tab-feminino-1": {
+        "children": [
+            "image#banner-feminino-1",
+            "rich-text#tab-feminino-1"
+        ]
+    },
+    "image#banner-feminino-1": {
+        "props": {
+            "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
+            "width": 100,
+            "height": 100
+        }
+    },
+    "rich-text#tab-feminino-1": {
+        "props": {
+            "text": "## Novidades",
+            "blockClass": "shelfTitle"
+        }
+    },
+    "flex-layout.row#tab-feminino-2": {
+        "children": [
+            "image#banner-feminino-2",
+            "rich-text#tab-feminino-2"
+        ]
+    },
+    "image#banner-feminino-2": {
+        "props": {
+            "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
+            "width": 100,
+            "height": 100
+        }
+    },
+    "rich-text#tab-feminino-2": {
+        "props": {
+            "text": "## Novidades",
+            "blockClass": "shelfTitle"
+        }
+    },
+    "flex-layout.row#tab-feminino-3": {
+        "children": [
+            "image#banner-feminino-3",
+            "rich-text#tab-feminino-3"
+        ]
+    },
+    "image#banner-feminino-3": {
+        "props": {
+            "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
+            "width": 100,
+            "height": 100
+        }
+    },
+    "rich-text#tab-feminino-3": {
+        "props": {
+            "text": "## Novidades",
+            "blockClass": "shelfTitle"
+        }
+    },
+    "flex-layout.row#tab-feminino-4": {
+        "children": [
+            "image#banner-feminino-4",
+            "rich-text#tab-feminino-4"
+        ]
+    },
+    "image#banner-feminino-4": {
+        "props": {
+            "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
+            "width": 100,
+            "height": 100
+        }
+    },
+    "rich-text#tab-feminino-4": {
+        "props": {
+            "text": "## Novidades",
+            "blockClass": "shelfTitle"
+        }
+    },
+    "flex-layout.row#tab-feminino-5": {
+        "children": [
+            "image#banner-feminino-5",
+            "rich-text#tab-feminino-5"
+        ]
+    },
+    "image#banner-feminino-5": {
+        "props": {
+            "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
+            "width": 100,
+            "height": 100
+        }
+    },
+    "rich-text#tab-feminino-5": {
+        "props": {
+            "text": "## Novidades",
+            "blockClass": "shelfTitle"
+        }
+    },
+    "flex-layout.row#tab-feminino-6": {
+        "children": [
+            "image#banner-feminino-6",
+            "rich-text#tab-feminino-6"
+        ]
+    },
+    "image#banner-feminino-6": {
+        "props": {
+            "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
+            "width": 100,
+            "height": 100
+        }
+    },
+    "rich-text#tab-feminino-6": {
+        "props": {
+            "text": "## Novidades",
+            "blockClass": "shelfTitle"
+        }
+    }
+}

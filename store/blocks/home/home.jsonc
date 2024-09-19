@@ -4,12 +4,14 @@
       "list-context.image-list#demo",
       "flex-layout.row#deals",
       "__fold__",
+      "tab-layout#home",
       "flex-layout.row#banner-1",
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
       //s "info-card#home",
       "rich-text#shelf-title-2",
       "flex-layout.row#shelf2",
+      "flex-layout.row#bloco-banner-2",
       "rich-text#shelf-title-3",
       "flex-layout.row#shelf-3",
       "flex-layout.row#banner-3",
@@ -61,6 +63,43 @@
     }
   },
   "image#banner-home-1-1": {
+    "props": {
+      "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
+      "width":558,
+      "height":650
+      
+    }
+  },
+
+  "flex-layout.row#bloco-banner-2": {
+    "children": [
+      "image#banner-home-principal-2",
+   "flex-layout.row#banner-2"
+    ]
+  },
+  "image#banner-home-principal-2": {
+    "props": {
+      "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
+      "width":558,
+      "height":650
+    }
+  },
+
+  "flex-layout.row#banner-2": {
+    "children": [
+      "image#banner-home-2-1",
+      "image#banner-home-2-2"
+    ]
+  },
+  "image#banner-home-2-1": {
+    "props": {
+      "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
+      "width":558,
+      "height":650
+    }
+  },
+
+  "image#banner-home-2-2": {
     "props": {
       "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
       "width":558,
