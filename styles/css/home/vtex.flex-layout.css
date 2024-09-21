@@ -1,0 +1,12 @@
+.flexRowContent--container-bloco-img-text{
+    flex-direction: column;
+}
+.flexCol--bloco-deals{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.flexColChild--bloco-deals{
+    height: unset !important;
+}

@@ -3,7 +3,6 @@
     "blocks": [
       "list-context.image-list#demo",
       "flex-layout.row#deals",
-      "__fold__",
       "tab-layout#home",
       "flex-layout.row#banner-1",
       "rich-text#shelf-title",

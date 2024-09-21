@@ -19,14 +19,14 @@
     "tab-list.item#home1": {
         "props": {
             "tabId": "home1",
-            "label": "Home 1",
+            "label": "Feminino",
             "defaultActiveTab": true
         }
     },
     "tab-list.item#home2": {
         "props": {
             "tabId": "home2",
-            "label": "Home 2"
+            "label": "Masculino"
         }
     },
     "tab-content#home": {
@@ -47,7 +47,7 @@
         ],
         "props": {
             "tabId": "home1",
-            "blockClass":"Bloco-contant-feminino"
+            "blockClass": "Bloco-contant-feminino"
         }
     },
     "tab-content.item#home2": {
@@ -58,23 +58,23 @@
             "tabId": "home2"
         }
     },
-
     "flex-layout.row#tab-feminino-1": {
         "children": [
             "image#banner-feminino-1",
             "rich-text#tab-feminino-1"
-        ]
+        ],
+        "props": {
+            "blockClass": "container-bloco-img-text"
+        }
     },
     "image#banner-feminino-1": {
         "props": {
-            "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
-            "width": 100,
-            "height": 100
+            "src": "https://storecomponents.vteximg.com.br/arquivos/box.png"
         }
     },
     "rich-text#tab-feminino-1": {
         "props": {
-            "text": "## Novidades",
+            "text": "Receba novidades",
             "blockClass": "shelfTitle"
         }
     },
@@ -82,18 +82,19 @@
         "children": [
             "image#banner-feminino-2",
             "rich-text#tab-feminino-2"
-        ]
+        ],
+        "props": {
+            "blockClass": "container-bloco-img-text"
+        }
     },
     "image#banner-feminino-2": {
         "props": {
-            "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
-            "width": 100,
-            "height": 100
+            "src": "https://storecomponents.vteximg.com.br/arquivos/box.png"
         }
     },
     "rich-text#tab-feminino-2": {
         "props": {
-            "text": "## Novidades",
+            "text": "Resort",
             "blockClass": "shelfTitle"
         }
     },
@@ -101,18 +102,19 @@
         "children": [
             "image#banner-feminino-3",
             "rich-text#tab-feminino-3"
-        ]
+        ],
+        "props": {
+            "blockClass": "container-bloco-img-text"
+        }
     },
     "image#banner-feminino-3": {
         "props": {
-            "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
-            "width": 100,
-            "height": 100
+            "src": "https://storecomponents.vteximg.com.br/arquivos/box.png"
         }
     },
     "rich-text#tab-feminino-3": {
         "props": {
-            "text": "## Novidades",
+            "text": "Lançamentos",
             "blockClass": "shelfTitle"
         }
     },
@@ -120,18 +122,19 @@
         "children": [
             "image#banner-feminino-4",
             "rich-text#tab-feminino-4"
-        ]
+        ],
+        "props": {
+            "blockClass": "container-bloco-img-text"
+        }
     },
     "image#banner-feminino-4": {
         "props": {
-            "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
-            "width": 100,
-            "height": 100
+            "src": "https://storecomponents.vteximg.com.br/arquivos/box.png"
         }
     },
     "rich-text#tab-feminino-4": {
         "props": {
-            "text": "## Novidades",
+            "text": "wide leg",
             "blockClass": "shelfTitle"
         }
     },
@@ -139,18 +142,19 @@
         "children": [
             "image#banner-feminino-5",
             "rich-text#tab-feminino-5"
-        ]
+        ],
+        "props": {
+            "blockClass": "container-bloco-img-text"
+        }
     },
     "image#banner-feminino-5": {
         "props": {
-            "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
-            "width": 100,
-            "height": 100
+            "src": "https://storecomponents.vteximg.com.br/arquivos/box.png"
         }
     },
     "rich-text#tab-feminino-5": {
         "props": {
-            "text": "## Novidades",
+            "text": "MOLETONS",
             "blockClass": "shelfTitle"
         }
     },
@@ -158,18 +162,19 @@
         "children": [
             "image#banner-feminino-6",
             "rich-text#tab-feminino-6"
-        ]
+        ],
+        "props": {
+            "blockClass": "container-bloco-img-text"
+        }
     },
     "image#banner-feminino-6": {
         "props": {
-            "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
-            "width": 100,
-            "height": 100
+            "src": "https://storecomponents.vteximg.com.br/arquivos/box.png"
         }
     },
     "rich-text#tab-feminino-6": {
         "props": {
-            "text": "## Novidades",
+            "text": "verão",
             "blockClass": "shelfTitle"
         }
     }

@@ -1,0 +1,22 @@
+.paragraph--deals-title {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.paragraph--deals-description {
+    margin: 0;
+    font-size: 14px;
+    line-height: 14px;
+
+}
+
+.flexColChild--bloco-deals .flexCol {
+    align-items: baseline;
+    margin: 0;
+}
+
+.flexRowContent--container-bloco-img-text .stretchChildrenWidth {
+    width: 100% !important;
+}

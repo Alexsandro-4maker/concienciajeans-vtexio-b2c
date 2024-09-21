@@ -4,6 +4,7 @@
 }
 
 @media screen and (min-width: 40em) {
+
   .flexRowContent--menu-link,
   .flexRowContent--main-header {
     padding: 0 1rem;
@@ -11,6 +12,7 @@
 }
 
 @media screen and (min-width: 80rem) {
+
   .flexRowContent--menu-link,
   .flexRowContent--main-header {
     padding: 0 0.25rem;
@@ -53,8 +55,6 @@
 
 .flexRow--deals .flexCol {
   align-items: center;
-  margin-bottom: 5px;
-  padding-top: 5px;
 }
 
 .flexCol--filterCol {
