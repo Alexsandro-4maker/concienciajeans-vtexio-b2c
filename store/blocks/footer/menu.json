@@ -4,15 +4,16 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#news",
-      "menu-item#blackfriday",
-      "menu-item#sale",
-      "menu-item#personalization"
+      "menu-item#acessorios",
+      "menu-item#bermuda",
+      "menu-item#calca",
+      "menu-item#camisa",
+      "menu-item#jaqueta"
     ]
   },
-  "menu-item#news": {
+  "menu-item#acessorios": {
     "props": {
-      "id": "menu-item-news",
+      "id": "menu-item-acessorios",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -20,14 +21,14 @@
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "News",
-        "text": "News"
+        "tagTitle": "acessorios",
+        "text": "Acessórios"
       }
     }
   },
-  "menu-item#blackfriday": {
+  "menu-item#bermuda": {
     "props": {
-      "id": "menu-item-black-friday",
+      "id": "menu-item-bermuda",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -35,14 +36,14 @@
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "BlackFriday",
-        "text": "Black Friday"
+        "tagTitle": "Bermuda",
+        "text": "Bermuda"
       }
     }
   },
-  "menu-item#sale": {
+  "menu-item#calca": {
     "props": {
-      "id": "menu-item-sale",
+      "id": "menu-item-calca",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -50,14 +51,14 @@
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "Sale",
-        "text": "Sale"
+        "tagTitle": "Calça",
+        "text": "Calça"
       }
     }
   },
-  "menu-item#personalization": {
+  "menu-item#jaqueta": {
     "props": {
-      "id": "menu-item-personalization",
+      "id": "menu-item-jaqueta",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -65,26 +66,43 @@
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "Personalization",
-        "text": "Personalization"
+        "tagTitle": "Jaqueta",
+        "text": "Jaqueta"
       }
     }
   },
-
+  "menu-item#camisa": {
+    "props": {
+      "id": "menu-item-camisa",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Camisa",
+        "text": "Camisa"
+      }
+    }
+  },
   "vtex.menu@2.x:menu#footer-decoration": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#smartphones",
-      "menu-item#videogames",
-      "menu-item#tvs"
+      "menu-item#blog",
+      "menu-item#quem-somos",
+      "menu-item#trocas-e-devolucoes",
+      "menu-item#politica-de-compras",
+      "menu-item#politica-de-entrega",
+       "menu-item#politica-de-privacidade",
+       "menu-item#cadastro-de-influenciadores"
     ]
   },
-
-  "menu-item#smartphones": {
+  "menu-item#blog": {
     "props": {
-      "id": "menu-item-smartphones",
+      "id": "menu-item-blog",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -92,15 +110,14 @@
         "type": "internal",
         "href": "/decoration/smartphones",
         "noFollow": true,
-        "tagTitle": "Smartphones",
-        "text": "Smartphones"
+        "tagTitle": "Blog",
+        "text": "Blog"
       }
     }
   },
-
-  "menu-item#videogames": {
+  "menu-item#quem-somos": {
     "props": {
-      "id": "menu-item-videogames",
+      "id": "menu-item-quem-somos",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -108,40 +125,99 @@
         "type": "internal",
         "href": "/decoration/videogames",
         "noFollow": true,
-        "tagTitle": "Videogames",
-        "text": "Videogames"
+        "tagTitle": "Quem Somos",
+        "text": "Quem Somos"
       }
     }
   },
-
-  "menu-item#tvs": {
+  "menu-item#trocas-e-devolucoes": {
     "props": {
-      "id": "menu-item-tvs",
+      "id": "menu-item-trocas-e-devolucoes",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/decoration/tvs",
+        "href": "/decoration/trocas-e-devolucoes",
         "noFollow": true,
-        "tagTitle": "TVs",
-        "text": "TVs"
+        "tagTitle": "Trocas e Devoluçõess",
+        "text": "Trocas e Devoluções"
       }
     }
   },
 
+  "menu-item#politica-de-compras": {
+    "props": {
+      "id": "menu-item-trocas-e-devolucoes",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/decoration/trocas-e-devolucoes",
+        "noFollow": true,
+        "tagTitle": "Política de Compras",
+        "text": "Política de Compras"
+      }
+    }
+  },
+  "menu-item#politica-de-entrega": {
+    "props": {
+      "id": "menu-item-trocas-e-devolucoes",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/decoration/trocas-e-devolucoes",
+        "noFollow": true,
+        "tagTitle": "Política de Entrega",
+        "text": "Política de Entrega"
+      }
+    }
+  },
+   "menu-item#politica-de-privacidade": {
+    "props": {
+      "id": "menu-item-politica-de-privacidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/decoration/politica-de-privacidade",
+        "noFollow": true,
+        "tagTitle": "Política de Privacidade",
+        "text": "Política de Privacidade"
+      }
+    }
+  },
+  "menu-item#cadastro-de-influenciadores": {
+    "props": {
+      "id": "menu-item-cadastro-de-influenciadores",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/decoration/politica-de-privacidade",
+        "noFollow": true,
+        "tagTitle": "Cadastro de Influenciadores",
+        "text": "Cadastro de Influenciadores"
+      }
+    }
+  },
   "vtex.menu@2.x:menu#footer-bags": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#bags",
-      "menu-item#backpacks",
-      "menu-item#necessaire"
+      "menu-item#minha-conta",
+      "menu-item#meus-pedidos",
+      "menu-item#lojas-fisicas",
+      "menu-item#faq"
     ]
   },
-
-  "menu-item#bags": {
+  "menu-item#minha-conta": {
     "props": {
       "id": "menu-item-bags",
       "type": "custom",
@@ -151,44 +227,41 @@
         "type": "internal",
         "href": "/bags/d",
         "noFollow": true,
-        "tagTitle": "Bags",
-        "text": "Bags"
+        "tagTitle": "Minha Conta",
+        "text": "Minha Conta"
       }
     }
   },
-
-  "menu-item#backpacks": {
+  "menu-item#meus-pedidos": {
     "props": {
-      "id": "menu-item-backpacks",
+      "id": "menu-item-meus-pedidos",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/bags/backpacks",
+        "href": "/bags/meus-pedidos",
         "noFollow": true,
-        "tagTitle": "Backpacks",
-        "text": "Backpacks"
+        "tagTitle": "Meus Pedidos",
+        "text": "Meus Pedidos"
       }
     }
   },
-
-  "menu-item#necessaire": {
+  "menu-item#lojas-fisicas": {
     "props": {
-      "id": "menu-item-necessaire",
+      "id": "menu-item-lojas-fisicas",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/bags/necessaire",
+        "href": "/bags/lojas-fisicas",
         "noFollow": true,
-        "tagTitle": "Necessaire",
-        "text": "Necessaire"
+        "tagTitle": "Lojas Físicas",
+        "text": "Lojas Físicas"
       }
     }
   },
-
   "vtex.menu@2.x:menu#footer-clothing": {
     "props": {
       "orientation": "vertical"
@@ -202,7 +275,6 @@
       "menu-item#cropped"
     ]
   },
-
   "vtex.menu@2.x:menu#footer-mobile": {
     "props": {
       "orientation": "vertical"
@@ -213,7 +285,6 @@
       "menu-item#sale-mobile"
     ]
   },
-
   "menu-item#clothing-mobile": {
     "props": {
       "id": "menu-item-category-clothing",
@@ -228,12 +299,15 @@
         "text": "Clothing"
       }
     },
-    "blocks": ["vtex.menu@2.x:submenu.accordion#clothing"]
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#clothing"
+    ]
   },
   "vtex.menu@2.x:submenu.accordion#clothing": {
-    "children": ["vtex.menu@2.x:menu#clothing-accordion"]
+    "children": [
+      "vtex.menu@2.x:menu#clothing-accordion"
+    ]
   },
-
   "vtex.menu@2.x:menu#clothing-accordion": {
     "props": {
       "orientation": "vertical"
@@ -246,7 +320,6 @@
       "menu-item#cropped"
     ]
   },
-
   "menu-item#decoration-mobile": {
     "props": {
       "itemProps": {
@@ -254,23 +327,29 @@
         "text": "Decoration"
       }
     },
-    "blocks": ["vtex.menu@2.x:submenu.accordion#decoration"]
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#decoration"
+    ]
   },
   "vtex.menu@2.x:submenu.accordion#decoration": {
-    "children": ["vtex.menu@2.x:menu#footer-decoration-mobile"]
+    "children": [
+      "vtex.menu@2.x:menu#footer-decoration-mobile"
+    ]
   },
-
   "vtex.menu@2.x:menu#footer-decoration-mobile": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#smartphones",
-      "menu-item#videogames",
-      "menu-item#tvs"
+      "menu-item#blog",
+      "menu-item#quem-somos",
+      "menu-item#trocas-e-devolucoes",
+      "menu-item#politica-de-compras",
+      "menu-item#politica-de-entrega",
+       "menu-item#politica-de-privacidade",
+       "menu-item#cadastro-de-influenciadores"
     ]
   },
-
   "menu-item#sale-mobile": {
     "props": {
       "itemProps": {
@@ -278,23 +357,29 @@
         "text": "Sale"
       }
     },
-    "blocks": ["vtex.menu@2.x:submenu.accordion#sale"]
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#sale"
+    ]
   },
   "vtex.menu@2.x:submenu.accordion#sale": {
-    "children": ["vtex.menu@2.x:menu#footer-sale-mobile"]
+    "children": [
+      "vtex.menu@2.x:menu#footer-sale-mobile"
+    ]
   },
-
   "vtex.menu@2.x:menu#footer-sale-mobile": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#smartphones",
-      "menu-item#videogames",
-      "menu-item#tvs"
+      "menu-item#blog",
+      "menu-item#quem-somos",
+      "menu-item#trocas-e-devolucoes",
+      "menu-item#politica-de-compras",
+      "menu-item#politica-de-entrega",
+       "menu-item#politica-de-privacidade",
+       "menu-item#cadastro-de-influenciadores"
     ]
   },
-
   "menu-item#clothing": {
     "props": {
       "id": "menu-item-category-clothing",
@@ -305,12 +390,11 @@
         "type": "internal",
         "href": "/clothing/d",
         "noFollow": true,
-        "tagTitle": "Clothing",
-        "text": "Clothing"
+        "tagTitle": "Acessórios",
+        "text": "Acessórios"
       }
     }
   },
-
   "menu-item#shorts": {
     "props": {
       "id": "menu-item-shorts",
@@ -326,7 +410,6 @@
       }
     }
   },
-
   "menu-item#tank-tops": {
     "props": {
       "id": "menu-item-tank-tops",
@@ -342,7 +425,6 @@
       }
     }
   },
-
   "menu-item#shirts": {
     "props": {
       "id": "menu-item-shirts",
@@ -358,7 +440,6 @@
       }
     }
   },
-
   "menu-item#sweatshirt": {
     "props": {
       "id": "menu-item-sweat-shirts",
@@ -374,7 +455,6 @@
       }
     }
   },
-
   "menu-item#cropped": {
     "props": {
       "id": "menu-item-cropped",

@@ -46,20 +46,22 @@
 
 .flexRow--deals {
   background-color: #f4f4f4;
-  padding: 0px 0px;
+  padding: 20px 0px;
 }
 
 .flexRow--deals .stretchChildrenWidth {
   align-items: center;
 }
 
-.flexRow--deals .flexCol {
-  align-items: center;
-}
-
 .flexCol--filterCol {
   max-width: 500px;
   min-width: 230px;
+}
+
+
+.flexColChild--bloco-deals
+.flexCol  .flexColChild {
+  height:  unset !important;
 }
 
 .flexCol--productCountCol {

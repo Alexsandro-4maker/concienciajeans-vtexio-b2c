@@ -2,12 +2,13 @@
     font-size: 14px;
     font-weight: bold;
     text-transform: uppercase;
+    line-height: 12px;
     margin: 0;
 }
 
 .paragraph--deals-description {
     margin: 0;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 14px;
 
 }

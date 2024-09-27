@@ -16,7 +16,6 @@
 
 .installments {
   color: #727273;
-  margin-bottom: 1rem;
 }
 
 .savings {
@@ -25,7 +24,7 @@
 }
 
 .sellingPriceValue--summary {
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: 600;
   color: #2E2E2E;
 }
@@ -59,7 +58,6 @@
 }
 
 .installments--summary {
-  margin-bottom: 2rem;
   font-size: 0.875rem;
 }
 

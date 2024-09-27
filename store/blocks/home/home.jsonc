@@ -52,38 +52,36 @@
     "children": [
       "image#banner-home-1",
       "image#banner-home-1-1"
-    ]
+    ],
+    "props": {
+      "blockClass": "banner-image-home"
+    }
   },
   "image#banner-home-1": {
     "props": {
       "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
-      "width":558,
-      "height":650
+      "blockClass": "banner-image"
     }
   },
   "image#banner-home-1-1": {
     "props": {
       "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
-      "width":558,
-      "height":650
-      
+      "blockClass": "banner-image"
     }
   },
-
   "flex-layout.row#bloco-banner-2": {
     "children": [
       "image#banner-home-principal-2",
-   "flex-layout.row#banner-2"
+      "flex-layout.row#banner-2"
     ]
   },
   "image#banner-home-principal-2": {
     "props": {
       "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
-      "width":558,
-      "height":650
+      "width": 657,
+      "height": 657
     }
   },
-
   "flex-layout.row#banner-2": {
     "children": [
       "image#banner-home-2-1",
@@ -93,38 +91,36 @@
   "image#banner-home-2-1": {
     "props": {
       "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
-      "width":558,
-      "height":650
+      "width": 463,
+      "height": 318
     }
   },
-
   "image#banner-home-2-2": {
     "props": {
       "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
-      "width":558,
-      "height":650
-      
+      "width": 463,
+      "height": 318
     }
   },
   "flex-layout.row#banner-3": {
     "children": [
       "image#banner-home-3",
       "image#banner-home-3-1"
-    ]
+    ],
+    "props": {
+      "blockClass": "banner-image-home"
+    }
   },
   "image#banner-home-3": {
     "props": {
       "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
-      "width":558,
-      "height":650
+      "blockClass": "banner-image"
     }
   },
   "image#banner-home-3-1": {
     "props": {
       "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
-      "width":558,
-      "height":650
-      
+      "blockClass": "banner-image"
     }
   },
   "rich-text#shelf-title": {
