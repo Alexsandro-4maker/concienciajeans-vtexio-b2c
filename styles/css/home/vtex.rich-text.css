@@ -18,6 +18,20 @@
     margin: 0;
 }
 
+.container--shelfTitle-tab{
+    justify-content: center;
+}
+
 .flexRowContent--container-bloco-img-text .stretchChildrenWidth {
     width: 100% !important;
+}
+
+.paragraph--shelfTitle-tab{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.container--shelfTitle{
+    margin-top: 30px;
 }

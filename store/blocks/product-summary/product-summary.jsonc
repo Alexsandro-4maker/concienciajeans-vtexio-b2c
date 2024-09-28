@@ -81,7 +81,7 @@
   "product-price-savings#summary": {
     "props": {
       "markers": [
-        "discount"
+        // "discount"
       ],
       "blockClass": "summary"
     }

@@ -50,12 +50,19 @@
             "blockClass": "Bloco-contant-feminino"
         }
     },
+
     "tab-content.item#home2": {
         "children": [
-            "flex-layout.row#tab-feminino-1"
+            "flex-layout.row#tab-masculino-1",
+            "flex-layout.row#tab-masculino-2",
+            "flex-layout.row#tab-masculino-3",
+            "flex-layout.row#tab-masculino-4",
+            "flex-layout.row#tab-masculino-5",
+            "flex-layout.row#tab-masculino-6"
         ],
         "props": {
-            "tabId": "home2"
+            "tabId": "home2",
+            "blockClass": "Bloco-contant-feminino"
         }
     },
     "flex-layout.row#tab-feminino-1": {
@@ -75,7 +82,7 @@
     "rich-text#tab-feminino-1": {
         "props": {
             "text": "Receba novidades",
-            "blockClass": "shelfTitle"
+            "blockClass": "shelfTitle-tab"
         }
     },
     "flex-layout.row#tab-feminino-2": {
@@ -95,7 +102,7 @@
     "rich-text#tab-feminino-2": {
         "props": {
             "text": "Resort",
-            "blockClass": "shelfTitle"
+            "blockClass": "shelfTitle-tab"
         }
     },
     "flex-layout.row#tab-feminino-3": {
@@ -115,7 +122,7 @@
     "rich-text#tab-feminino-3": {
         "props": {
             "text": "Lançamentos",
-            "blockClass": "shelfTitle"
+            "blockClass": "shelfTitle-tab"
         }
     },
     "flex-layout.row#tab-feminino-4": {
@@ -135,7 +142,7 @@
     "rich-text#tab-feminino-4": {
         "props": {
             "text": "wide leg",
-            "blockClass": "shelfTitle"
+            "blockClass": "shelfTitle-tab"
         }
     },
     "flex-layout.row#tab-feminino-5": {
@@ -155,7 +162,7 @@
     "rich-text#tab-feminino-5": {
         "props": {
             "text": "MOLETONS",
-            "blockClass": "shelfTitle"
+            "blockClass": "shelfTitle-tab"
         }
     },
     "flex-layout.row#tab-feminino-6": {
@@ -175,7 +182,128 @@
     "rich-text#tab-feminino-6": {
         "props": {
             "text": "verão",
-            "blockClass": "shelfTitle"
+            "blockClass": "shelfTitle-tab"
+        }
+    },
+
+    "flex-layout.row#tab-masculino-1": {
+        "children": [
+            "image#banner-masculino-1",
+            "rich-text#tab-masculino-1"
+        ],
+        "props": {
+            "blockClass": "container-bloco-img-text"
+        }
+    },
+    "image#banner-masculino-1": {
+        "props": {
+            "src": "https://storecomponents.vteximg.com.br/arquivos/box.png"
+        }
+    },
+    "rich-text#tab-masculino-1": {
+        "props": {
+            "text": "Receba novidades",
+            "blockClass": "shelfTitle-tab"
+        }
+    },
+    "flex-layout.row#tab-masculino-2": {
+        "children": [
+            "image#banner-masculino-2",
+            "rich-text#tab-masculino-2"
+        ],
+        "props": {
+            "blockClass": "container-bloco-img-text"
+        }
+    },
+    "image#banner-masculino-2": {
+        "props": {
+            "src": "https://storecomponents.vteximg.com.br/arquivos/box.png"
+        }
+    },
+    "rich-text#tab-masculino-2": {
+        "props": {
+            "text": "Resort",
+            "blockClass": "shelfTitle-tab"
+        }
+    },
+    "flex-layout.row#tab-masculino-3": {
+        "children": [
+            "image#banner-feminino-3",
+            "rich-text#tab-feminino-3"
+        ],
+        "props": {
+            "blockClass": "container-bloco-img-text"
+        }
+    },
+    "image#banner-masculino-3": {
+        "props": {
+            "src": "https://storecomponents.vteximg.com.br/arquivos/box.png"
+        }
+    },
+    "rich-text#tab-masculino-3": {
+        "props": {
+            "text": "Lançamentos",
+            "blockClass": "shelfTitle-tab"
+        }
+    },
+    "flex-layout.row#tab-masculino-4": {
+        "children": [
+            "image#banner-masculino-4",
+            "rich-text#tab-masculino-4"
+        ],
+        "props": {
+            "blockClass": "container-bloco-img-text"
+        }
+    },
+    "image#banner-masculino-4": {
+        "props": {
+            "src": "https://storecomponents.vteximg.com.br/arquivos/box.png"
+        }
+    },
+    "rich-text#tab-masculino-4": {
+        "props": {
+            "text": "wide leg",
+            "blockClass": "shelfTitle-tab"
+        }
+    },
+    "flex-layout.row#tab-masculino-5": {
+        "children": [
+            "image#banner-masculino-5",
+            "rich-text#tab-masculino-5"
+        ],
+        "props": {
+            "blockClass": "container-bloco-img-text"
+        }
+    },
+    "image#banner-masculino-5": {
+        "props": {
+            "src": "https://storecomponents.vteximg.com.br/arquivos/box.png"
+        }
+    },
+    "rich-text#tab-masculino-5": {
+        "props": {
+            "text": "MOLETONS",
+            "blockClass": "shelfTitle-tab"
+        }
+    },
+    "flex-layout.row#tab-masculino-6": {
+        "children": [
+            "image#banner-masculino-6",
+            "rich-text#tab-masculino-6"
+        ],
+        "props": {
+            "blockClass": "container-bloco-img-text"
+        }
+    },
+    "image#banner-masculino-6": {
+        "props": {
+            "src": "https://storecomponents.vteximg.com.br/arquivos/box.png"
+        }
+    },
+    "rich-text#tab-masculino-6": {
+        "props": {
+            "text": "verão",
+            "blockClass": "shelfTitle-tab"
         }
     }
 }

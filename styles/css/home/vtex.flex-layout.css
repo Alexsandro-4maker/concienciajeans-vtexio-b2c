@@ -32,3 +32,7 @@
 .flexRowContent--container-bloco-img-text .stretchChildrenWidth {
     width: 100% !important;
 }
+
+.flexRow--banner-image-home{
+    margin: 30px 0 ;
+}

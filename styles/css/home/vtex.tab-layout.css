@@ -5,3 +5,16 @@
 
 }
 
+
+.container--home{
+    margin: 30px 0;
+}
+
+
+.listItemActive {
+    background: transparent;
+    color: #000;
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid;
+}
