@@ -54,3 +54,13 @@
 .containerNormal .clearLink .element {
   height: unset !important;
 }
+
+.imageNormal {
+  height: unset !important;
+  object-fit: none !important;
+  max-height: 100% !important;
+}
+
+.element :global(.vtex-flex-layout-0-x-flexRow) :global(.vtex-flex-layout-0-x-flexRowContent) {
+  justify-content: end;
+}

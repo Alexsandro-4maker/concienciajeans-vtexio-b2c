@@ -8,7 +8,7 @@
   "header-layout.desktop": {
     "children": [
       "flex-layout.row#1-desktop",
-      "flex-layout.row#3-desktop",
+     // "flex-layout.row#3-desktop",
       "sticky-layout#4-desktop"
     ]
   },
@@ -55,11 +55,10 @@
       "fullWidth": true
     },
     "children": [
-      "flex-layout.col#logo-desktop",
-      "flex-layout.col#category-menu",
-      "flex-layout.col#spacer",
       "search-bar",
-      "locale-switcher",
+      "flex-layout.col#logo-desktop",
+      //"flex-layout.col#category-menu",
+      //"flex-layout.col#spacer",
       "login",
       "minicart.v2"
     ]

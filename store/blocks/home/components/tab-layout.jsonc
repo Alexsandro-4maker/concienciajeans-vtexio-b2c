@@ -202,7 +202,7 @@
     },
     "rich-text#tab-masculino-1": {
         "props": {
-            "text": "Receba novidades",
+            "text": "Bermudas",
             "blockClass": "shelfTitle-tab"
         }
     },
@@ -222,7 +222,7 @@
     },
     "rich-text#tab-masculino-2": {
         "props": {
-            "text": "Resort",
+            "text": "Calças",
             "blockClass": "shelfTitle-tab"
         }
     },
@@ -242,7 +242,7 @@
     },
     "rich-text#tab-masculino-3": {
         "props": {
-            "text": "Lançamentos",
+            "text": "Camisas",
             "blockClass": "shelfTitle-tab"
         }
     },
@@ -262,7 +262,7 @@
     },
     "rich-text#tab-masculino-4": {
         "props": {
-            "text": "wide leg",
+            "text": "Jaquetas",
             "blockClass": "shelfTitle-tab"
         }
     },
@@ -302,7 +302,7 @@
     },
     "rich-text#tab-masculino-6": {
         "props": {
-            "text": "verão",
+            "text": "Polos",
             "blockClass": "shelfTitle-tab"
         }
     }
