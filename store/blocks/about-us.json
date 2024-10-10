@@ -5,14 +5,12 @@
       "video#about-us"
     ]
   },
-
   "flex-layout.row#about-us": {
     "children": [
       "image#mobile-phone",
       "flex-layout.col#text-about-us"
     ]
   },
-
   "flex-layout.col#text-about-us": {
     "children": [
       "rich-text#title-about-us",
@@ -23,15 +21,12 @@
       "preventVerticalStretch": true
     }
   },
-
   "rich-text#title-about-us": {
     "props": {
-      "text":
-      "# Create meaningful and relevant experiences.",
+      "text": "# Create meaningful and relevant experiences.",
       "blockClass": "title"
     }
   },
-
   "image#mobile-phone": {
     "props": {
       "src": "https://storecomponents.vteximg.com.br/arquivos/mobile-phone.png",

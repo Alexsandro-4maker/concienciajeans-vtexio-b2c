@@ -59,6 +59,7 @@
   height: unset !important;
   object-fit: none !important;
   max-height: 100% !important;
+  border-radius: 0;
 }
 
 .element :global(.vtex-flex-layout-0-x-flexRow) :global(.vtex-flex-layout-0-x-flexRowContent) {

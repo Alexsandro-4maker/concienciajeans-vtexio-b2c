@@ -55,9 +55,9 @@
       "fullWidth": true
     },
     "children": [
-      "search-bar",
+      
       "flex-layout.col#logo-desktop",
-      //"flex-layout.col#category-menu",
+      "flex-layout.col#category-menu",
       //"flex-layout.col#spacer",
       "login",
       "minicart.v2"
@@ -80,8 +80,8 @@
       "title": "Logo",
       "href": "/",
       "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo.png",
-      "width": "180",
-      "height": "12"
+      "width": "160",
+      "height": "25"
     }
   },
   "header-layout.mobile": {
