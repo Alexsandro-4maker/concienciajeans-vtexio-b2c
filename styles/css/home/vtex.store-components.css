@@ -1,4 +1,4 @@
-.imageElement--banner-image{
+.imageElement--banner-image {
     width: 600px !important;
     height: 650px;
 }
@@ -6,4 +6,19 @@
 .logoImage {
     height: 25px;
     width: 160px;
+}
+
+.imageElement--banner-image-2-1 {
+    width: 463px !important;
+    height: 318px !important;
+}
+
+.imageElement--banner-image-2-2 {
+    width: 463px !important;
+    height: 318px !important;
+}
+
+.imageElement--banner-image-principal-2 {
+    width: 740px !important;
+    height: 650px !important;
 }

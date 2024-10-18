@@ -1,0 +1,8 @@
+
+.wrapper--sticky-header--stuck .container--sticky-header :global(.vtex-flex-layout-0-x-flexRowContent--main-header){
+    background-color: #fff !important;
+}
+
+ .wrapper--sticky-header {
+    position: absolute !important;
+}

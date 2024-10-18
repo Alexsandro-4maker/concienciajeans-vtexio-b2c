@@ -1,0 +1,18 @@
+.buttonText--button-view-pdp{
+    color: #2E2E2E;
+    font-size: 13px;
+    text-transform: lowercase;
+    font-weight: 600;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonText--button-view-pdp::before{
+    content: "";
+    background-image: url("/arquivos/olhada.png");
+    width: 25px;
+    height: 15px;
+    display: flex;
+}

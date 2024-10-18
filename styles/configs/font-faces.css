@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "Work Sans";
+    src: url(assets/fonts/WorkSans-Regular.ttf);
+    font-weight: 400;
+  }
+  
+  @font-face {
+    font-family: "Work Sans";
+    src: url(assets/fonts/WorkSans-Bold.ttf);
+    font-weight: bold;
+  }
+
+
+  @font-face {
+    font-family: 'Rocky Compressed';
+    src: url(assets/fonts/RockyComp-Bold.otf), url(assets/fonts/RockyComp-Bold.ttf);
+    font-weight: bold;
+  }
+
+  @font-face {
+    font-family: 'Rocky Compressed';
+    src: url(assets/fonts/RockyComp-Regular.otf), url(assets/fonts/RockyComp-Regular.ttf);
+    font-weight: 400;
+  }

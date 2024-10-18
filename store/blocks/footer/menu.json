@@ -4,6 +4,7 @@
       "orientation": "vertical"
     },
     "children": [
+      "rich-text#masculino",
       "menu-item#acessorios",
       "menu-item#bermuda",
       "menu-item#calca",
@@ -11,10 +12,17 @@
       "menu-item#jaqueta"
     ]
   },
+  "rich-text#masculino": {
+    "props": {
+      "text": "Masculino",
+      "blockClass": "title-menu"
+    }
+  },
   "menu-item#acessorios": {
     "props": {
       "id": "menu-item-acessorios",
       "type": "custom",
+      "blockClass": "title-link-menu",
       "iconId": null,
       "highlight": false,
       "itemProps": {
@@ -30,6 +38,7 @@
     "props": {
       "id": "menu-item-bermuda",
       "type": "custom",
+      "blockClass": "title-link-menu",
       "iconId": null,
       "highlight": false,
       "itemProps": {
@@ -45,6 +54,7 @@
     "props": {
       "id": "menu-item-calca",
       "type": "custom",
+      "blockClass": "title-link-menu",
       "iconId": null,
       "highlight": false,
       "itemProps": {
@@ -60,6 +70,7 @@
     "props": {
       "id": "menu-item-jaqueta",
       "type": "custom",
+      "blockClass": "title-link-menu",
       "iconId": null,
       "highlight": false,
       "itemProps": {
@@ -75,6 +86,7 @@
     "props": {
       "id": "menu-item-camisa",
       "type": "custom",
+      "blockClass": "title-link-menu",
       "iconId": null,
       "highlight": false,
       "itemProps": {
@@ -91,19 +103,27 @@
       "orientation": "vertical"
     },
     "children": [
+      "rich-text#institucional",
       "menu-item#blog",
       "menu-item#quem-somos",
       "menu-item#trocas-e-devolucoes",
       "menu-item#politica-de-compras",
       "menu-item#politica-de-entrega",
-       "menu-item#politica-de-privacidade",
-       "menu-item#cadastro-de-influenciadores"
+      "menu-item#politica-de-privacidade",
+      "menu-item#cadastro-de-influenciadores"
     ]
+  },
+  "rich-text#institucional": {
+    "props": {
+      "text": "Institucional",
+      "blockClass": "title-menu"
+    }
   },
   "menu-item#blog": {
     "props": {
       "id": "menu-item-blog",
       "type": "custom",
+      "blockClass": "title-link-menu",
       "iconId": null,
       "highlight": false,
       "itemProps": {
@@ -119,6 +139,7 @@
     "props": {
       "id": "menu-item-quem-somos",
       "type": "custom",
+      "blockClass": "title-link-menu",
       "iconId": null,
       "highlight": false,
       "itemProps": {
@@ -134,6 +155,7 @@
     "props": {
       "id": "menu-item-trocas-e-devolucoes",
       "type": "custom",
+      "blockClass": "title-link-menu",
       "iconId": null,
       "highlight": false,
       "itemProps": {
@@ -145,11 +167,11 @@
       }
     }
   },
-
   "menu-item#politica-de-compras": {
     "props": {
       "id": "menu-item-trocas-e-devolucoes",
       "type": "custom",
+      "blockClass": "title-link-menu",
       "iconId": null,
       "highlight": false,
       "itemProps": {
@@ -165,6 +187,7 @@
     "props": {
       "id": "menu-item-trocas-e-devolucoes",
       "type": "custom",
+      "blockClass": "title-link-menu",
       "iconId": null,
       "highlight": false,
       "itemProps": {
@@ -176,10 +199,11 @@
       }
     }
   },
-   "menu-item#politica-de-privacidade": {
+  "menu-item#politica-de-privacidade": {
     "props": {
       "id": "menu-item-politica-de-privacidade",
       "type": "custom",
+      "blockClass": "title-link-menu",
       "iconId": null,
       "highlight": false,
       "itemProps": {
@@ -195,6 +219,7 @@
     "props": {
       "id": "menu-item-cadastro-de-influenciadores",
       "type": "custom",
+      "blockClass": "title-link-menu",
       "iconId": null,
       "highlight": false,
       "itemProps": {
@@ -211,15 +236,18 @@
       "orientation": "vertical"
     },
     "children": [
+      "rich-text#informacoes",
       "menu-item#minha-conta",
       "menu-item#meus-pedidos",
-      "menu-item#lojas-fisicas"
+      "menu-item#lojas-fisicas",
+      "menu-item#faq"
     ]
   },
   "menu-item#minha-conta": {
     "props": {
       "id": "menu-item-bags",
       "type": "custom",
+      "blockClass": "title-link-menu",
       "iconId": null,
       "highlight": false,
       "itemProps": {
@@ -235,6 +263,7 @@
     "props": {
       "id": "menu-item-meus-pedidos",
       "type": "custom",
+      "blockClass": "title-link-menu",
       "iconId": null,
       "highlight": false,
       "itemProps": {
@@ -250,6 +279,7 @@
     "props": {
       "id": "menu-item-lojas-fisicas",
       "type": "custom",
+      "blockClass": "title-link-menu",
       "iconId": null,
       "highlight": false,
       "itemProps": {
@@ -261,17 +291,27 @@
       }
     }
   },
+  "rich-text#feminino": {
+    "props": {
+      "text": "Feminino",
+      "blockClass": "title-menu"
+    }
+  },
   "vtex.menu@2.x:menu#footer-clothing": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#clothing",
-      "menu-item#shorts",
+      "rich-text#feminino",
+      "menu-item#acessorios-feminino",
+      "menu-item#calcas-feminino",
       "menu-item#tank-tops",
       "menu-item#shirts",
       "menu-item#sweatshirt",
-      "menu-item#cropped"
+      "menu-item#cropped",
+      "menu-item#saias",
+      "menu-item#shorts",
+      "menu-item#vestidos"
     ]
   },
   "vtex.menu@2.x:menu#footer-mobile": {
@@ -279,15 +319,23 @@
       "orientation": "vertical"
     },
     "children": [
+      "rich-text#informacoes",
       "menu-item#clothing-mobile",
       "menu-item#decoration-mobile",
       "menu-item#sale-mobile"
     ]
   },
+  "rich-text#informacoes": {
+    "props": {
+      "text": "Informações",
+      "blockClass": "title-menu"
+    }
+  },
   "menu-item#clothing-mobile": {
     "props": {
       "id": "menu-item-category-clothing",
       "type": "custom",
+      "blockClass": "title-link-menu",
       "iconId": null,
       "highlight": false,
       "itemProps": {
@@ -312,11 +360,15 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#shorts",
+      "menu-item#calcas-feminino",
       "menu-item#tank-tops",
       "menu-item#shirts",
       "menu-item#sweatshirt",
-      "menu-item#cropped"
+      "menu-item#cropped",
+      "menu-item#saias",
+      "menu-item#shorts",
+      "menu-item#vestidos",
+      "menu-item#vestidos"
     ]
   },
   "menu-item#decoration-mobile": {
@@ -345,14 +397,15 @@
       "menu-item#trocas-e-devolucoes",
       "menu-item#politica-de-compras",
       "menu-item#politica-de-entrega",
-       "menu-item#politica-de-privacidade",
-       "menu-item#cadastro-de-influenciadores"
+      "menu-item#politica-de-privacidade",
+      "menu-item#cadastro-de-influenciadores"
     ]
   },
   "menu-item#sale-mobile": {
     "props": {
       "itemProps": {
         "tagTitle": "Sale",
+        "blockClass": "title-link-menu",
         "text": "Sale"
       }
     },
@@ -375,14 +428,15 @@
       "menu-item#trocas-e-devolucoes",
       "menu-item#politica-de-compras",
       "menu-item#politica-de-entrega",
-       "menu-item#politica-de-privacidade",
-       "menu-item#cadastro-de-influenciadores"
+      "menu-item#politica-de-privacidade",
+      "menu-item#cadastro-de-influenciadores"
     ]
   },
-  "menu-item#clothing": {
+  "menu-item#acessorios-feminino": {
     "props": {
       "id": "menu-item-category-clothing",
       "type": "custom",
+      "blockClass": "title-link-menu",
       "iconId": null,
       "highlight": false,
       "itemProps": {
@@ -394,18 +448,19 @@
       }
     }
   },
-  "menu-item#shorts": {
+  "menu-item#calcas-feminino": {
     "props": {
       "id": "menu-item-shorts",
       "type": "custom",
+      "blockClass": "title-link-menu",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
         "href": "/clothing/shorts",
         "noFollow": false,
-        "tagTitle": "Shorts",
-        "text": "Shorts"
+        "tagTitle": "Calça",
+        "text": "Calça"
       }
     }
   },
@@ -413,14 +468,15 @@
     "props": {
       "id": "menu-item-tank-tops",
       "type": "custom",
+      "blockClass": "title-link-menu",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
         "href": "/clothing/tank-tops",
         "noFollow": false,
-        "tagTitle": "Tank tops",
-        "text": "Tank tops"
+        "tagTitle": "Camisa",
+        "text": "Camisa"
       }
     }
   },
@@ -428,14 +484,15 @@
     "props": {
       "id": "menu-item-shirts",
       "type": "custom",
+      "blockClass": "title-link-menu",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
         "href": "/clothing/shirts",
         "noFollow": false,
-        "tagTitle": "Shirts",
-        "text": "Shirts"
+        "tagTitle": "Jaqueta",
+        "text": "Jaqueta"
       }
     }
   },
@@ -443,14 +500,15 @@
     "props": {
       "id": "menu-item-sweat-shirts",
       "type": "custom",
+      "blockClass": "title-link-menu",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
         "href": "/clothing/sweatshirt",
         "noFollow": false,
-        "tagTitle": "Sweatshirt",
-        "text": "Sweatshirt"
+        "tagTitle": "Macacão",
+        "text": "Macacão"
       }
     }
   },
@@ -458,14 +516,79 @@
     "props": {
       "id": "menu-item-cropped",
       "type": "custom",
+      "blockClass": "title-link-menu",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
         "href": "/clothing/cropped",
         "noFollow": false,
-        "tagTitle": "Cropped",
-        "text": "Cropped"
+        "tagTitle": "Plus Size",
+        "text": "Plus Size"
+      }
+    }
+  },
+  "menu-item#saias": {
+    "props": {
+      "id": "menu-item-cropped",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "title-link-menu",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/cropped",
+        "noFollow": false,
+        "tagTitle": "Saias",
+        "text": "Saias"
+      }
+    }
+  },
+  "menu-item#shorts": {
+    "props": {
+      "id": "menu-item-cropped",
+      "type": "custom",
+      "blockClass": "title-link-menu",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/cropped",
+        "noFollow": false,
+        "tagTitle": "Shorts",
+        "text": "Shorts"
+      }
+    }
+  },
+  "menu-item#faq": {
+    "props": {
+      "id": "menu-item-cropped",
+      "type": "custom",
+      "blockClass": "title-link-menu",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/cropped",
+        "noFollow": false,
+        "tagTitle": "Shorts",
+        "text": "FAQ"
+      }
+    }
+  },
+  "menu-item#vestidos": {
+    "props": {
+      "id": "menu-item-cropped",
+      "type": "custom",
+      "blockClass": "title-link-menu",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/cropped",
+        "noFollow": false,
+        "tagTitle": "Vestidos",
+        "text": "Vestidos"
       }
     }
   }

@@ -20,3 +20,126 @@
 .galleryItem--list {
   border-bottom: 1px #E7E9EE solid;
 }
+
+.galleryLayoutSwitcher {
+  display: none;
+}
+
+.galleryTitle--layout {
+  display: none;
+}
+
+.totalProductsMessage {
+  text-transform: lowercase;
+  font-weight: 500;
+  color: #242424;
+}
+
+
+.totalProducts--layout {
+  margin-left: 0;
+  padding-left: 50px;
+  padding-bottom: 0px;
+  font-weight: bold;
+}
+
+.filterTitleSpan,
+.filterMessage {
+  padding-left: 30px;
+}
+
+.filterTitleSpan {
+  font-weight: 600;
+}
+
+:global(.vtex-checkbox__line-container) {
+  padding-left: 30px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.filters--layout {
+  background-color: #F0F0F0;
+}
+
+.gallery--grid {
+  padding-left: 2rem;
+}
+
+:global(.vtex-slider__values-container) {
+  justify-content: center;
+}
+
+.orderByText {
+  color: #242424;
+  text-transform: lowercase;
+  font-weight: 400;
+
+  visibility: hidden;
+  position: absolute;
+}
+
+.filterPopupTitle {
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.orderByButton {
+  border: 1px solid;
+  padding: 10px;
+  padding-left:20px;
+  border-radius: 0;
+}
+
+.orderByOptionsContainer {
+  margin-top: 35px;
+}
+
+.galleryItem--grid :global(.vtex-product-summary-2-x-nameContainer) {
+  padding-bottom: 1rem;
+  padding-top: 5px;
+}
+
+.galleryItem--grid :global(.vtex-button) {
+  display: block !important;
+  background-color: #009F35;
+  width: 150px;
+  height: 45px;
+  border-radius: 0;
+}
+
+
+.galleryItem--grid :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child :global(.vtex-button) {
+  display: block !important;
+  background-color: #fff;
+  width: 150px;
+  height: 45px;
+  border-radius: 0;
+}
+
+.galleryItem--grid :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child :global(.vtex-button) :global(.vtex-button__label) {
+  padding: 0;
+  justify-content: flex-start;
+}
+
+.galleryItem--grid :global(.vtex-flex-layout-0-x-flexRow--productRating) {
+  margin-top: 20px;
+}
+
+.galleryItem--grid :global(.vtex-product-summary-2-x-brandName) {
+  text-transform: uppercase;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.galleryItem--grid :global(.vtex-flex-layout-0-x-flexRowContent) {
+  justify-content: flex-start !important;
+}
+
+.filterMessage {
+  font-size: 0;
+}
+
+.filterItem{
+  gap: 5px;
+}

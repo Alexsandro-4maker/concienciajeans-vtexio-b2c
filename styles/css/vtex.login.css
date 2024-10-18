@@ -1,3 +1,69 @@
-:global(.vtex-tab-layout-0-x-container--home) :global(.vtex-tab-layout-0-x-listItemActive) :global(.vtex-button).b--action-primary{
+:global(.vtex-tab-layout-0-x-container--home) :global(.vtex-tab-layout-0-x-listItemActive) :global(.vtex-button).b--action-primary {
     background: transparent;
+}
+
+.label {
+    visibility: hidden;
+    display: flex;
+    padding-left: 0;
+    padding-right: 10px;
+}
+
+.label::after {
+    content: "Minha Conta";
+    visibility: visible;
+    color: rgb(7, 29, 73);
+    position: fixed;
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+:global(.render-route-store-search-department) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) {
+    position: relative !important;
+}
+
+:global(.render-route-store-search-category) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) {
+    position: relative !important;
+}
+
+:global(.render-route-store-product) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) {
+    position: relative !important;
+}
+
+:global(.render-route-store-search) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) {
+    position: relative !important;
+}
+
+:global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) .label::after {
+    content: "";
+    visibility: visible;
+    background-image: url(/arquivos/user-menu.png);
+    background-repeat: no-repeat;
+    position: fixed;
+    height: 30px;
+    width: 30px;
+    align-items: center;
+    display: flex;
+    margin-left: 10px;
+    visibility: visible;
+}
+
+:global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) :global(.vtex-flex-layout-0-x-flexRowContent):global(.vtex-button) {
+    width: 30px;
+    margin-top: -15px;
+}
+
+
+:global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) :global(.vtex-flex-layout-0-x-flexRowContent) :global(.vtex-minicart-2-x-openIconContainer):global(.vtex-button) {
+    width: 30px;
+    margin-top: unset;
+    margin-left: 10px;
+}
+
+:global(.vtex-address-form__postalCode-forgottenURL) a  {
+    color: #0079BE;
+}
+
+:global(.vtex-address-form__postalCode-forgottenURL) .pointer:hover{
+    color: #0079BE;
 }

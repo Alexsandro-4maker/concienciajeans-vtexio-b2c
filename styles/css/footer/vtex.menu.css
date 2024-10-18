@@ -1,0 +1,9 @@
+:global(.vtex-store-footer-2-x-footerLayout)
+.menuItem 
+.styledLink 
+.styledLinkContent{
+    font-size: 14px;
+    color: #000;
+    text-transform: math-auto;
+    font-weight: 400;
+}

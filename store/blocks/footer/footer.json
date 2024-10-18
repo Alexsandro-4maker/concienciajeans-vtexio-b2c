@@ -18,8 +18,9 @@
       "vtex.menu@2.x:menu#footer-clothing",
       "vtex.menu@2.x:menu#footer-decoration",
       "vtex.menu@2.x:menu#footer-bags",
-      "footer-spacer",
-      "social-networks"
+      "vtex.menu@2.x:menu#footer-atendimento"
+
+
     ],
     "props": {
       "blockClass": "menu-row",
@@ -65,13 +66,13 @@
       "image#developer"
     ],
     "props": {
-    "blockClass":"bloco-developer"
+      "blockClass": "bloco-developer"
     }
   },
   "rich-text#developer": {
     "props": {
       "text": "DESENVOLVIMENTO",
-      "blockClass": "footer"
+      "blockClass": "texto-developer"
     }
   },
   "image#developer": {
@@ -79,25 +80,33 @@
       "src": "/arquivos/Logo_4maker_v1.png",
       "maxHeight": "",
       "maxWidth": "",
-      "blockClass": "storePrint"
+      "blockClass": "logo-developer"
     }
   },
   "flex-layout.row#seguranca": {
     "children": [
       "rich-text#seguranca",
       "flex-layout.col#selo"
-    ]
+    ],
+    "props": {
+      "blockClass": [
+        "bloco-selo-seguranca"
+      ]
+    }
   },
   "flex-layout.col#selo": {
     "children": [
       "image#seguranca2",
       "image#seguranca"
-    ]
+    ],
+    "props": {
+      "blockClass": "selo-imagem"
+    }
   },
   "rich-text#seguranca": {
     "props": {
       "text": "SEGURANÇA",
-      "blockClass": "footer"
+      "blockClass": "texto-seguranca"
     }
   },
   "image#seguranca": {
@@ -108,7 +117,6 @@
       "blockClass": "storePrint"
     }
   },
-
   "image#seguranca2": {
     "props": {
       "src": "/arquivos/selo2.png",
@@ -120,8 +128,11 @@
   "flex-layout.row#pagamento": {
     "children": [
       "rich-text#pagamento",
-     "flex-layout.col#selo-pag"
-    ]
+      "flex-layout.col#selo-pag"
+    ],
+    "props": {
+      "blockClass": "bloco-pagamento"
+    }
   },
   "flex-layout.col#selo-pag": {
     "children": [
@@ -130,13 +141,18 @@
       "image#pagamento-master-card",
       "image#pagamento-visa",
       "image#pagamento-diners",
-      "image#pagamento-hipercard"
-    ]
+      "image#pagamento-hipercard",
+      "image#pagamento-nupay",
+      "image#pagamento-pix"
+    ],
+    "props": {
+      "blockClass": "footer-pagamento"
+    }
   },
   "rich-text#pagamento": {
     "props": {
       "text": "Pagamento",
-      "blockClass": "footer"
+      "blockClass": "texto-pagamento"
     }
   },
   "image#pagamento-amex": {
@@ -155,10 +171,9 @@
       "blockClass": "storePrint"
     }
   },
-  
   "image#pagamento-master-card": {
     "props": {
-      "src": "arquivos/elo.png",
+      "src": "arquivos/MasterCard.png",
       "maxHeight": "",
       "maxWidth": "",
       "blockClass": "storePrint"
@@ -166,7 +181,7 @@
   },
   "image#pagamento-visa": {
     "props": {
-      "src": "arquivos/elo.png",
+      "src": "arquivos/Visa.png",
       "maxHeight": "",
       "maxWidth": "",
       "blockClass": "storePrint"
@@ -174,7 +189,7 @@
   },
   "image#pagamento-diners": {
     "props": {
-      "src": "arquivos/elo.png",
+      "src": "arquivos/Diners.png",
       "maxHeight": "",
       "maxWidth": "",
       "blockClass": "storePrint"
@@ -182,7 +197,23 @@
   },
   "image#pagamento-hipercard": {
     "props": {
-      "src": "arquivos/elo.png",
+      "src": "arquivos/Hiper.png",
+      "maxHeight": "",
+      "maxWidth": "",
+      "blockClass": "storePrint"
+    }
+  },
+  "image#pagamento-nupay": {
+    "props": {
+      "src": "arquivos/Hipercard.png",
+      "maxHeight": "",
+      "maxWidth": "",
+      "blockClass": "storePrint"
+    }
+  },
+  "image#pagamento-pix": {
+    "props": {
+      "src": "arquivos/Pixs.png",
       "maxHeight": "",
       "maxWidth": "",
       "blockClass": "storePrint"

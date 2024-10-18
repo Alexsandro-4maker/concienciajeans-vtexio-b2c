@@ -1,0 +1,29 @@
+.link--menu-info-header {
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+}
+
+.label--menu-info-header {
+    font-weight: 400;
+    color: rgb(7, 29, 73);
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+:global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) .link--menu-info-header{
+    visibility: hidden;
+}
+
+:global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) .link--menu-info-header::after{
+    content: "";
+    background-image: url(/arquivos/info-menu.png);
+    background-repeat: no-repeat;
+    position: fixed;
+    height: 30px;
+    width: 30px;
+    align-items: center;
+    display: flex;
+    margin-left: 10px;
+    visibility: visible;
+}

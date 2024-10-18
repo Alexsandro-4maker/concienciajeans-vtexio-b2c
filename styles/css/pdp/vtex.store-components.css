@@ -1,0 +1,34 @@
+.skuSelectorName {
+    text-transform: lowercase;
+    font-weight: bold;
+}
+
+.skuSelectorName::before {
+    content: " Selecionar ";
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.skuSelectorOptionsList {
+    margin-left: -5px;
+}
+
+.skuSelectorInternalBox:hover {
+    border-color: #EC6D62;
+}
+
+.skuSelectorInternalBox:hover .skuSelectorItemTextValue {
+    color: #EC6D62;
+}
+
+:global(.vtex-address-form__postalCode) :global(.vtex-input__label) {
+    display: none;
+}
+
+.shippingContainer :global(.vtex-input-prefix__group) {
+    width: 270px;
+}
+
+:global(.vtex-address-form__postalCode) :global(.vtex-input) {
+    width: 270px;
+}

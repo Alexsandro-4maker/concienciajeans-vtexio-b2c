@@ -1,0 +1,16 @@
+.sliderLeftArrow--shelf {
+    margin-left: 70px;
+    padding: 5px;
+    background: #f7f7f7 !important;
+}
+
+.sliderRightArrow--shelf {
+    margin-right: 70px;
+    padding: 5px;
+    background: #f7f7f7 !important;
+}
+
+.caretIcon--shelf{
+    width: 20px !important;
+    height: 20px !important;
+}

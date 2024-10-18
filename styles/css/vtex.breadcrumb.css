@@ -1,0 +1,22 @@
+.arrow {
+    font-size: 12px;
+}
+
+.termArrow,
+.term {
+    display: none;
+}
+
+.homeLink {
+    visibility: hidden;
+}
+
+.homeLink::after {
+    content: "Home";
+    font-size: 12px;
+    visibility: visible;
+}
+
+.homeIcon{
+    position: absolute;
+}

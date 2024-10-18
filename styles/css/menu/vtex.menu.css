@@ -4,3 +4,7 @@
     font-size: 14px;
     text-transform: uppercase;
 }
+
+.styledLinkContent--menu-sale{
+    color: red !important;
+}

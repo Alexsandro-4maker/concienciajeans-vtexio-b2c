@@ -103,11 +103,30 @@
 }
 
 .productNameContainer {
-  color: #3f3f40;
-  font-weight: bold;
-  font-size: 30px;
+  color: #000;
+  font-weight: 700;
+  font-size: 24px;
+  text-transform: uppercase;
+  line-height: 32px;
 }
 
 .image {
   image-rendering: -webkit-optimize-contrast;
+}
+
+.skuSelectorSubcontainer--cor {
+  display: none;
+}
+
+.skuSelectorItem{
+  height: 40px;
+}
+
+.skuSelectorItemTextValue {
+  font-size: 18px;
+  color: #888B8D;
+}
+
+.skuSelectorInternalBox{
+  border-radius: 0;
 }

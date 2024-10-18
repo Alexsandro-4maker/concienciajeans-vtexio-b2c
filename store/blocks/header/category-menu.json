@@ -22,7 +22,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/",
+        "href": "/lancamentos",
         "noFollow": false,
         "tagTitle": "Lançamentos",
         "text": "Lançamentos"
@@ -38,7 +38,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/home---decor/",
+        "href": "/feminino",
         "noFollow": false,
         "tagTitle": "FEMININO",
         "text": "FEMININO"
@@ -54,7 +54,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/masculino",
         "noFollow": true,
         "tagTitle": "masculino",
         "text": "masculino"
@@ -70,7 +70,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/contact-us",
+        "href": "/ana-castela",
         "noFollow": true,
         "tagTitle": "Ana Castela",
         "text": "Ana Castela"
@@ -86,7 +86,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/contact-us",
+        "href": "/eco",
         "noFollow": true,
         "tagTitle": "Eco",
         "text": "Eco",
@@ -102,7 +102,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/contact-us",
+        "href": "/acessorios",
         "noFollow": true,
         "tagTitle": "Acessórios",
         "text": "Acessórios"
@@ -118,7 +118,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/contact-us",
+        "href": "/atacado",
         "noFollow": true,
         "tagTitle": "Atacado",
         "text": "Atacado"
@@ -130,11 +130,12 @@
     "props": {
       "id": "menu-item-contact-us",
       "type": "custom",
+      "blockClass":"menu-sale",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/contact-us",
+        "href": "/sale",
         "noFollow": true,
         "tagTitle": "Sale",
         "text": "Sale"

@@ -73,33 +73,42 @@
     "children": [
       "image#banner-home-principal-2",
       "flex-layout.row#banner-2"
-    ]
+    ],
+    "props":{
+      "blockClass":"bloco-banner-2"
+    }
   },
   "image#banner-home-principal-2": {
     "props": {
       "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
       "width": 657,
-      "height": 657
+      "height": 657,
+      "blockClass":"banner-image-principal-2"
     }
   },
   "flex-layout.row#banner-2": {
     "children": [
       "image#banner-home-2-1",
       "image#banner-home-2-2"
-    ]
+    ],
+    "props":{
+      "blockClass":"container-banner-image-2"
+    }
   },
   "image#banner-home-2-1": {
     "props": {
       "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
-      "width": 463,
-      "height": 318
+      "maxWidth": 463,
+      "MaxHeight": 318,
+      "blockClass":"banner-image-2-1"
     }
   },
   "image#banner-home-2-2": {
     "props": {
       "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
       "width": 463,
-      "height": 318
+      "MaxHeight": 318,
+      "blockClass":"banner-image-2-2"
     }
   },
   "flex-layout.row#banner-3": {
@@ -108,7 +117,7 @@
       "image#banner-home-3-1"
     ],
     "props": {
-      "blockClass": "banner-image-home"
+      "blockClass": ["banner-image-home", "banner-image-3"]
     }
   },
   "image#banner-home-3": {
@@ -126,19 +135,19 @@
   "rich-text#shelf-title": {
     "props": {
       "text": "## Novidades",
-      "blockClass": "shelfTitle"
+      "blockClass": "shelfTitle-home"
     }
   },
   "rich-text#shelf-title-2": {
     "props": {
       "text": "## Plus Size",
-      "blockClass": "shelfTitle"
+      "blockClass": "shelfTitle-home"
     }
   },
   "rich-text#shelf-title-3": {
     "props": {
       "text": "## Sale",
-      "blockClass": "shelfTitle"
+      "blockClass": "shelfTitle-home"
     }
   },
   "flex-layout.row#shelf": {

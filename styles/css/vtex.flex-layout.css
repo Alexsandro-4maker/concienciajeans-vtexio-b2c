@@ -55,13 +55,12 @@
 
 .flexCol--filterCol {
   max-width: 500px;
-  min-width: 230px;
+  min-width: 350px;
 }
 
 
-.flexColChild--bloco-deals
-.flexCol  .flexColChild {
-  height:  unset !important;
+.flexColChild--bloco-deals .flexCol .flexColChild {
+  height: unset !important;
 }
 
 .flexCol--productCountCol {
@@ -97,4 +96,29 @@
 
 .flexRow--addToCartRow {
   padding-bottom: 1rem;
+}
+
+.flexCol--bloco-preco {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: baseline;
+  margin-top: 20px;
+}
+
+
+.flexRowContent--container-button-pdp .stretchChildrenWidth :global(.vtex-button){
+  background: #009F35;
+  width: 210px;
+  height: 65px;
+}
+
+.flexRowContent--orderByAndSwitcher{
+  align-items: center;
+  gap: 15px;
+  margin-left: 25px;
+}
+
+.flexRowContent--orderByAndSwitcher::before{
+  content: "Ordenar por:";
 }

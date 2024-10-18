@@ -1,0 +1,17 @@
+.minicartIconContainer::after{
+    content: "";
+    background-image: url(/arquivos/carrinho-minicart.png);
+    width: 20px;
+    height: 25px;
+    visibility: visible;
+    position: absolute;
+    background-repeat: no-repeat;
+    margin-left: -20px;
+    margin-top: -10px;
+}
+
+
+.minicartIconContainer .cartIcon{
+  visibility: hidden;
+}
+
