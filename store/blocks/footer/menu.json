@@ -243,6 +243,14 @@
       "menu-item#faq"
     ]
   },
+  "vtex.menu@2.x:menu#footer-atendimento": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "rich-text#atendimento"
+    ]
+  },
   "menu-item#minha-conta": {
     "props": {
       "id": "menu-item-bags",
@@ -331,6 +339,13 @@
       "blockClass": "title-menu"
     }
   },
+  "rich-text#atendimento": {
+    "props": {
+      "text": "Atendimento",
+      "blockClass": "title-menu"
+    }
+  },
+
   "menu-item#clothing-mobile": {
     "props": {
       "id": "menu-item-category-clothing",

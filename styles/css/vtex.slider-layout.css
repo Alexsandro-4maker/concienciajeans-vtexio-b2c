@@ -31,3 +31,10 @@
   border: 1px solid #C6C6C6;
   width: 290px !important;
 }
+
+.paginationDot--isActive{
+  background-color: #888888;
+}
+.paginationDotsContainer {
+  margin-bottom: -10px;
+}
