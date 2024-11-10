@@ -8,3 +8,6 @@
 .styledLinkContent--menu-sale{
     color: red !important;
 }
+.menuContainerNav--menu-atendimento{
+    margin-right: 70px;
+}

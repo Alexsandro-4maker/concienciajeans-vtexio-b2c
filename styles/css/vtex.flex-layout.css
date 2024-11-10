@@ -107,18 +107,24 @@
 }
 
 
-.flexRowContent--container-button-pdp .stretchChildrenWidth :global(.vtex-button){
+
+.flexRowContent--container-button-pdp .stretchChildrenWidth :global(.vtex-button) {
   background: #009F35;
-  width: 210px;
+  width: 280px;
   height: 65px;
 }
 
-.flexRowContent--orderByAndSwitcher{
+.flexRowContent--orderByAndSwitcher {
   align-items: center;
   gap: 15px;
   margin-left: 25px;
 }
 
-.flexRowContent--orderByAndSwitcher::before{
+.flexRowContent--orderByAndSwitcher::before {
   content: "Ordenar por:";
+}
+
+.flexRow--container-banner-image-2
+.flexRowContent  {
+  padding-top: 0px !important;
 }

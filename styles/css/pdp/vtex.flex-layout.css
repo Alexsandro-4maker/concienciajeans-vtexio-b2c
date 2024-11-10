@@ -1,3 +1,18 @@
 .flexRowContent--container-button-pdp .stretchChildrenWidth:first-child {
-    width: 110px !important;
+    width: 150px !important;
+}
+
+:global(.vtex-add-to-cart-button-0-x-buttonText--button-pdp)::before {
+    content: "";
+    background-image: url(/arquivos/car-pdp.svg);
+    display: flex;
+    height: 30px;
+    width: 20px;
+    background-repeat: no-repeat;
+}
+
+:global(.vtex-add-to-cart-button-0-x-buttonText--button-pdp){
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }

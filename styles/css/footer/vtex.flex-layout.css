@@ -47,3 +47,19 @@
     margin: 0 auto;
     padding-bottom: 30px;
 }
+
+.flexCol--bloco-rede-social {
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #C6C6C6;
+    color: #000000;
+    flex-direction: row;
+}
+
+.flexColChild--bloco-rede-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

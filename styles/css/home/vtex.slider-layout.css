@@ -1,16 +1,22 @@
 .sliderLeftArrow--shelf {
     margin-left: 70px;
     padding: 5px;
-    background: #f7f7f7 !important;
+    background: #ffffff63 !important;
 }
 
 .sliderRightArrow--shelf {
     margin-right: 70px;
     padding: 5px;
-    background: #f7f7f7 !important;
+    background: #ffffff63 !important;
 }
 
 .caretIcon--shelf{
-    width: 20px !important;
-    height: 20px !important;
+    width: 15px !important;
+    height: 15px !important;
+    padding: 5px;
+}
+
+.paginationDotsContainer--shelf{
+    margin-bottom: -10px;
+
 }

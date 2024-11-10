@@ -61,7 +61,8 @@ display: none;
 
 .installments--summary {
   font-size: 0.875rem;
-  text-align: end;
+  display: flex;
+  justify-content: end;
 }
 
 .savings--summaryPercentage {

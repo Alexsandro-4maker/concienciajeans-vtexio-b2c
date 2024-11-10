@@ -43,5 +43,12 @@
     text-transform: uppercase;
     font-weight: 600;
     font-size: 16px;
+    color: #000;
+}
 
+.paragraph--texto-rede-social{
+    color: #000;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
 }

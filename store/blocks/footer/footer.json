@@ -7,6 +7,8 @@
   },
   "footer-layout.desktop": {
     "children": [
+      "teste",
+      "flex-layout.row#footer-0-desktop-rede-social",
       "flex-layout.row#footer-1-desktop",
       "flex-layout.row#footer-2-desktop",
       "flex-layout.row#footer-3-desktop"
@@ -19,8 +21,6 @@
       "vtex.menu@2.x:menu#footer-decoration",
       "vtex.menu@2.x:menu#footer-bags",
       "vtex.menu@2.x:menu#footer-atendimento"
-
-
     ],
     "props": {
       "blockClass": "menu-row",
@@ -40,14 +40,30 @@
           "url": "https://www.instagram.com/vtextruecloud/"
         },
         {
-          "name": "Twitter",
+          "name": "Pinterest",
           "url": "https://twitter.com/vtexonline"
-        },
-        {
-          "name": "Youtube",
-          "url": "https://www.youtube.com/user/VTEXTV"
         }
       ]
+    }
+  },
+  "flex-layout.row#footer-0-desktop-rede-social": {
+    "children": [
+      "flex-layout.col#rede-social"
+    ]
+  },
+  "flex-layout.col#rede-social": {
+    "children": [
+      "rich-text#rede",
+      "social-networks"
+    ],
+    "props": {
+      "blockClass": "bloco-rede-social"
+    }
+  },
+  "rich-text#rede": {
+    "props": {
+      "text": "Siga @conscienciajeans nas redes:",
+      "blockClass": "texto-rede-social"
     }
   },
   "flex-layout.row#footer-2-desktop": {

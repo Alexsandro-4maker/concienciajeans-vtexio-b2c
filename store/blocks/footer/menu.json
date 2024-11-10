@@ -43,7 +43,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/masculino/bermuda",
         "noFollow": false,
         "tagTitle": "Bermuda",
         "text": "Bermuda"
@@ -59,7 +59,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/masculino/calca",
         "noFollow": false,
         "tagTitle": "Calça",
         "text": "Calça"
@@ -75,7 +75,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/masculino/jaqueta",
         "noFollow": false,
         "tagTitle": "Jaqueta",
         "text": "Jaqueta"
@@ -91,7 +91,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/masculino/camisa",
         "noFollow": false,
         "tagTitle": "Camisa",
         "text": "Camisa"
@@ -245,10 +245,15 @@
   },
   "vtex.menu@2.x:menu#footer-atendimento": {
     "props": {
-      "orientation": "vertical"
+      "orientation": "vertical",
+      "blockClass":"menu-atendimento"
     },
     "children": [
-      "rich-text#atendimento"
+      "rich-text#atendimento",
+      "menu-item#telefone",
+      "menu-item#email",
+      "menu-item#data",
+      "menu-item#horario"
     ]
   },
   "menu-item#minha-conta": {
@@ -456,7 +461,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/d",
+        "href": "/feminino/acessorio",
         "noFollow": true,
         "tagTitle": "Acessórios",
         "text": "Acessórios"
@@ -472,7 +477,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/shorts",
+        "href": "/feminino/calca",
         "noFollow": false,
         "tagTitle": "Calça",
         "text": "Calça"
@@ -488,7 +493,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/tank-tops",
+        "href": "/feminino/camisa",
         "noFollow": false,
         "tagTitle": "Camisa",
         "text": "Camisa"
@@ -504,7 +509,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/shirts",
+        "href": "/feminino/jaqueta",
         "noFollow": false,
         "tagTitle": "Jaqueta",
         "text": "Jaqueta"
@@ -520,7 +525,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/sweatshirt",
+        "href": "/feminino/macacao",
         "noFollow": false,
         "tagTitle": "Macacão",
         "text": "Macacão"
@@ -536,7 +541,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/cropped",
+        "href": "/feminino/plus-size",
         "noFollow": false,
         "tagTitle": "Plus Size",
         "text": "Plus Size"
@@ -552,7 +557,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/cropped",
+        "href": "/feminino/saias",
         "noFollow": false,
         "tagTitle": "Saias",
         "text": "Saias"
@@ -568,7 +573,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/cropped",
+        "href": "/feminino/shorts",
         "noFollow": false,
         "tagTitle": "Shorts",
         "text": "Shorts"
@@ -600,10 +605,72 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/cropped",
+        "href": "/feminino/vestidos",
         "noFollow": false,
         "tagTitle": "Vestidos",
         "text": "Vestidos"
+      }
+    }
+  },
+
+  
+  "menu-item#telefone": {
+    "props": {
+      "id": "menu-item-cropped",
+      "type": "custom",
+      "blockClass": "title-link-menu",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "(11) 2796-2503",
+        "text": "(11) 2796-2503"
+      }
+    }
+  },
+  "menu-item#email": {
+    "props": {
+      "id": "menu-item-cropped",
+      "type": "custom",
+      "blockClass": "title-link-menu",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "E-mail: sac@conscienciajeans.com.br",
+        "text": "E-mail:sac@conscienciajeans.com.br"
+      }
+    }
+  },
+  "menu-item#data": {
+    "props": {
+      "id": "menu-item-cropped",
+      "type": "custom",
+      "blockClass": "title-link-menu",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "De segunda à quinta das 7h as 17h30.",
+        "text": "De segunda à quinta das 7h as 17h30."
+      }
+    }
+  },
+  "menu-item#horario": {
+    "props": {
+      "id": "menu-item-cropped",
+      "type": "custom",
+      "blockClass": "title-link-menu",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "As sextas das 8h as 16h.",
+        "text": "As sextas das 8h as 16h."
       }
     }
   }

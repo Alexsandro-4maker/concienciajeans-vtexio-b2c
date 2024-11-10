@@ -11,6 +11,7 @@
     "blockClass":"testandomen"
   },
     "children": [
+      
       "flex-layout.col#productRating",
       "product-summary-space",
       "product-list-price#summary",
@@ -51,7 +52,8 @@
   "stack-layout#prodsum": {
     "children": [
       "product-summary-image#shelf",
-      "vtex.product-highlights@2.x:product-highlights#collection"
+      "vtex.product-highlights@2.x:product-highlights#collection",
+      "product-summary-sku-selector"
     ]
   },
   "product-summary-image#shelf": {

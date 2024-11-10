@@ -2,6 +2,7 @@
   "store.home": {
     "blocks": [
       "list-context.image-list#demo",
+      
       "flex-layout.row#deals",
       "tab-layout#home",
       "flex-layout.row#banner-1",
@@ -13,8 +14,7 @@
       "flex-layout.row#bloco-banner-2",
       "rich-text#shelf-title-3",
       "flex-layout.row#shelf-3",
-      "flex-layout.row#banner-3",
-      "newsletter"
+      "flex-layout.row#banner-3"
     ]
   },
   "list-context.image-list#demo": {
@@ -212,5 +212,14 @@
       "text": "\n**Reach us at**\nwww.vtex.com.br",
       "blockClass": "link"
     }
+  },
+
+  "newsletter-form": {
+    "children": [
+      "newsletter-input-email",
+      "newsletter-input-name",
+      "newsletter-submit"
+    ]
   }
+
 }

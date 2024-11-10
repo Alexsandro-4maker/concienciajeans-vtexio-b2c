@@ -23,6 +23,7 @@
     height: 65px;
     padding-right: 10px;
     border-color: #97999B;
+    background: transparent;
 }
 
 .quantitySelectorStepper 

@@ -3,9 +3,6 @@
     "children": [
       "flex-layout.row#product-breadcrumb",
       "condition-layout.product#availability",
-      "flex-layout.row#description",
-      "flex-layout.row#specifications-title",
-      "product-specification-group#table",
       "shelf.relatedProducts"
     ]
   },
@@ -98,7 +95,8 @@
         "desktop": "auto",
         "phone": "16:9"
       },
-      "displayThumbnailsArrows": true
+      "displayThumbnailsArrows": false,
+      "displayMode": "list"
     }
   },
   "flex-layout.col#right-col": {
@@ -116,7 +114,10 @@
       //  "product-gifts",
       "flex-layout.row#buy-button",
       "availability-subscriber",
-      "shipping-simulator"
+      "shipping-simulator",
+      "flex-layout.row#description"
+      //   "flex-layout.row#specifications-title",
+      //  "product-specification-group#table"
       //"share#default"
     ]
   },
@@ -139,30 +140,35 @@
       "flex-layout.row#selling-price",
       "product-installments"
     ],
-    "props":{
-      "blockClass":["bloco-preco"]
+    "props": {
+      "blockClass": [
+        "bloco-preco"
+      ]
     }
   },
   "flex-layout.row#buy-button": {
     "props": {
       "marginTop": 4,
       "marginBottom": 7,
-      "blockClass":["container-button-pdp"]
+      "blockClass": [
+        "container-button-pdp"
+      ]
     },
     "children": [
       "product-quantity",
-       "add-to-cart-button#pdp"
+      "add-to-cart-button#pdp"
     ]
   },
   "add-to-cart-button#pdp": {
     "props": {
-      "text":"Comprar",
+      "text": "Comprar",
       "addToCartFeedback": "customEvent",
       "customPixelEventId": "add-to-cart-button",
-      "blockClass":["button-pdp"]
+      "blockClass": [
+        "button-pdp"
+      ]
     }
   },
-
   "flex-layout.row#product-availability": {
     "props": {
       "colGap": 7,
@@ -205,5 +211,18 @@
         "Pinterest": true
       }
     }
+  },
+  "shelf.relatedProducts": {
+    "props": {
+      "blockClass": "produtos-relacionados",
+      "productList": {
+        "titleText": "Você também pode gostar de...",
+        "minItemsPerPage": 2,
+        "itemsPerPage": 4
+      }
+    },
+    "blocks": [
+      "product-summary.shelf"
+    ]
   }
 }

@@ -32,3 +32,61 @@
 :global(.vtex-address-form__postalCode) :global(.vtex-input) {
     width: 270px;
 }
+
+.skuSelectorItem--selected .skuSelectorItemTextValue {
+    color: rgb(236, 109, 98);
+    border-color: rgb(236, 109, 98);
+}
+
+.skuSelectorItem--selected .skuSelectorInternalBox {
+    border-color: rgb(236, 109, 98);
+
+}
+
+:global(.vtex-address-form__field-empty) {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+:global(.vtex-address-form__postalCode-forgottenURL) {
+    text-decoration: underline;
+    color: #0079BE;
+    font-size: 12px;
+}
+
+.shippingContainer  :global(.vtex-button) {
+    position: absolute;
+    margin-top: -70px;
+    width: 100px;
+    height: 35px;
+    margin-left: 180px;
+    font-size: 12px;
+    background-color: transparent;
+    border-color: transparent;
+    visibility: hidden;
+}
+
+
+.productImagesContainer--list {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+
+.shippingContainer 
+:global(.vtex-button)
+:global(.vtex-button__label)::after {
+    content: "Calcular";
+    display: flex;
+    position: absolute;
+    visibility: visible;
+    color: #606060;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
+}
