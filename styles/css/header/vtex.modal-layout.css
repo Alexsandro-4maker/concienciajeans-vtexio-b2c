@@ -1,0 +1,13 @@
+.triggerContainer--search-bar {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.triggerContainer--search-bar::after {
+
+    content: "O QUE VOCÊ PRECISA?";
+    text-indent: 10px;
+    color: #071D49;
+    font-size: 14px;
+}

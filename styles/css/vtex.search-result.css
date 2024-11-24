@@ -64,10 +64,34 @@
 
 .gallery--grid {
   padding-left: 2rem;
+  gap: 10px;
 }
 
 :global(.vtex-slider__values-container) {
   justify-content: center;
+}
+
+.galleryItem--grid :global(.vtex-product-summary-2-x-containerNormal) :global(.vtex-product-summary-2-x-clearLink) :global(.vtex-product-summary-2-x-element) :global(.vtex-wish-list-1-x-wishlistIconContainer) {
+  position: absolute;
+  display: flex;
+  margin-top: 5px;
+  margin-left: 175px;
+}
+
+
+:global(.vtex-flex-layout-0-x-flexRow--productRating){
+  display: none;
+}
+
+.galleryItem--grid:hover :global(.vtex-product-summary-2-x-containerNormal) :global(.vtex-product-summary-2-x-clearLink) 
+:global(.vtex-product-summary-2-x-element) :global(.vtex-flex-layout-0-x-flexCol--testandomen)
+:global(.vtex-flex-layout-0-x-flexColChild--testandomen ) :global(.vtex-flex-layout-0-x-flexRow--productRating){
+  display: block;
+}
+
+
+.galleryItem--grid :global(.vtex-product-summary-2-x-containerNormal){
+  width: 280px;
 }
 
 .orderByText {
@@ -146,7 +170,9 @@
 }
 
 .galleryItem--grid {
-  max-width: 33% !important;
+  max-width: 32% !important;
+  border: 1px solid #C6C6C6;
+  height: 660px;
 }
 
 .filter__container--title {
@@ -182,11 +208,11 @@
   color: #000;
 }
 
-.filterTemplateOverflow :global(.vtex-slider-container) :global(.vtex-slider){
+.filterTemplateOverflow :global(.vtex-slider-container) :global(.vtex-slider) {
   width: 95%;
   margin: 0 auto;
 }
 
-:global(.vtex-slider__selector){
-  background:#000;
+:global(.vtex-slider__selector) {
+  background: #000;
 }

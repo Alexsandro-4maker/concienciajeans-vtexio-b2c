@@ -22,3 +22,17 @@
     width: 740px !important;
     height: 650px !important;
 }
+
+.imageElement--container-image-3{
+    height: 560px;
+    margin-top: 10px;
+    width: 610px;
+    padding-right: 10px;
+}
+
+@media only screen and (min-width: 1400px) {
+    .imageElement--banner-image {
+        width: 680px !important;
+        height: 650px;
+    }
+}

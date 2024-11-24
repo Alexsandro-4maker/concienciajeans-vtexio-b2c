@@ -1,0 +1,3 @@
+.wishlistIconContainer :global(.vtex-button) {
+    display: block;
+}

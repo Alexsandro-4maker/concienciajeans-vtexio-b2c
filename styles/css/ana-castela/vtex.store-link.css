@@ -1,0 +1,36 @@
+.label--menu-info-bloco-1 {
+    background-color: #85A4B8;
+    color: #fff;
+    width: 185px;
+    height: 45px;
+    font-family: "Manrope", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.link--menu-info-bloco-1 {
+    text-decoration: none;
+}
+
+.label--link-info-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #fff;
+    color: #01417e;
+    font-family: "Manrope", sans-serif;
+    background-color: #fff;
+    padding: 10px;
+    margin: 40px auto 0;
+    width: 250px;
+    text-decoration: none;
+}
+
+.link--link-info-2{
+    text-decoration: none;
+}

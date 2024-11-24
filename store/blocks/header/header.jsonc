@@ -50,6 +50,7 @@
       "blockClass": "sticky-header"
     },
     "children": [
+      "flex-layout.row#container-menu-topo",
       "flex-layout.row#4-desktop"
     ]
   },
@@ -63,8 +64,12 @@
       "fullWidth": true
     },
     "children": [
-      "flex-layout.col#logo-desktop",
+     "flex-layout.col#logo-desktop",
       "flex-layout.col#category-menu",
+      "modal-trigger#search-bar",
+
+      
+      
       "login",
       "link#info",
       "minicart.v2"
@@ -77,6 +82,66 @@
     "children": [
       "logo#desktop"
     ]
+  },
+  "flex-layout.row#container-menu-topo-bloco-3": {
+    "children": [
+    "login",
+      "link#info",
+      "minicart.v2"
+    ]
+  },
+  "flex-layout.row#container-menu-topo": {
+    "children": [
+      "modal-trigger#search-bar",
+      "logo#desktop",
+      "flex-layout.row#container-menu-topo-bloco-3"
+    ],
+    "props": {
+      "blockClass": "menu-topo-bloco-1"
+    }
+  },
+  // BARRA DE PESQUISA
+  "modal-trigger#search-bar": {
+    "children": [
+      "image#search-bar",
+      "modal-layout#search-bar"
+    ],
+    "props": {
+      "blockClass": "search-bar"
+    },
+    "title": "Topo - Busca - Desktop"
+  },
+  "image#search-bar": {
+    "props": {
+      "src": "assets/imgs/campo-de-lupa.png",
+      "alt": "Search Bar",
+      "height": "23px"
+    },
+    "title": "Topo - Busca - Desktop"
+  },
+  "modal-layout#search-bar": {
+    "props": {
+      "blockClass": "search-bar",
+      "fullScreen": {
+        "phone": true,
+        "desktop": false,
+        "tablet": false
+      }
+    },
+    "children": [
+      "search-bar"
+    ],
+    "title": "Topo - Busca - Desktop"
+  },
+  "autocomplete-result-list.v2": {
+    "props": {
+      "maxSuggestedProducts": 2,
+      "productLayout": "HORIZONTAL"
+    },
+    "blocks": [
+      "product-summary"
+    ],
+    "title": "Topo - Autocomplete"
   },
   "flex-layout.col#category-menu": {
     "props": {
@@ -93,6 +158,16 @@
       "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo.png",
       "width": "160",
       "height": "25"
+    }
+  },
+  "search-bar": {
+    "blocks": [
+      "autocomplete-result-list.v2"
+    ],
+    "props": {
+      "openAutocompleteOnFocus": false,
+      "placeholder": "O QUE VOCÊ PRECISA ?",
+      "hasIconLeft": false
     }
   },
   "header-layout.mobile": {

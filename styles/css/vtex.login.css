@@ -26,6 +26,10 @@
     position: relative !important;
 }
 
+:global(.render-route-store-custom-ana-castela) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) {
+    position: relative !important;
+}
+
 :global(.render-route-store-product) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) {
     position: relative !important;
 }
@@ -60,10 +64,138 @@
     margin-left: 10px;
 }
 
-:global(.vtex-address-form__postalCode-forgottenURL) a  {
+:global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) :global(.vtex-sticky-layout-0-x-container--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--main-header) :global(.vtex-flex-layout-0-x-flexRowContent--main-header) :global(.vtex-login-2-x-container) {
+    width: 60px;
+    margin-top: -15px;
+
+}
+
+:global(.vtex-address-form__postalCode-forgottenURL) a {
     color: #0079BE;
 }
 
-:global(.vtex-address-form__postalCode-forgottenURL) .pointer:hover{
+:global(.vtex-address-form__postalCode-forgottenURL) .pointer:hover {
     color: #0079BE;
+}
+
+:global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--main-header) :global(.vtex-flex-layout-0-x-flexRowContent--main-header) :global(.vtex-flex-layout-0-x-flexCol) :global(.vtex-flex-layout-0-x-flexColChild) :global(.vtex-store-components-3-x-logoLink) {
+    display: none;
+}
+
+:global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) :global(.vtex-sticky-layout-0-x-container--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--main-header) :global(.vtex-flex-layout-0-x-flexRowContent--main-header) :global(.vtex-flex-layout-0-x-flexCol) :global(.vtex-flex-layout-0-x-flexColChild) :global(.vtex-store-components-3-x-logoLink)
+ {
+    display: block;
+}
+
+:global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--main-header) :global(.vtex-flex-layout-0-x-flexRowContent--main-header) :global(.vtex-login-2-x-container) {
+    display: none;
+}
+
+:global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) :global(.vtex-sticky-layout-0-x-container--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--main-header) :global(.vtex-flex-layout-0-x-flexRowContent--main-header) :global(.vtex-login-2-x-container) {
+    display: block;
+}
+
+
+:global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--main-header) :global(.vtex-flex-layout-0-x-flexRowContent--main-header) :global(.vtex-store-link-0-x-link--menu-info-header) {
+    display: none;
+
+}
+
+:global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) :global(.vtex-sticky-layout-0-x-container--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--main-header) :global(.vtex-flex-layout-0-x-flexRowContent--main-header) :global(.vtex-store-link-0-x-link--menu-info-header) {
+    display: block;
+
+}
+
+:global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--main-header) :global(.vtex-flex-layout-0-x-flexRowContent--main-header) :global(.vtex-minicart-2-x-minicartWrapperContainer) {
+    display: none;
+}
+
+:global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) :global(.vtex-sticky-layout-0-x-container--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--main-header) :global(.vtex-flex-layout-0-x-flexRowContent--main-header) :global(.vtex-minicart-2-x-minicartWrapperContainer) {
+    display: block;
+}
+
+:global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--main-header) {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 1300px;
+}
+
+
+:global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) :global(.vtex-sticky-layout-0-x-container--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--main-header) {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+}
+
+:global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) :global(.vtex-sticky-layout-0-x-container--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--menu-topo-bloco-1){
+    display: none;
+}
+
+:global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) :global(.vtex-sticky-layout-0-x-container--sticky-header) :global(.vtex-flex-layout-0-x-flexRowContent--main-header) :global(.vtex-login-2-x-container) :global(.vtex-button){
+    margin-top: 18px;
+}
+
+:global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header) :global(.vtex-flex-layout-0-x-flexRowContent--main-header) :global(.vtex-flex-layout-0-x-flexCol ) :global(.vtex-flex-layout-0-x-flexColChild)
+:global(.vtex-menu-2-x-menuContainerNav) :global(.vtex-menu-2-x-menuContainer) :global(.vtex-menu-2-x-menuItem )  :global(.vtex-menu-2-x-styledLinkContainer)
+:global(.vtex-menu-2-x-styledLink) :global(.vtex-menu-2-x-styledLinkContent){
+    color: rgb(7, 29, 73);
+}
+
+:global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) :global(.vtex-sticky-layout-0-x-container--sticky-header)  :global(.vtex-flex-layout-0-x-flexRowContent--main-header) :global(.vtex-flex-layout-0-x-flexCol ) :global(.vtex-flex-layout-0-x-flexColChild)
+:global(.vtex-menu-2-x-menuContainerNav) :global(.vtex-menu-2-x-menuContainer) :global(.vtex-menu-2-x-menuItem )  :global(.vtex-menu-2-x-styledLinkContainer)
+:global(.vtex-menu-2-x-styledLink) :global(.vtex-menu-2-x-styledLinkContent){
+    color:rgb(7, 29, 73) ;
+}
+
+:global(.vtex-sticky-layout-0-x-wrapper--sticky-header){
+    width: 100%;
+}
+
+:global(.vtex-sticky-layout-0-x-container--sticky-header){
+    width: 100%;
+    box-shadow: inset 0px 200px 64px -49px rgba(20, 15, 29, 0.2);
+}
+
+:global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--menu-topo-bloco-1)
+:global(.vtex-store-components-3-x-container) :global(.vtex-flex-layout-0-x-stretchChildrenWidth) :global(.vtex-store-components-3-x-logoLink){
+
+    display: flex;
+    align-items:center ;
+}
+
+:global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--menu-topo-bloco-1)
+:global(.vtex-store-components-3-x-container) :global(.vtex-flex-layout-0-x-stretchChildrenWidth) :global(.vtex-store-components-3-x-logoLink) :global(.vtex-store-components-3-x-sizeDesktop){
+    max-width: 200px;
+}
+
+
+:global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--menu-topo-bloco-1)
+:global(.vtex-store-components-3-x-container) :global(.vtex-flex-layout-0-x-stretchChildrenWidth) :global(.vtex-store-components-3-x-logoLink) :global(.vtex-store-components-3-x-sizeDesktop) :global(.vtex-store-components-3-x-logoImage ){
+    height: 40px;
+    width: 190px;
+
+}
+
+:global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--menu-topo-bloco-1)
+:global(.vtex-store-components-3-x-container) :global(.vtex-flex-layout-0-x-stretchChildrenWidth) :global(.vtex-flex-layout-0-x-flexRow) :global(.vtex-flex-layout-0-x-flexRowContent ) :global(.vtex-flex-layout-0-x-stretchChildrenWidth)
+:global(.vtex-login-2-x-container ) :global(.vtex-button) :global(.vtex-button__label) :global(.vtex-login-2-x-label)::after{
+    color: rgb(7, 29, 73);
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+:global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--menu-topo-bloco-1)
+:global(.vtex-store-components-3-x-container) :global(.vtex-flex-layout-0-x-stretchChildrenWidth) :global(.vtex-store-link-0-x-link--menu-info-header) :global(.vtex-store-link-0-x-label--menu-info-header ){
+    color: rgb(7, 29, 73);
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 30px;
+
 }

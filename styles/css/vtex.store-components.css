@@ -65,6 +65,10 @@
   margin: 1rem 0;
 }
 
+.skuSelectorSubcontainer--tamanho {
+ margin-bottom: 0;
+}
+
 @media only screen and (min-width: 640px) {
   .newsletter .container {
     padding: 140px;

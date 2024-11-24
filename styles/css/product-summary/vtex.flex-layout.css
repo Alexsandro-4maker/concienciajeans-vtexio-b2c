@@ -1,0 +1,18 @@
+.flexCol--product-price {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.flexColChild--product-price {
+    align-items: center;
+    display: flex;
+
+}
+
+.flexRow--priceSaving-summary {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 3px;
+}

@@ -1,0 +1,11 @@
+.autoCompleteOuterContainer  :global(.vtex-input-prefix__group) :global(.vtex-styleguide-9-x-input){
+    background: transparent;
+}
+
+.autoCompleteOuterContainer  :global(.vtex-input-prefix__group){
+    border: none;
+}
+
+.autoCompleteOuterContainer :global(.vtex-input-prefix__group) :global(.vtex-input__suffix){
+    background-color: transparent;
+}

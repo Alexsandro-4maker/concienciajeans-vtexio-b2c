@@ -1,5 +1,221 @@
 {
     "store.custom#ana-castela": {
-        "children": []
+        "children": [
+            "list-context.image-list#demo",
+            "flex-layout.row#container-1",
+            "rich-text#bloco-texto-1",
+            "flex-layout.row#shelf-ana-castelo",
+            "flex-layout.row#container-3-ana-castelo",
+            "flex-layout.row#container-4",
+            "flex-layout.row#container-5"
+        ],
+        "props": {
+            "blockClass": "container-ana-castelo"
+        }
+    },
+    "flex-layout.row#container-1": {
+        "children": [
+            "image#bloco-2",
+            "flex-layout.col#bloco-1"
+        ],
+        "props": {
+            "blockClass": "container-bloco-1"
+        }
+    },
+    "flex-layout.col#bloco-1": {
+        "children": [
+            "rich-text#title-bloco-1",
+            "rich-text#description-bloco-1",
+            "rich-text#description-sub-texto-1",
+            "link#button-colletion"
+        ],
+        "props": {
+            "blockClass": "container-bloco-texto-1"
+        }
+    },
+    "rich-text#title-bloco-1": {
+        "props": {
+            "text": "## O VERÃO É MAIS DO QUE UMA ESTAÇÃO",
+            "blockClass": "title-bloco"
+        }
+    },
+    "rich-text#description-bloco-1": {
+        "props": {
+            "text": "É um divisor de águas. Para alguns é a estação favorita do ano, para outros nem tanto, mas todos têm uma história para contar. E é a celebração dessas lembranças que inspira a nossa nova coleção estrelada pela Ana Castela. Cada peça é um convite para construir novas memórias e viver cada momento com intensidade, estilo e autenticidade. Porque as verdadeiras heranças de verão estão no presente: no que vivemos, sentimos e vestimos.",
+            "blockClass": "description-bloco-1"
+        }
+    },
+    "rich-text#description-sub-texto-1": {
+        "props": {
+            "text": "Descubra o novo capítulo da sua história com a coleção **Heranças de Verão**.",
+            "blockClass": "description-bloco-1"
+        }
+    },
+    "link#button-colletion": {
+        "props": {
+            "href": "/login?returnUrl={queryString.returnUrl}",
+            "label": "Ver coleção",
+            "blockClass": "menu-info-bloco-1"
+        }
+    },
+    "rich-text#bloco-texto-1": {
+        "props": {
+            "text": "As **heranças de verão** estão na nossa Consciência. O que vai vestir suas memórias este ano?",
+            "blockClass": "bloco-2-text"
+        }
+    },
+    "flex-layout.row#shelf-ana-castelo": {
+        "children": [
+            "list-context.product-list#demo1"
+        ],
+        "props": {
+            "blockClass": "shelf-ana-castelo"
+        }
+    },
+    "flex-layout.row#container-3-ana-castelo": {
+        "children": [
+            "flex-layout.col#bloco-3",
+            "image#bloco-3"
+        ],
+        "props": {
+            "blockClass": "container-bloco-3"
+        }
+    },
+    "image#bloco-2": {
+        "props": {
+            "src": "https://conscienciajeans.vteximg.com.br/arquivos/Fotosobreposta%20aocacto.jpg?v=638592656165700000",
+            "maxHeight": "",
+            "maxWidth": "",
+            "blockClass": "storePrint"
+        }
+    },
+    "image#bloco-3": {
+        "props": {
+            "src": "https://conscienciajeans.vteximg.com.br/arquivos/Fotosobreposta2.jpg?v=638592720725400000",
+            "maxHeight": "",
+            "maxWidth": "",
+            "blockClass": "storePrint"
+        }
+    },
+    "flex-layout.col#bloco-3": {
+        "children": [
+            "rich-text#title-bloco-3-1",
+            "rich-text#description-bloco-3",
+            "rich-text#title-bloco-3-2",
+            "rich-text#description-bloco-3-2",
+            "rich-text#title-bloco-3-3",
+            "rich-text#description-bloco-3-3"
+        ],
+        "props": {
+            "blockclass": "textColumn",
+            "preventVerticalStretch": true
+        }
+    },
+    "rich-text#title-bloco-3-1": {
+        "props": {
+            "text": "## NOSTALGIA E MODERNIDADE",
+            "blockClass": "title-bloco"
+        }
+    },
+    "rich-text#description-bloco-3": {
+        "props": {
+            "text": "O verão 25 traz tendências que evocam memórias e abraçam o novo. Os bordados se destacam adicionando sofisticação e um toque de história a cada peça, e transmitindo um conforto aconchegante, perfeito para os dias quentes e ensolarados."
+        }
+    },
+    "rich-text#title-bloco-3-2": {
+        "props": {
+            "text": "## BÁSICOS RENOVADOS",
+            "blockClass": "title-bloco"
+        }
+    },
+    "rich-text#description-bloco-3-2": {
+        "props": {
+            "text": "Looks básicos e cortes limpos ganham força e expressam uma elegância sem esforço. A tendência é complementada por detalhes delicados e uma estética refinada e moderna."
+        }
+    },
+    "rich-text#title-bloco-3-3": {
+        "props": {
+            "text": "## JEANS, SEMPRE!",
+            "blockClass": "title-bloco"
+        }
+    },
+    "rich-text#description-bloco-3-3": {
+        "props": {
+            "text": "Versátil e atemporal, o jeans é a peça indispensável em qualquer guarda-roupa de verão. Seja em shorts, saias ou calças, o jeans se reinventa a cada estação, oferecendo conforto e estilo em igual medida."
+        }
+    },
+    "flex-layout.row#container-4": {
+        "children": [
+            "image#bloco-4",
+            "flex-layout.col#bloco-4"
+        ],
+        "props": {
+            "blockClass": "container-bloco-4"
+        }
+    },
+    "image#bloco-4": {
+        "props": {
+            "src": "/arquivos/moldura-bloco-5.png?v=638594295728230000",
+            "maxHeight": "",
+            "maxWidth": "",
+            "blockClass": "storePrint"
+        }
+    },
+    "flex-layout.col#bloco-4": {
+        "children": [
+            "rich-text#description-bloco-4",
+            "link#button-instagram"
+        ],
+        "props": {
+            "blockClass": "bloco-container-4-textos",
+            "preventVerticalStretch": true
+        }
+    },
+    "rich-text#description-bloco-4": {
+        "props": {
+            "text": "Compartilhe suas memórias de verão com a hashtag #HerançasDeVerão e marque @conscienciajeans.",
+            "blockClass": "title-bloco-4"
+        }
+    },
+    "link#button-instagram": {
+        "props": {
+            "href": "https://www.instagram.com/conscienciajeans",
+            "label": "SIGA @CONSCIENCIAJEANS",
+            "blockClass": "link-info-2"
+        }
+    },
+    "flex-layout.row#container-5": {
+        "children": [
+            "image#bloco-5-1",
+            "image#bloco-5-2",
+            "image#bloco-5-3"
+        ],
+        "props": {
+            "blockClass": "container-bloco-5"
+        }
+    },
+    "image#bloco-5-1": {
+        "props": {
+            "src": "https://conscienciajeans.vteximg.com.br/arquivos/Foto6-1.jpg?v=638592696902170000",
+            "maxHeight": "",
+            "maxWidth": "",
+            "blockClass": "storePrint"
+        }
+    },
+    "image#bloco-5-2": {
+        "props": {
+            "src": "https://conscienciajeans.vteximg.com.br/arquivos/Foto6-2.jpg?v=638592696897630000",
+            "maxHeight": "",
+            "maxWidth": "",
+            "blockClass": "storePrint"
+        }
+    },
+    "image#bloco-5-3": {
+        "props": {
+            "src": "https://conscienciajeans.vteximg.com.br/arquivos/Foto6-3.jpg?v=638592696895900000",
+            "maxHeight": "",
+            "maxWidth": "",
+            "blockClass": "storePrint"
+        }
     }
 }

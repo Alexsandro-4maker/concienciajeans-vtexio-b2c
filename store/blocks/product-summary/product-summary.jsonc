@@ -2,23 +2,58 @@
   "product-summary.shelf": {
     "children": [
       "stack-layout#prodsum",
+      "flex-layout.row#product-priceSaving-summary",
+      "add-to-list-btn",
+      "product-summary-sku-selector#vitrine",
       "product-summary-name",
+      "product-rating-summary",
       "flex-layout.col#product-bloco"
     ]
   },
   "flex-layout.col#product-bloco": {
-  "props":{
-    "blockClass":"testandomen"
-  },
+    "props": {
+      "blockClass": "testandomen"
+    },
     "children": [
-      
       "flex-layout.col#productRating",
       "product-summary-space",
-      "product-list-price#summary",
-      "flex-layout.row#selling-price-savings",
+      "flex-layout.col#price",
       "product-installments#summary",
       "flex-layout.row#cart-button"
     ]
+  },
+  "flex-layout.col#price": {
+    "props": {
+      "blockClass": "product-price"
+    },
+    "children": [
+      "product-list-price#summary",
+      "flex-layout.row#selling-price-savings"
+    ]
+  },
+  "product-rating-summary": {
+    "props": {
+      "blockClass": "estrelas-shelf"
+    }
+  },
+  "flex-layout.row#product-priceSaving-summary": {
+    "children": [
+      "product-price-savings#summaryPercentage"
+    ],
+    "props": {
+      "blockClass": "priceSaving-summary",
+      "fullWidth": false,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true
+    }
+  },
+  "product-price-savings#summaryPercentage": {
+    "props": {
+      "message": "{savingsPercentage} OFF",
+      "minimumPercentage": 1,
+      "blockClass": "summary",
+      "alwaysShow": true
+    }
   },
   "add-to-cart-button#shelf": {
     "props": {
@@ -52,8 +87,7 @@
   "stack-layout#prodsum": {
     "children": [
       "product-summary-image#shelf",
-      "vtex.product-highlights@2.x:product-highlights#collection",
-      "product-summary-sku-selector"
+      "vtex.product-highlights@2.x:product-highlights#collection"
     ]
   },
   "product-summary-image#shelf": {
@@ -70,6 +104,11 @@
     "children": [
       "product-highlight-wrapper"
     ]
+  },
+  "product-summary-sku-selector#vitrine": {
+    "props": {
+      "blockClass": "sku-selector-vitrine"
+    }
   },
   "product-highlight-wrapper": {
     "props": {
@@ -97,8 +136,8 @@
       "marginBottom": 4
     },
     "children": [
-      "product-selling-price#summary",
-      "product-price-savings#summary"
+      "product-selling-price#summary"
+      
     ]
   },
   "product-installments#summary": {
