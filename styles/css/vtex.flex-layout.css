@@ -40,7 +40,7 @@
 .flexRowContent--main-header-mobile {
   align-items: center;
   padding: 0.625rem 0.5rem;
-  background-color: #f0f0f0;
+  background-color: #fff;
 }
 
 .flexRowContent--menu-link :global(.vtex-menu-2-x-styledLink) {
@@ -60,6 +60,9 @@
 
 .flexRow--deals .stretchChildrenWidth {
   align-items: center;
+  width: unset !important;
+  margin: 0 auto;
+
 }
 
 .flexCol--filterCol {
@@ -139,6 +142,7 @@
 
 :global(.vtex-wish-list-1-x-outline) {
   background: url("/arquivos/coracao.png") !important;
+  background-repeat: no-repeat !important;
 
 }
 

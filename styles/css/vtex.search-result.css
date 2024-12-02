@@ -76,6 +76,7 @@
   display: flex;
   margin-top: 5px;
   margin-left: 175px;
+  right: unset;
 }
 
 
@@ -169,6 +170,10 @@
   gap: 5px;
 }
 
+
+.filterItem  :global(.vtex-checkbox__line-container ) :global(.vtex-checkbox__container){
+  display: none;
+}
 .galleryItem--grid {
   max-width: 32% !important;
   border: 1px solid #C6C6C6;

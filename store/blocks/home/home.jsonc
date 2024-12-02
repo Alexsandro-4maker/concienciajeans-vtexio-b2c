@@ -1,7 +1,13 @@
 {
   "store.home": {
     "blocks": [
-      "list-context.image-list#demo",
+      "responsive-layout.desktop#home-desktop",
+      "responsive-layout.mobile#home-mobile"
+    ]
+  },
+  "responsive-layout.desktop#home-desktop": {
+    "children": [
+      "list-context.image-list#banner-principal",
       "flex-layout.row#deals",
       "tab-layout#home",
       "flex-layout.row#banner-1",
@@ -16,21 +22,48 @@
       "flex-layout.row#banner-3"
     ]
   },
-  "list-context.image-list#demo": {
+  "responsive-layout.mobile#home-mobile": {
+    "children": [
+      "list-context.image-list#banner-principal",
+      "slider-layout#deals-mobile",
+      "tab-layout#home",
+      "flex-layout.row#banner-1",
+      "rich-text#shelf-title",
+      "flex-layout.row#shelf",
+      "flex-layout.row#container-3",
+      "rich-text#shelf-title-2",
+      "flex-layout.row#shelf2",
+      "flex-layout.row#bloco-banner-2",
+      "rich-text#shelf-title-3",
+      "flex-layout.row#shelf-3",
+      "flex-layout.row#banner-3"
+    ]
+  },
+  "list-context.image-list#banner-principal": {
+    "title": " 1 - Banner Principal",
     "children": [
       "slider-layout#demo-images"
     ],
     "props": {
-      "height": 570,
+      "height": "100%",
+      "maxHeight": "100%",
       "preload": true,
       "images": [
         {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-desktop.png",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-mobile.png"
+          "image": "https://conscienciajeans.vteximg.com.br/arquivos/ids/566144/Varejoo%20Descktop%20-%20Combo5.jpg",
+          "mobileImage": "https://conscienciajeans.vteximg.com.br/arquivos/ids/564721/Varejo%20Mobile%20-%20Combo%205.jpg"
         },
         {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration.png",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration-mobile.png"
+          "image": "https://conscienciajeans.vteximg.com.br/arquivos/ids/566145/Varejoo%20Descktop%20-%20Alto%20ver%C3%A3o%20Shorts.jpg",
+          "mobileImage": "https://conscienciajeans.vteximg.com.br/arquivos/ids/566148/Varejo%20Mobile%20-%20Alto%20ver%C3%A3o%20Shorts.jpg"
+        },
+        {
+          "image": "https://conscienciajeans.vteximg.com.br/arquivos/ids/566146/Varejo%20Descktop%20-%20App.jpg",
+          "mobileImage": "https://conscienciajeans.vteximg.com.br/arquivos/ids/566150/Varejo%20Mobile%20-%20Shorts%20Iara.jpg"
+        },
+        {
+          "image": "https://conscienciajeans.vteximg.com.br/arquivos/ids/566145/Varejoo%20Descktop%20-%20Alto%20ver%C3%A3o%20Shorts.jpg?v=638678884342370000",
+          "mobileImage": "https://conscienciajeans.vteximg.com.br/arquivos/ids/566150/Varejo%20Mobile%20-%20Shorts%20Iara.jpg"
         }
       ]
     }
@@ -43,8 +76,9 @@
         "phone": 1
       },
       "infinite": true,
-      "showNavigationArrows": "desktopOnly",
-      "blockClass": "carousel"
+      "showNavigationArrows": "never",
+      "blockClass": "carousel",
+      "autoplay": true
     }
   },
   "flex-layout.row#banner-1": {
@@ -58,13 +92,13 @@
   },
   "image#banner-home-1": {
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
+      "src": "https://conscienciajeans.vteximg.com.br/arquivos/ids/561791/row-1-column-1%20(1).jpg",
       "blockClass": "banner-image"
     }
   },
   "image#banner-home-1-1": {
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
+      "src": "https://conscienciajeans.vteximg.com.br/arquivos/ids/561792/row-1-column-2%20(1).jpg",
       "blockClass": "banner-image"
     }
   },
@@ -79,7 +113,7 @@
   },
   "image#banner-home-principal-2": {
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
+      "src": "https://conscienciajeans.vteximg.com.br/arquivos/ids/565685/Mosaico%20Esquerda%20-%20Clasisco%20fashionn.jpg",
       "width": 657,
       "height": 657,
       "blockClass": "banner-image-principal-2"
@@ -112,7 +146,7 @@
   },
   "image#banner-home-2-1": {
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
+      "src": "https://conscienciajeans.vteximg.com.br/arquivos/ids/565686/Banner%20direito%20-%20%20Tendenciaa.jpg",
       "maxWidth": 463,
       "MaxHeight": 318,
       "blockClass": "banner-image-2-1"
@@ -120,7 +154,7 @@
   },
   "image#banner-home-2-2": {
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
+      "src": "https://conscienciajeans.vteximg.com.br/arquivos/ids/565687/Banner%20direito%20-%20%20Naturalls.jpg",
       "width": 463,
       "MaxHeight": 318,
       "blockClass": "banner-image-2-2"
@@ -140,13 +174,13 @@
   },
   "image#banner-home-3": {
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
+      "src": "https://conscienciajeans.vteximg.com.br/arquivos/ids/565688/Masculinoo.jpg",
       "blockClass": "banner-image"
     }
   },
   "image#banner-home-3-1": {
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
+      "src": "https://conscienciajeans.vteximg.com.br/arquivos/ids/565689/Cal%C3%A7a%20Momm.jpg",
       "blockClass": "banner-image"
     }
   },
@@ -185,7 +219,7 @@
   },
   "flex-layout.row#shelf-4": {
     "children": [
-      "list-context.product-list#demo1"
+      "list-context.product-list#demo4"
     ],
     "props": {
       "blockClass": "shelf-4"
@@ -202,16 +236,42 @@
       "orderBy": "OrderByTopSaleDESC"
     }
   },
+  "list-context.product-list#demo4": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#demo-products-4"
+    ],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
   "slider-layout#demo-products": {
     "props": {
       "itemsPerPage": {
         "desktop": 4,
         "tablet": 3,
-        "phone": 1
+        "phone": 2
       },
       "infinite": true,
       "fullWidth": false,
       "blockClass": "shelf"
+    }
+  },
+  "slider-layout#demo-products-4": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 2,
+        "tablet": 2,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": [
+        "shelf",
+        "shelf-4"
+      ]
     }
   },
   "info-card#home": {

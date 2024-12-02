@@ -82,7 +82,8 @@
 .skuSelectorContainer--sku-selector-vitrine :global(.vtex-store-components-3-x-skuSelectorSubcontainer--tamanho) :global(.vtex-store-components-3-x-skuSelectorNameContainer) :global(.vtex-store-components-3-x-skuSelectorOptionsList) {
   justify-content: center;
   background: #fff9;
-
+  align-items: center;
+  width: 280px;
 }
 
 
@@ -93,6 +94,14 @@
   margin-bottom: 158px;
 }
 
+:global(.vtex-search-result-3-x-galleryItem--grid) .container .clearLink .element .SKUSelectorContainer--sku-selector-vitrine {
+  position: relative;
+  width: 100%;
+  bottom: 0;
+  margin-bottom: unset;
+  margin-top: -83px;
+  margin-left: 3px;
+}
 
 .skuSelectorInternalBox--sku-selector-vitrine {
   width: 28px;
@@ -105,8 +114,29 @@
   font-size: 14px !important;
 }
 
-.skuSelectorInternalBox--sku-selector-vitrine {
-  border-color: #000000 !important;
+
+
+.skuSelectorInternalBox--sku-selector-vitrine:hover{
+background-color: #000000 !important;
+}
+
+.skuSelectorInternalBox--sku-selector-vitrine:hover .skuSelectorItemTextValue--sku-selector-vitrine{
+  color: #fff !important;
+ }
+
+
+.skuSelectorItem--sku-selector-vitrine--selected .skuSelectorInternalBox--sku-selector-vitrine{
+    background-color: #000000;
+  border-color: #000 !important;
+}
+
+.skuSelectorItem--sku-selector-vitrine--selected .skuSelectorInternalBox--sku-selector-vitrine .skuSelectorItemTextValue--sku-selector-vitrine{
+  color: #fff !important;
+
+}
+
+.skuSelectorInternalBox--sku-selector-vitrine{
+  border-color: #000 !important;
 }
 
 .SKUSelectorContainer--sku-selector-vitrine {
@@ -117,6 +147,6 @@
   display: block;
 }
 
-:global(.vtex-wish-list-1-x-wishlistIconContainer) :global(.vtex-button){
+:global(.vtex-wish-list-1-x-wishlistIconContainer) :global(.vtex-button) {
   background-color: transparent !important;
 }

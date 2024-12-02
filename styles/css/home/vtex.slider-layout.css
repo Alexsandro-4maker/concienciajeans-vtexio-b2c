@@ -10,14 +10,36 @@
     background: #ffffff63 !important;
 }
 
-.caretIcon--shelf{
+.sliderLeftArrow--shelf-4 {
+    margin-left: 30px;
+}
+
+.sliderRightArrow--shelf-4 {
+    margin-right: 30px;
+
+}
+
+.caretIcon--shelf {
     width: 15px !important;
     height: 15px !important;
     padding: 5px;
 }
 
-.paginationDotsContainer--shelf{
+.paginationDotsContainer--shelf {
     margin-bottom: -10px;
 }
 
+@media only screen and (max-width: 990px) {
 
+    .sliderLayoutContainer--shelf {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .sliderRightArrow--shelf {
+        margin-right: 20px;
+    }
+
+    .sliderLeftArrow--shelf {
+        margin-left: 20px;}
+}

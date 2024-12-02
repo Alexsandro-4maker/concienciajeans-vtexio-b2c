@@ -133,7 +133,8 @@
   "sku-selector": {
     "props": {
       "variationsSpacing": 3,
-      "showValueNameForImageVariation": true
+      "showValueNameForImageVariation": true,
+      "initialSelection":"empty"
     }
   },
   "flex-layout.col#bloco-preco": {
@@ -229,7 +230,7 @@
   "rich-text#shelf-related-title2": {
     "props": {
       "text": "## Você também pode gostar de...",
-      "blockClass": "shelfTitle"
+      "blockClass": "shelfTitle-pdp"
     }
   },
   "flex-layout.row#shelf-related2": {

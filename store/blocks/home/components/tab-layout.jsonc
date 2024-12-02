@@ -4,7 +4,7 @@
             "tab-list#home",
             "tab-content#home"
         ],
-        "title": "Tab layout Home",
+        "title": " 3 - Tab Layout de categorias",
         "props": {
             "blockClass": "home",
             "defaultActiveTabId": "home1"
@@ -76,7 +76,7 @@
     },
     "image#banner-feminino-1": {
         "props": {
-            "src": "https://storecomponents.vteximg.com.br/arquivos/box.png"
+            "src": "/arquivos/img-whts.png"
         }
     },
     "rich-text#tab-feminino-1": {
@@ -96,7 +96,7 @@
     },
     "image#banner-feminino-2": {
         "props": {
-            "src": "https://storecomponents.vteximg.com.br/arquivos/box.png"
+            "src": "/arquivos/img-resort.png"
         }
     },
     "rich-text#tab-feminino-2": {
@@ -116,7 +116,7 @@
     },
     "image#banner-feminino-3": {
         "props": {
-            "src": "https://storecomponents.vteximg.com.br/arquivos/box.png"
+            "src": "/arquivos/img-lancamento-1.png"
         }
     },
     "rich-text#tab-feminino-3": {
@@ -136,7 +136,7 @@
     },
     "image#banner-feminino-4": {
         "props": {
-            "src": "https://storecomponents.vteximg.com.br/arquivos/box.png"
+            "src": "/arquivos/img-wide-leg-1.png"
         }
     },
     "rich-text#tab-feminino-4": {
@@ -156,7 +156,7 @@
     },
     "image#banner-feminino-5": {
         "props": {
-            "src": "https://storecomponents.vteximg.com.br/arquivos/box.png"
+            "src": "/arquivos/img-moletons-1.png"
         }
     },
     "rich-text#tab-feminino-5": {
@@ -176,7 +176,7 @@
     },
     "image#banner-feminino-6": {
         "props": {
-            "src": "https://storecomponents.vteximg.com.br/arquivos/box.png"
+            "src": "/arquivos/img-sale-1.png"
         }
     },
     "rich-text#tab-feminino-6": {
@@ -197,7 +197,7 @@
     },
     "image#banner-masculino-1": {
         "props": {
-            "src": "https://storecomponents.vteximg.com.br/arquivos/box.png"
+            "src": "/arquivos/img-whts.png"
         }
     },
     "rich-text#tab-masculino-1": {
@@ -217,7 +217,7 @@
     },
     "image#banner-masculino-2": {
         "props": {
-            "src": "https://storecomponents.vteximg.com.br/arquivos/box.png"
+            "src": "/arquivos/img-resort.png"
         }
     },
     "rich-text#tab-masculino-2": {

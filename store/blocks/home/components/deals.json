@@ -1,16 +1,35 @@
 {
   "flex-layout.row#deals": {
+    "title": " 2 - Bloco de avisos",
     "children": [
-      "flex-layout.col#deals1",
-      "flex-layout.col#deals2",
-      "flex-layout.col#deals3",
-      "flex-layout.col#deals4"
+      "flex-layout.row#deals1",
+      "flex-layout.row#deals2",
+      "flex-layout.row#deals3",
+      "flex-layout.row#deals4"
     ],
     "props": {
       "blockClass": "deals"
     }
   },
-  "flex-layout.col#deals1": {
+  "slider-layout#deals-mobile": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "never",
+      "blockClass": "carousel"
+    },
+    "children": [
+      "flex-layout.row#deals1",
+      "flex-layout.row#deals2",
+      "flex-layout.row#deals3",
+      "flex-layout.row#deals4"
+    ]
+  },
+  "flex-layout.row#deals1": {
     "children": [
       "image#deal1",
       "flex-layout.col#deals1-0"
@@ -27,7 +46,7 @@
   },
   "image#deal1": {
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/box.png"
+      "src": "/arquivos/caminhao-frete.png"
     }
   },
   "rich-text#deal1": {
@@ -42,7 +61,7 @@
       "blockClass": "deals-description"
     }
   },
-  "flex-layout.col#deals2": {
+  "flex-layout.row#deals2": {
     "children": [
       "image#deal2",
       "flex-layout.col#deals2-0"
@@ -59,7 +78,7 @@
   },
   "image#deal2": {
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/delivery-fast.png"
+      "src": "/arquivos/icon-novidades.png"
     }
   },
   "rich-text#deal2": {
@@ -74,7 +93,7 @@
       "blockClass": "deals-description"
     }
   },
-  "flex-layout.col#deals3": {
+  "flex-layout.row#deals3": {
     "children": [
       "image#deal3",
       "flex-layout.col#deals3-0"
@@ -91,7 +110,7 @@
   },
   "image#deal3": {
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/store.png"
+      "src": "/arquivos/icon-cartao-credito.png"
     }
   },
   "rich-text#deal3": {
@@ -106,7 +125,7 @@
       "blockClass": "deals-description"
     }
   },
-  "flex-layout.col#deals4": {
+  "flex-layout.row#deals4": {
     "children": [
       "image#deal4",
       "flex-layout.col#deals4-0"
@@ -123,7 +142,7 @@
   },
   "image#deal4": {
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/coupon.png"
+      "src": "/arquivos/icon-pix.png"
     }
   },
   "rich-text#deal4": {

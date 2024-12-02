@@ -126,7 +126,8 @@
       "thumbnailImage": "skuvariation",
       "imageHeight": 28,
       "blockClass": "quickview",
-      "visibility": "more-than-one"
+      "visibility": "more-than-one",
+      "initialSelection":"empty"
     }
   },
   "vtex.store-components:product-name": {

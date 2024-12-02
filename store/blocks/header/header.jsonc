@@ -12,6 +12,7 @@
     ]
   },
   "header-layout.desktop": {
+    "title": "Header -desktop",
     "children": [
       "flex-layout.row#1-desktop",
       // "flex-layout.row#3-desktop",
@@ -67,9 +68,6 @@
      "flex-layout.col#logo-desktop",
       "flex-layout.col#category-menu",
       "modal-trigger#search-bar",
-
-      
-      
       "login",
       "link#info",
       "minicart.v2"
@@ -184,8 +182,7 @@
     "children": [
       "drawer",
       "logo#mobile",
-      "flex-layout.col#spacer",
-      "login",
+      "modal-trigger#search-bar",
       "minicart.v2"
     ],
     "props": {

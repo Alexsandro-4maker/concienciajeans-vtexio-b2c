@@ -140,7 +140,7 @@
 }
 
 .productImageTag--main {
-  max-height: 420px !important;
+  max-height: 100% !important;
 }
 
 .container :global(.vtex-flex-layout-0-x-flexRowContent) {

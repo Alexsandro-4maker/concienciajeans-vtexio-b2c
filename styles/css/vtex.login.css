@@ -138,7 +138,10 @@
 }
 
 :global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) :global(.vtex-sticky-layout-0-x-container--sticky-header) :global(.vtex-flex-layout-0-x-flexRowContent--main-header) :global(.vtex-login-2-x-container) :global(.vtex-button){
-    margin-top: 18px;
+    margin-top: 20px;
+    margin-left: 30px;
+    padding-left: 0;
+    width: 30px;
 }
 
 :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header) :global(.vtex-flex-layout-0-x-flexRowContent--main-header) :global(.vtex-flex-layout-0-x-flexCol ) :global(.vtex-flex-layout-0-x-flexColChild)
@@ -159,7 +162,13 @@
 
 :global(.vtex-sticky-layout-0-x-container--sticky-header){
     width: 100%;
-    box-shadow: inset 0px 200px 64px -49px rgba(20, 15, 29, 0.2);
+    box-shadow: unset;
+    background-color: transparent;
+}
+  :global(.render-route-store-search-category) :global(.vtex-sticky-layout-0-x-container--sticky-header),
+:global(.render-route-store-search-department) :global(.vtex-sticky-layout-0-x-container--sticky-header){
+    width: 100%;
+    box-shadow:unset ;
 }
 
 :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--menu-topo-bloco-1)
@@ -198,4 +207,26 @@
     font-weight: bold;
     margin-left: 30px;
 
+}
+
+:global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header)  :global(.vtex-flex-layout-0-x-flexRowContent--main-header) :global(.vtex-modal-layout-0-x-triggerContainer--search-bar){
+    display: none;
+}
+
+:global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) :global(.vtex-sticky-layout-0-x-container--sticky-header)  :global(.vtex-flex-layout-0-x-flexRowContent--main-header) :global(.vtex-modal-layout-0-x-triggerContainer--search-bar){
+    display: block;
+    margin-top: 20px;
+    margin-right: -20px;
+    z-index: 1;
+}
+
+:global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) :global(.vtex-sticky-layout-0-x-container--sticky-header)  :global(.vtex-flex-layout-0-x-flexRowContent--main-header) :global(.vtex-modal-layout-0-x-triggerContainer--search-bar)::after{
+    display: none;
+}
+
+
+@media only screen and (max-width: 990px) {
+    :global(.vtex-login-2-x-buttonLink){
+        display: none;
+    }
 }

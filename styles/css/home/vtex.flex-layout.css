@@ -1,6 +1,7 @@
 .flexRowContent--deals {
     max-width: 1240px;
     margin: 0 auto;
+    padding-top: 0 !important;
 }
 
 .flexRowContent--container-bloco-img-text {
@@ -54,6 +55,11 @@
 
 .flexRow--bloco-container-image-3 {
     margin-top: 40px;
+    background-color: #E8E8E8;
+}
+
+.flexRow--shelf-4{
+    background-color: #fff;
 }
 
 .flexRow--banner-image-3 {
@@ -64,6 +70,11 @@
 .flexRowContent--bloco-container-image-3 {
     max-width: 1240px;
     margin: 0 auto;
+    padding: 50px 0 !important;
+}
+
+.flexRowContent--bloco-deals{
+    gap: 15px;
 }
 
 .flexRowContent--shelf-4 .stretchChildrenWidth :global(.vtex-slider-layout-0-x-sliderLayoutContainer) {

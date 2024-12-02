@@ -107,7 +107,8 @@
   },
   "product-summary-sku-selector#vitrine": {
     "props": {
-      "blockClass": "sku-selector-vitrine"
+      "blockClass": "sku-selector-vitrine",
+      "initialSelection":"empty"
     }
   },
   "product-highlight-wrapper": {
