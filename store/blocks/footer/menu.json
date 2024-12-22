@@ -246,7 +246,7 @@
   "vtex.menu@2.x:menu#footer-atendimento": {
     "props": {
       "orientation": "vertical",
-      "blockClass":"menu-atendimento"
+      "blockClass": "menu-atendimento"
     },
     "children": [
       "rich-text#atendimento",
@@ -350,7 +350,6 @@
       "blockClass": "title-menu"
     }
   },
-
   "menu-item#clothing-mobile": {
     "props": {
       "id": "menu-item-category-clothing",
@@ -612,13 +611,13 @@
       }
     }
   },
-
-  
   "menu-item#telefone": {
     "props": {
       "id": "menu-item-cropped",
       "type": "custom",
-      "blockClass": "title-link-menu",
+      "blockClass": [
+        "title-link-menu "
+      ],
       "iconId": null,
       "highlight": false,
       "itemProps": {
@@ -633,7 +632,7 @@
     "props": {
       "id": "menu-item-cropped",
       "type": "custom",
-      "blockClass": "title-link-menu",
+      "blockClass":  ["title-link-menu "],
       "iconId": null,
       "highlight": false,
       "itemProps": {
@@ -648,7 +647,7 @@
     "props": {
       "id": "menu-item-cropped",
       "type": "custom",
-      "blockClass": "title-link-menu",
+      "blockClass":  ["title-link-menu ","numero-link-menu"],
       "iconId": null,
       "highlight": false,
       "itemProps": {
@@ -663,7 +662,7 @@
     "props": {
       "id": "menu-item-cropped",
       "type": "custom",
-      "blockClass": "title-link-menu",
+      "blockClass":  ["title-link-menu ","numero-link-menu"],
       "iconId": null,
       "highlight": false,
       "itemProps": {

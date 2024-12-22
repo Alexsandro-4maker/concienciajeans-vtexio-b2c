@@ -66,7 +66,7 @@
     },
     "children": [
      "flex-layout.col#logo-desktop",
-      "flex-layout.col#category-menu",
+     "custom-menu",
       "modal-trigger#search-bar",
       "login",
       "link#info",

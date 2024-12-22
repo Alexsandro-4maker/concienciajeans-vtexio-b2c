@@ -224,6 +224,12 @@
     display: none;
 }
 
+:global(.vtex-store-footer-2-x-footerLayout) :global(.vtex-flex-layout-0-x-flexRow) :global(.vtex-store-components-3-x-container) {
+    width: 100%;
+    max-width: 2100px;
+    padding: 0;
+}
+
 
 @media only screen and (max-width: 990px) {
     :global(.vtex-login-2-x-buttonLink){

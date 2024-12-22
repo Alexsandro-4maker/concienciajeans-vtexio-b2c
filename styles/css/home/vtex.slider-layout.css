@@ -29,6 +29,21 @@
     margin-bottom: -10px;
 }
 
+.sliderLayoutContainer--shelf .paginationDotsContainer--shelf {
+    margin-bottom: -25px;
+    margin-right: 4px;
+}
+
+.sliderLayoutContainer--shelf .paginationDotsContainer--shelf .paginationDot {
+    background-color: #B9B9B9;
+    height: 12px !important;
+    width: 12px !important;
+}
+
+.sliderLayoutContainer--shelf .paginationDotsContainer--shelf .paginationDot--isActive {
+    background-color: #888888;
+}
+
 @media only screen and (max-width: 990px) {
 
     .sliderLayoutContainer--shelf {
@@ -41,5 +56,6 @@
     }
 
     .sliderLeftArrow--shelf {
-        margin-left: 20px;}
+        margin-left: 20px;
+    }
 }

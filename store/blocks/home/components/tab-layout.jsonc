@@ -96,7 +96,7 @@
     },
     "image#banner-feminino-2": {
         "props": {
-            "src": "/arquivos/img-resort.png"
+            "src": "/arquivos/foto-resort.png"
         }
     },
     "rich-text#tab-feminino-2": {
@@ -197,7 +197,7 @@
     },
     "image#banner-masculino-1": {
         "props": {
-            "src": "/arquivos/img-whts.png"
+            "src": "/arquivos/foto-bermuda.png"
         }
     },
     "rich-text#tab-masculino-1": {
@@ -217,7 +217,7 @@
     },
     "image#banner-masculino-2": {
         "props": {
-            "src": "/arquivos/img-resort.png"
+            "src": "/arquivos/foto-calcas.png"
         }
     },
     "rich-text#tab-masculino-2": {
@@ -228,8 +228,8 @@
     },
     "flex-layout.row#tab-masculino-3": {
         "children": [
-            "image#banner-feminino-3",
-            "rich-text#tab-feminino-3"
+           "image#banner-masculino-3",
+             "rich-text#tab-masculino-3"
         ],
         "props": {
             "blockClass": "container-bloco-img-text"
@@ -237,7 +237,7 @@
     },
     "image#banner-masculino-3": {
         "props": {
-            "src": "https://storecomponents.vteximg.com.br/arquivos/box.png"
+            "src": "/arquivos/foto-camisas.png"
         }
     },
     "rich-text#tab-masculino-3": {
@@ -257,7 +257,7 @@
     },
     "image#banner-masculino-4": {
         "props": {
-            "src": "https://storecomponents.vteximg.com.br/arquivos/box.png"
+            "src": "/arquivos/foto-jaquetas.png"
         }
     },
     "rich-text#tab-masculino-4": {
@@ -277,7 +277,7 @@
     },
     "image#banner-masculino-5": {
         "props": {
-            "src": "https://storecomponents.vteximg.com.br/arquivos/box.png"
+            "src": "/arquivos/foto-moletons.png"
         }
     },
     "rich-text#tab-masculino-5": {
@@ -297,7 +297,7 @@
     },
     "image#banner-masculino-6": {
         "props": {
-            "src": "https://storecomponents.vteximg.com.br/arquivos/box.png"
+            "src": "/arquivos/foto-polos.png"
         }
     },
     "rich-text#tab-masculino-6": {

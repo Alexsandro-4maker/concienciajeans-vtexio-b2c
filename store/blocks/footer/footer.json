@@ -28,24 +28,6 @@
       "paddingBottom": 3
     }
   },
-  "social-networks": {
-    "props": {
-      "socialNetworks": [
-        {
-          "name": "Facebook",
-          "url": "https://www.facebook.com/vtexonline/"
-        },
-        {
-          "name": "Instagram",
-          "url": "https://www.instagram.com/vtextruecloud/"
-        },
-        {
-          "name": "Pinterest",
-          "url": "https://twitter.com/vtexonline"
-        }
-      ]
-    }
-  },
   "flex-layout.row#footer-0-desktop-rede-social": {
     "children": [
       "flex-layout.col#rede-social"
@@ -54,7 +36,7 @@
   "flex-layout.col#rede-social": {
     "children": [
       "rich-text#rede",
-      "social-networks"
+       "flex-layout.row#rede-social"
     ],
     "props": {
       "blockClass": "bloco-rede-social"
@@ -64,6 +46,38 @@
     "props": {
       "text": "Siga @conscienciajeans nas redes:",
       "blockClass": "texto-rede-social"
+    }
+  },
+
+  "flex-layout.row#rede-social": {
+    "children": [
+      "image#instagram",
+      "image#facebook",
+      "image#pinterest"
+    ]
+  },
+  "image#instagram": {
+    "props": {
+      "src": "assets/imgs/instagram.png",
+      "maxHeight": "",
+      "maxWidth": "",
+      "blockClass": "storePrint"
+    }
+  },
+  "image#facebook": {
+    "props": {
+      "src":"assets/imgs/facebook.png",
+      "maxHeight": "",
+      "maxWidth": "",
+      "blockClass": "storePrint"
+    }
+  },
+  "image#pinterest": {
+    "props": {
+      "src": "assets/imgs/pinterest.png",
+      "maxHeight": "",
+      "maxWidth": "",
+      "blockClass": "storePrint"
     }
   },
   "flex-layout.row#footer-2-desktop": {
@@ -113,7 +127,8 @@
   "flex-layout.col#selo": {
     "children": [
       "image#seguranca2",
-      "image#seguranca"
+      "image#seguranca",
+      "image#seguranca3"
     ],
     "props": {
       "blockClass": "selo-imagem"
@@ -141,6 +156,16 @@
       "blockClass": "storePrint"
     }
   },
+
+  "image#seguranca3": {
+    "props": {
+      "src": " https://service.yourviews.com.br/Image/b9617693-4dac-4233-a6a3-62d200d58db1/Footer.jpg",
+      "maxHeight": "",
+      "maxWidth": "",
+      "blockClass": "storePrint"
+    }
+  },
+
   "flex-layout.row#pagamento": {
     "children": [
       "rich-text#pagamento",

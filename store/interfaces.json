@@ -1,5 +1,8 @@
 {
   "teste": {
     "component": "teste"
-  }
+  },
+  "custom-menu": {
+    "component": "MenuCustom"
+}
 }

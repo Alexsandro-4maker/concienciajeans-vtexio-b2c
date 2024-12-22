@@ -70,6 +70,7 @@
   },
   "search-result-layout.desktop": {
     "children": [
+      "flex-layout.row#header-seo",
       "flex-layout.row#searchbread",
       "flex-layout.row#searchtitle",
       "flex-layout.row#result"
@@ -114,6 +115,7 @@
   },
   "flex-layout.col#content": {
     "children": [
+    
       "flex-layout.row#searchinfo",
       "flex-layout.row#fetchprevious",
       "flex-layout.row#products",
@@ -353,6 +355,38 @@
       "text": "List",
       "textColor": "c-auto",
       "blockClass": "layout-option"
+    }
+  },
+
+  "flex-layout.row#header-seo": {
+    "children":[
+      "flex-layout.col#header-seo"
+    ]
+  },
+  "flex-layout.col#header-seo": {
+    "children": [
+
+      "image#banner-category-seo",
+      "rich-text#description-seo"
+    ],
+    "props": {
+      "blockClass": "filterMobileCol"
+    }
+  },
+
+  "image#banner-category-seo": {
+    "props": {
+      "src": "https://conscienciajeans.vteximg.com.br/arquivos/ids/538018/cj-masculino-desktop.png?v=638355800799300000",
+      "maxHeight": "",
+      "maxWidth": "",
+      "blockClass": "storePrint"
+    }
+  },
+  "rich-text#description-seo": {
+    "props": {
+      "text": "Estilo despojado e autêntico para o homem contemporâneo. Essa é a essência da linha Men, especialmente criada para atender aos adeptos do street wear, a linha combina uma estética descontraída e casual, perfeita para o homem que busca um visual único e atual. Com uma variedade de peças e modelos, a linha Men oferece diversas opções para você expressar sua personalidade e atitude. Explore nossa vasta coleção de calças, bermudas, jaquetas e moletons. Lembre-se, a vida é melhor com Consciência.",
+      "textColor": "c-auto",
+      "blockClass": "description-seo"
     }
   }
 }

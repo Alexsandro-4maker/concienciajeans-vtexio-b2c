@@ -149,3 +149,9 @@
 .flexRowContent--shelf-ana-castelo .stretchChildrenWidth :global(.vtex-slider-layout-0-x-sliderLayoutContainer--shelf) :global(.vtex-slider-layout-0-x-sliderTrackContainer) :global(.vtex-slider-layout-0-x-sliderTrack--shelf) :global(.vtex-slider-layout-0-x-slide--shelf) {
   background-color: #fff;
 }
+
+.flexColChild--filterCol{
+  width: 350px;
+  position: sticky;
+  top: 80px;
+}

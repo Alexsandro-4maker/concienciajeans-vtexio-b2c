@@ -11,3 +11,7 @@
 .menuContainerNav--menu-atendimento{
     margin-right: 70px;
 }
+
+.styledLinkContent--numero-link-menu{
+    color: #848484 !important;
+}

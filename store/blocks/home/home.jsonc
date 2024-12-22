@@ -76,9 +76,8 @@
         "phone": 1
       },
       "infinite": true,
-      "showNavigationArrows": "never",
-      "blockClass": "carousel",
-      "autoplay": true
+      "showNavigationArrows": "always",
+      "blockClass": "carousel"
     }
   },
   "flex-layout.row#banner-1": {

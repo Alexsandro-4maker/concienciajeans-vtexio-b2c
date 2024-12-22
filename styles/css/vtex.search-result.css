@@ -156,6 +156,7 @@
   font-weight: 600;
   line-height: 20px;
   height: 40px;
+  font-family: 'Montserrat';
 }
 
 .galleryItem--grid :global(.vtex-flex-layout-0-x-flexRowContent) {
