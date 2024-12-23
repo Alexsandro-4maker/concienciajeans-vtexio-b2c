@@ -35,15 +35,28 @@
     .imageElement--banner-image-principal-2,
     .imageElement--banner-image-2-2 ,
     .imageElement--banner-image-2-1 {
-        width: 100% !important;
-        margin-bottom: 20px;
+        width: 95% !important;
+        margin-bottom: 25px;
     }
     
     .imageElement--banner-image {
-        width: 100% !important;
+        width: 95% !important;
         height: 375px !important;
         margin-bottom: 20px;
         object-fit: cover;
+    }
+
+    .imageElement--container-image-3{
+        height: auto;
+        margin-top: 0px;
+        width: 95%;
+        padding-right: 0px;
+    }
+    
+
+    .imageElement--banner-image-principal-2 {
+
+        height: auto !important;
     }
 
 }

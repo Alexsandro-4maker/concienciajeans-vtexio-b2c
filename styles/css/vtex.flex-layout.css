@@ -41,16 +41,20 @@
   align-items: center;
   padding: 0.625rem 0.5rem;
   background-color: #fff;
+  display: flex;
+  justify-content: space-between;
 }
 
 .flexRowContent--menu-link :global(.vtex-menu-2-x-styledLink) {
   color: #ffffff;
   font-size: 14px;
+  font-family: "Montserrat";
 }
 
 .flexRowContent--main-header :global(.vtex-menu-2-x-styledLink) {
   color: #727273;
   font-size: 14px;
+  font-family: "Montserrat";
 }
 
 .flexRow--deals {
@@ -112,8 +116,9 @@
 
 .flexCol--bloco-preco {
   display: flex;
-  flex-direction: row;
-  gap: 10px;
+  flex-direction: column;
+  gap: 0px;
+  font-family: "Montserrat";
   align-items: baseline;
   margin-top: 20px;
 }
@@ -150,15 +155,16 @@
   background-color: #fff;
 }
 
-.flexColChild--filterCol{
+.flexColChild--filterCol {
   width: 350px;
   position: sticky;
   top: 80px;
+  background-color: #F0F0F0;
 }
 
 
 @media(min-width:1500px) {
-  .flexColChild--filterCol{
+  .flexColChild--filterCol {
     width: 480px;
 
   }

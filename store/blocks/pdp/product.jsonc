@@ -4,7 +4,8 @@
       "flex-layout.row#product-breadcrumb",
       "condition-layout.product#availability",
        "rich-text#shelf-related-title2",
-      "flex-layout.row#shelf-related2"
+      "flex-layout.row#shelf-related2",
+      "product-reviews"
     ]
   },
   "flex-layout.row#specifications-title": {

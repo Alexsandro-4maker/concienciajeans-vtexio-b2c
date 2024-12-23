@@ -60,4 +60,8 @@
         padding-top: 20px;
         padding-bottom: 20px;
     }
+
+    .container--shelfTitle-home {
+       margin-top: 35px;
+    }
 }

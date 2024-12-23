@@ -58,4 +58,8 @@
     .sliderLeftArrow--shelf {
         margin-left: 20px;
     }
+
+    .sliderLayoutContainer--shelf .paginationDotsContainer--shelf{
+        display: none;
+    }
 }

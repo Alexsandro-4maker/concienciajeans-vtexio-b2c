@@ -276,6 +276,8 @@
   },
   "footer-layout.mobile": {
     "children": [
+      "teste",
+      "flex-layout.row#footer-0-desktop-rede-social",
       "flex-layout.row#1-footer-mobile",
       "flex-layout.row#2-footer-mobile"
     ]

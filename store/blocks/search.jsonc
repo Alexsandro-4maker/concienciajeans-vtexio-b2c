@@ -7,7 +7,7 @@
       "context": {
         "skusFilter": "ALL",
         "simulationBehavior": "default",
-        "maxItemsPerPage": 12
+        "maxItemsPerPage": 9
       }
     }
   },
@@ -19,7 +19,7 @@
       "context": {
         "orderByField": "OrderByReleaseDateDESC",
         "hideUnavailableItems": true,
-        "maxItemsPerPage": 12,
+        "maxItemsPerPage": 9,
         "skusFilter": "ALL",
         "simulationBehavior": "default"
       }
@@ -33,7 +33,7 @@
       "context": {
         "skusFilter": "ALL",
         "simulationBehavior": "default",
-        "maxItemsPerPage": 12
+        "maxItemsPerPage": 9
       }
     }
   },
@@ -45,7 +45,7 @@
       "context": {
         "skusFilter": "ALL",
         "simulationBehavior": "default",
-        "maxItemsPerPage": 12
+        "maxItemsPerPage": 9
       }
     }
   },
@@ -57,7 +57,7 @@
       "context": {
         "skusFilter": "ALL",
         "simulationBehavior": "default",
-        "maxItemsPerPage": 12
+        "maxItemsPerPage": 9
       }
     }
   },

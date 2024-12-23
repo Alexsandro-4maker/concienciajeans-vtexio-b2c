@@ -71,11 +71,11 @@
 }
 
 :global(.vtex-address-form__postalCode-forgottenURL) a {
-    color: #0079BE;
+    color: #000;
 }
 
 :global(.vtex-address-form__postalCode-forgottenURL) .pointer:hover {
-    color: #0079BE;
+    color: #000;
 }
 
 :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--main-header) :global(.vtex-flex-layout-0-x-flexRowContent--main-header) :global(.vtex-flex-layout-0-x-flexCol) :global(.vtex-flex-layout-0-x-flexColChild) :global(.vtex-store-components-3-x-logoLink) {
@@ -230,6 +230,9 @@
     padding: 0;
 }
 
+:global(.vtex-search-result-3-x-gallery--grid) div:nth-child(7){
+    display: none;
+}
 
 @media only screen and (max-width: 990px) {
     :global(.vtex-login-2-x-buttonLink){

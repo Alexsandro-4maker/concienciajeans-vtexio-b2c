@@ -1,6 +1,9 @@
 .skuSelectorName {
     text-transform: lowercase;
     font-weight: bold;
+    font-family: "Montserrat";
+    font-size: 16px;
+    color: #2e2e2e;
 }
 
 .skuSelectorName::before {
@@ -21,8 +24,16 @@
     color: #EC6D62;
 }
 
+
 :global(.vtex-address-form__postalCode) :global(.vtex-input__label) {
-    display: none;
+  visibility: hidden;
+}
+
+:global(.vtex-address-form__postalCode) :global(.vtex-input__label)::after {
+    content: "Calcular Entrega";
+    visibility: visible;
+    display:flex;
+    font-size: 18px;
 }
 
 .shippingContainer :global(.vtex-input-prefix__group) {
@@ -51,8 +62,9 @@
 
 :global(.vtex-address-form__postalCode-forgottenURL) {
     text-decoration: underline;
-    color: #0079BE;
-    font-size: 12px;
+    color: #000000;
+    font-size: 16px;
+    margin-top: 45px;
 }
 
 .shippingContainer  :global(.vtex-button) {
