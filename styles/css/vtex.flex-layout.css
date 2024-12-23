@@ -155,3 +155,11 @@
   position: sticky;
   top: 80px;
 }
+
+
+@media(min-width:1500px) {
+  .flexColChild--filterCol{
+    width: 480px;
+
+  }
+}

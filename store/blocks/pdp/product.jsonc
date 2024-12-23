@@ -90,6 +90,8 @@
       "product-images"
     ]
   },
+
+  
   "product-images": {
     "props": {
       "aspectRatio": {

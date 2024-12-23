@@ -198,7 +198,7 @@
   },
   "image#pagamento-amex": {
     "props": {
-      "src": "arquivos/Amex.png",
+      "src": "/arquivos/Amex.png",
       "maxHeight": "",
       "maxWidth": "",
       "blockClass": "storePrint"
@@ -206,7 +206,7 @@
   },
   "image#pagamento-elo": {
     "props": {
-      "src": "arquivos/elo.png",
+      "src": "/arquivos/elo.png",
       "maxHeight": "",
       "maxWidth": "",
       "blockClass": "storePrint"
@@ -214,7 +214,7 @@
   },
   "image#pagamento-master-card": {
     "props": {
-      "src": "arquivos/MasterCard.png",
+      "src": "/arquivos/MasterCard.png",
       "maxHeight": "",
       "maxWidth": "",
       "blockClass": "storePrint"
@@ -222,7 +222,7 @@
   },
   "image#pagamento-visa": {
     "props": {
-      "src": "arquivos/Visa.png",
+      "src": "/arquivos/Visa.png",
       "maxHeight": "",
       "maxWidth": "",
       "blockClass": "storePrint"
@@ -230,7 +230,7 @@
   },
   "image#pagamento-diners": {
     "props": {
-      "src": "arquivos/Diners.png",
+      "src": "/arquivos/Diners.png",
       "maxHeight": "",
       "maxWidth": "",
       "blockClass": "storePrint"
@@ -238,7 +238,7 @@
   },
   "image#pagamento-hipercard": {
     "props": {
-      "src": "arquivos/Hiper.png",
+      "src": "/arquivos/Hiper.png",
       "maxHeight": "",
       "maxWidth": "",
       "blockClass": "storePrint"
@@ -246,7 +246,7 @@
   },
   "image#pagamento-nupay": {
     "props": {
-      "src": "arquivos/Hipercard.png",
+      "src": "/arquivos/Hipercard.png",
       "maxHeight": "",
       "maxWidth": "",
       "blockClass": "storePrint"
@@ -254,7 +254,7 @@
   },
   "image#pagamento-pix": {
     "props": {
-      "src": "arquivos/Pixs.png",
+      "src": "/arquivos/Pixs.png",
       "maxHeight": "",
       "maxWidth": "",
       "blockClass": "storePrint"

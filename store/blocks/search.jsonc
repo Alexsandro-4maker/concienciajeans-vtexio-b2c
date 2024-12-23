@@ -70,7 +70,7 @@
   },
   "search-result-layout.desktop": {
     "children": [
-      "flex-layout.row#header-seo",
+      "experimental__visibility-layout#search-seo",
       "flex-layout.row#searchbread",
       "flex-layout.row#searchtitle",
       "flex-layout.row#result"
@@ -356,6 +356,16 @@
       "textColor": "c-auto",
       "blockClass": "layout-option"
     }
+  },
+
+  "experimental__visibility-layout#search-seo": {
+    "title": "Header Seo (On/Off)",
+    "props": {
+      "visible": false
+    },
+    "children": [
+      "flex-layout.row#header-seo"
+    ]
   },
 
   "flex-layout.row#header-seo": {

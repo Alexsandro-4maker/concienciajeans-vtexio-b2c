@@ -93,8 +93,8 @@
   "product-summary-image#shelf": {
     "props": {
       "showBadge": false,
-      "aspectRatio": "3:4",
-      "maxHeight": 300,
+      "aspectRatio": "2:3",
+      // "maxHeight": 300,
       "hoverImage":{
         "criteria":"index",
         "index":1
