@@ -38,10 +38,12 @@
     background-color: #B9B9B9;
     height: 12px !important;
     width: 12px !important;
+    display: none;
 }
 
 .sliderLayoutContainer--shelf .paginationDotsContainer--shelf .paginationDot--isActive {
     background-color: #888888;
+    display: none;
 }
 
 @media only screen and (max-width: 990px) {

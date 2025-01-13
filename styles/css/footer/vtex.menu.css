@@ -13,7 +13,7 @@
     display: flex;
     align-items: center;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .menuContainerHeader-content-nav-item {
@@ -25,7 +25,8 @@
     align-items: center;
     gap: 40px;
     margin-right: 60px;
-    margin-top: 20px;
+    margin-top: 0px;
+    margin-bottom: 0;
 }
 
 .menuContainerHeader-content-nav-item--dropdown {
@@ -93,7 +94,7 @@
 .menuContainerHeader-content-nav-item--dropdown-items-category-items {
 
     display: flex;
-    width: 210px;
+    width: 205px;
     flex-wrap: wrap;
     gap: 15px;
     padding-left: 0;
@@ -156,6 +157,18 @@
     background-color: #071D49;
     color: #fff;
 }
+
+:global(.vtex-sticky-layout-0-x-container--sticky-header) :global(.vtex-flex-layout-0-x-flexRowContent--main-header) :global(.vtex-menu-2-x-menuContainerHeader-content-nav) .menuContainerHeader-content-nav-item:last-child .menuContainerHeader-content-nav-item--title{
+    color: #CE0000 !important;
+}
+
+
+@media (max-width:990px) {
+    :global(.vtex-store-footer-2-x-footerLayout) .menuItem .styledLink .styledLinkContent {
+       text-transform: uppercase;
+    }
+}
+
 
 
 @media (max-width:1400px) {

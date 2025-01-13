@@ -333,9 +333,9 @@
     },
     "children": [
       "rich-text#informacoes",
-      "menu-item#clothing-mobile",
-      "menu-item#decoration-mobile",
-      "menu-item#sale-mobile"
+      "menu-item#feminino-mobile",
+      "menu-item#institucional-mobile",
+      "menu-item#atendimento-mobile"
     ]
   },
   "rich-text#informacoes": {
@@ -350,7 +350,7 @@
       "blockClass": "title-menu"
     }
   },
-  "menu-item#clothing-mobile": {
+  "menu-item#feminino-mobile": {
     "props": {
       "id": "menu-item-category-clothing",
       "type": "custom",
@@ -359,16 +359,39 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/d",
+        "href": "/masculino",
         "noFollow": true,
-        "tagTitle": "Clothing",
-        "text": "Clothing"
+        "tagTitle": "Feminino",
+        "text": "Feminino"
       }
     },
     "blocks": [
       "vtex.menu@2.x:submenu.accordion#clothing"
     ]
   },
+
+
+  "menu-item#masculino-mobile": {
+    "props": {
+      "id": "menu-item-category-clothing",
+      "type": "custom",
+      "blockClass": "title-link-menu",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/masculino",
+        "noFollow": true,
+        "tagTitle": "Masculino",
+        "text": "Masculino"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#masculino"
+    ]
+  },
+
+
   "vtex.menu@2.x:submenu.accordion#clothing": {
     "children": [
       "vtex.menu@2.x:menu#clothing-accordion"
@@ -390,23 +413,42 @@
       "menu-item#vestidos"
     ]
   },
-  "menu-item#decoration-mobile": {
+
+
+  "vtex.menu@2.x:submenu.accordion#masculino": {
+    "children": [
+      "vtex.menu@2.x:menu#masculino-accordion"
+    ]
+  },
+  "vtex.menu@2.x:menu#masculino-accordion": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#acessorios",
+      "menu-item#bermuda",
+      "menu-item#calca",
+      "menu-item#camisa",
+      "menu-item#jaqueta"
+    ]
+  },
+  "menu-item#institucional-mobile": {
     "props": {
       "itemProps": {
-        "tagTitle": "Decoration",
-        "text": "Decoration"
+        "tagTitle": "Institucional",
+        "text": "Institucional"
       }
     },
     "blocks": [
-      "vtex.menu@2.x:submenu.accordion#decoration"
+       "vtex.menu@2.x:submenu.accordion#institucional-mobile"
     ]
   },
-  "vtex.menu@2.x:submenu.accordion#decoration": {
+  "vtex.menu@2.x:submenu.accordion#institucional-mobile": {
     "children": [
-      "vtex.menu@2.x:menu#footer-decoration-mobile"
+      "vtex.menu@2.x:menu#footer-institucional-mobile"
     ]
   },
-  "vtex.menu@2.x:menu#footer-decoration-mobile": {
+  "vtex.menu@2.x:menu#footer-institucional-mobile": {
     "props": {
       "orientation": "vertical"
     },
@@ -420,12 +462,12 @@
       "menu-item#cadastro-de-influenciadores"
     ]
   },
-  "menu-item#sale-mobile": {
+  "menu-item#atendimento-mobile": {
     "props": {
       "itemProps": {
-        "tagTitle": "Sale",
+        "tagTitle": "ATENDIMENTO",
         "blockClass": "title-link-menu",
-        "text": "Sale"
+        "text": "ATENDIMENTO"
       }
     },
     "blocks": [
@@ -434,7 +476,7 @@
   },
   "vtex.menu@2.x:submenu.accordion#sale": {
     "children": [
-      "vtex.menu@2.x:menu#footer-sale-mobile"
+     "vtex.menu@2.x:menu#footer-bags"
     ]
   },
   "vtex.menu@2.x:menu#footer-sale-mobile": {

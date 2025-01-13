@@ -1,7 +1,7 @@
 {
     "store.custom#ana-castela": {
         "children": [
-            "list-context.image-list#banner-principal",
+           "list-context.image-list#ana-castelo",
             "flex-layout.row#container-1",
             "rich-text#bloco-texto-1",
             "flex-layout.row#shelf-ana-castelo",
@@ -13,6 +13,25 @@
             "blockClass": "container-ana-castelo"
         }
     },
+
+    "list-context.image-list#ana-castelo": {
+        "title": " 1 - Banner Principal",
+        "children": [
+          "slider-layout#demo-images"
+        ],
+        "props": {
+          "height": "100%",
+          "maxHeight": "100%",
+          "preload": true,
+          "images": [
+            {
+              "image": "https://conscienciajeans.vteximg.com.br/arquivos/ids/566144/Varejoo%20Descktop%20-%20Combo5.jpg",
+              "mobileImage": "https://conscienciajeans.vteximg.com.br/arquivos/ids/564721/Varejo%20Mobile%20-%20Combo%205.jpg"
+            }
+           
+          ]
+        }
+      },
     "flex-layout.row#container-1": {
         "children": [
             "image#bloco-2",
@@ -86,7 +105,7 @@
             "src": "https://conscienciajeans.vteximg.com.br/arquivos/Fotosobreposta%20aocacto.jpg?v=638592656165700000",
             "maxHeight": "",
             "maxWidth": "",
-            "blockClass": "storePrint"
+            "blockClass": ["imagem-ana-castelo", "ana-castelo-img-02"]
         }
     },
     "image#bloco-3": {
@@ -94,7 +113,7 @@
             "src": "https://conscienciajeans.vteximg.com.br/arquivos/Fotosobreposta2.jpg?v=638592720725400000",
             "maxHeight": "",
             "maxWidth": "",
-            "blockClass": "storePrint"
+            "blockClass": ["imagem-ana-castelo"," ana-castelo-img-03"]
         }
     },
     "flex-layout.col#bloco-3": {
@@ -158,7 +177,7 @@
             "src": "/arquivos/moldura-bloco-5.png?v=638594295728230000",
             "maxHeight": "",
             "maxWidth": "",
-            "blockClass": "storePrint"
+            "blockClass": ["imagem-ana-castelo "," ana-castelo-img-04"]
         }
     },
     "flex-layout.col#bloco-4": {
@@ -199,7 +218,7 @@
             "src": "https://conscienciajeans.vteximg.com.br/arquivos/Foto6-1.jpg?v=638592696902170000",
             "maxHeight": "",
             "maxWidth": "",
-            "blockClass": "storePrint"
+            "blockClass": ["imagem-ana-castelo", "ana-castelo-img-05-01"]
         }
     },
     "image#bloco-5-2": {
@@ -207,7 +226,7 @@
             "src": "https://conscienciajeans.vteximg.com.br/arquivos/Foto6-2.jpg?v=638592696897630000",
             "maxHeight": "",
             "maxWidth": "",
-            "blockClass": "storePrint"
+            "blockClass": ["imagem-ana-castelo"," ana-castelo-img-05-02"]
         }
     },
     "image#bloco-5-3": {
@@ -215,7 +234,7 @@
             "src": "https://conscienciajeans.vteximg.com.br/arquivos/Foto6-3.jpg?v=638592696895900000",
             "maxHeight": "",
             "maxWidth": "",
-            "blockClass": "storePrint"
+            "blockClass": ["imagem-ana-castelo"," ana-castelo-img-05-03"]
         }
     }
 }

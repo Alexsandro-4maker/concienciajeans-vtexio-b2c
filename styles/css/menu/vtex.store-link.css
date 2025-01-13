@@ -9,6 +9,7 @@
     color: rgb(7, 29, 73);
     font-size: 12px;
     text-transform: uppercase;
+    font-weight: bold;
 }
 
 :global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) .link--menu-info-header{

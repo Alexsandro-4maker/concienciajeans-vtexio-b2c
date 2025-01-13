@@ -33,14 +33,16 @@
   text-transform: lowercase;
   font-weight: 500;
   color: #242424;
+  font-size: 16px;
 }
-
 
 .totalProducts--layout {
   margin-left: 0;
   padding-left: 50px;
   padding-bottom: 0px;
   font-weight: bold;
+  font-size: 16px;
+  font-family: "Montserrat";
 }
 
 .filterTitleSpan,
@@ -50,6 +52,7 @@
 
 .filterTitleSpan {
   font-weight: 600;
+  font-family: "Montserrat";
 }
 
 :global(.vtex-checkbox__line-container) {
@@ -81,7 +84,7 @@
 
 
 :global(.vtex-flex-layout-0-x-flexRow--productRating) {
-  display: none;
+  display: block;
 }
 
 .galleryItem--grid:hover :global(.vtex-product-summary-2-x-containerNormal) :global(.vtex-product-summary-2-x-clearLink):global(.vtex-product-summary-2-x-element) :global(.vtex-flex-layout-0-x-flexCol--testandomen):global(.vtex-flex-layout-0-x-flexColChild--testandomen) :global(.vtex-flex-layout-0-x-flexRow--productRating) {
@@ -105,6 +108,8 @@
 .filterPopupTitle {
   font-weight: bold;
   text-transform: capitalize;
+  
+  font-family: 'Montserrat';
 }
 
 .orderByButton {
@@ -239,14 +244,35 @@
   background: #000;
 }
 
+@media only screen and (max-width: 394px) {
+  .galleryItem--grid :global(.vtex-product-summary-2-x-containerNormal) {
+    width: 170px;
+  }
+}
+
+@media only screen and (min-width: 395px) and (max-width: 420px) {
+  .galleryItem--grid :global(.vtex-product-summary-2-x-containerNormal) {
+    width: 190px;
+  }
+}
+
 @media only screen and (max-width: 990px) {
 
   .galleryItem--grid {
     max-width: 50% !important;
     border: 1px solid #C6C6C6;
-    height: 660px;
+    height: auto;
     flex-basis: 49% !important;
+    margin-bottom: 5px;
     padding: 0;
+
+  }
+
+  
+  .filters--layout {
+    position: sticky;
+    width: 150px;
+    top: 80px;
   }
 
   .gallery--grid {
@@ -260,9 +286,7 @@
 
   }
 
-  .galleryItem--grid :global(.vtex-product-summary-2-x-containerNormal) {
-    width: 200px;
-  }
+ 
 
   .container--layout :global(.vtex-flex-layout-0-x-flexRow) :global(.vtex-store-components-3-x-container ){
     padding: 0;

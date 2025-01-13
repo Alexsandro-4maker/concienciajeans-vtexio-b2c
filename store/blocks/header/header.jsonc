@@ -133,7 +133,7 @@
   },
   "autocomplete-result-list.v2": {
     "props": {
-      "maxSuggestedProducts": 2,
+      "maxSuggestedProducts": 3,
       "productLayout": "HORIZONTAL"
     },
     "blocks": [
@@ -199,12 +199,7 @@
   },
   "menu#drawer": {
     "children": [
-      "rich-text#masculino",
-      "menu-item#acessorios",
-      "menu-item#bermuda",
-      "menu-item#calca",
-      "menu-item#camisa",
-      "menu-item#jaqueta"
+     "vtex.menu@2.x:menu#category-menu"
     ],
     "props": {
       "orientation": "vertical"

@@ -1,4 +1,11 @@
 {
+    "responsive-layout.desktop#tab-layout-home": {
+        "children":[
+            "tab-layout#home"
+        ]
+    },
+
+    
     "tab-layout#home": {
         "children": [
             "tab-list#home",

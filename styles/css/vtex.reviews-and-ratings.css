@@ -2,9 +2,20 @@
   max-width: 96rem;
   padding-left: .5rem;
   padding-right: .5rem;
+  text-align: center;
+  margin: 20px auto;
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+  max-width: 1240px;
 }
 
-.summaryContainer  {
+.reviewsOrderBy {
+  justify-content: center;
+}
+
+
+
+.summaryContainer {
   margin-left: 10px;
 }
 
@@ -20,6 +31,26 @@
   color: #FFB100;
 }
 
-.summaryTotalReviews{
+.summaryTotalReviews {
   display: none;
+}
+
+.reviewsHeading {
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  color: #555;
+  border: none;
+}
+
+.loginLink {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  background: #337ab7;
+  color: #fff;
+  text-decoration: none;
+  width: 350px;
+  align-items: center;
+  margin: 0 auto;
+  border-radius: 4px;
 }

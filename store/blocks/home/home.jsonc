@@ -9,14 +9,14 @@
     "children": [
       "list-context.image-list#banner-principal",
       "flex-layout.row#deals",
-      "tab-layout#home",
+      "responsive-layout.desktop#tab-layout-home",
       "flex-layout.row#banner-1",
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
       "flex-layout.row#container-3",
+      "flex-layout.row#bloco-banner-2",
       "rich-text#shelf-title-2",
       "flex-layout.row#shelf2",
-      "flex-layout.row#bloco-banner-2",
       "rich-text#shelf-title-3",
       "flex-layout.row#shelf-3",
       "flex-layout.row#banner-3"
@@ -26,7 +26,7 @@
     "children": [
       "list-context.image-list#banner-principal",
       "slider-layout#deals-mobile",
-      "tab-layout#home",
+   
       "flex-layout.row#banner-1",
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
@@ -197,7 +197,7 @@
   },
   "rich-text#shelf-title-3": {
     "props": {
-      "text": "## Sale",
+      "text": "## MAIS VENDIDOS",
       "blockClass": "shelfTitle-home"
     }
   },

@@ -24,15 +24,23 @@
 
 .paragraph--texto-pagamento {
     text-transform: uppercase;
-    font-weight: 400;
+    font-weight: 600;
+    font-family: "Montserrat";
+    font-size: 14px;
+
 }
 
 .paragraph--texto-seguranca {
-    font-weight: 400;
+    font-weight: 600;
+    font-family: "Montserrat";
+    font-size:14px;
 }
 
 .paragraph--texto-developer {
-    font-weight: 400;
+    font-weight: 600;
+    font-family: "Montserrat";
+    font-size: 14px;
+
 }
 
 .container--title-menu {

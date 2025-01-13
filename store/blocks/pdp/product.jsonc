@@ -95,10 +95,7 @@
   
   "product-images": {
     "props": {
-      "aspectRatio": {
-        "desktop": "auto",
-        "phone": "16:9"
-      },
+   
       "displayThumbnailsArrows": false,
       "displayMode": "carousel "
     }
@@ -111,9 +108,11 @@
     "children": [
       "flex-layout.row#product-name",
       "product-identifier.product",
+      "product-rating-summary",
+      "sku-selector",
+      "sizebay",
       "flex-layout.col#bloco-preco",
       //"product-separator",
-      "sku-selector",
       "product-assembly-options",
       //  "product-gifts",
       "flex-layout.row#buy-button",

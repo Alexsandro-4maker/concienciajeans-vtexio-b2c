@@ -1,0 +1,71 @@
+.container {
+    background-color: #071D49;
+    color: #ffffff;
+    padding: 60px 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-bottom: -10px;
+}
+
+.title {
+    margin-bottom: 20px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.radioContainer {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.radioLabel {
+    font-size: 14px;
+    display: flex;
+    gap: 5px;
+}
+
+.emailContainer {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.emailInput {
+    padding: 10px;
+    border: 1px solid #ffffff;
+    outline: none;
+    width: 330px;
+    height: 35px;
+}
+
+.submitButton {
+    padding: 10px 20px;
+    background-color: #EFEFEF;
+    color: #0b1941;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    height: 35px;
+    width: 180px;
+}
+
+.termsContainer {
+    margin-top: 10px;
+}
+
+.termsLabel {
+    font-size: 12px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.termsLink {
+    color: #ffffff;
+    text-decoration: underline;
+}

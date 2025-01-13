@@ -66,7 +66,7 @@
 }
 
 .skuSelectorSubcontainer--tamanho {
- margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .showMoreButton {
@@ -142,6 +142,13 @@
 .skuSelectorItemTextValue {
   font-size: 18px;
   color: #888B8D;
+}
+
+.imageElement--imagem-ana-castelo {
+  padding-top: 50px;
+  height: 420px;
+  object-fit: cover;
+  z-index: 1;
 }
 
 .skuSelectorInternalBox {

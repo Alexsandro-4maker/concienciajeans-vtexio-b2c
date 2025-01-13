@@ -101,3 +101,20 @@
     line-height: 1.3em;
   }
 }
+
+@media only screen and (max-width: 990px) {
+  .container--texto-pagamento {
+    justify-content: center;
+  }
+
+  .paragraph--footer {
+    text-align: center;
+    font-size: 14px;
+    padding: 0 20px;
+  }
+  .flexRow--payment-methods{
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+}

@@ -36,3 +36,16 @@
     src: url(assets/fonts/RockyComp-Regular.otf), url(assets/fonts/RockyComp-Regular.ttf);
     font-weight: 400;
   }
+
+  
+  @font-face {
+    font-family: 'Distillery-Strong';
+    src: url(assets/fonts/Distillery-Strong.otf), url(assets/fonts/Distillery-Strong.otf);
+    font-weight: bold;
+  }
+
+  @font-face {
+    font-family: 'Manrope';
+    src: url(assets/fonts/Manrope-Regular.ttf), url(assets/fonts/Manrope-Regular.ttf);
+    font-weight: 400;
+  }

@@ -1,5 +1,6 @@
 .arrow {
-    font-size: 12px;
+    font-size: 14px;
+    font-family: 'Montserrat';
 }
 
 .termArrow,
@@ -13,10 +14,11 @@
 
 .homeLink::after {
     content: "Home";
-    font-size: 12px;
+    font-size: 14px;
     visibility: visible;
+    font-family: "Montserrat";
 }
 
-.homeIcon{
+.homeIcon {
     position: absolute;
 }

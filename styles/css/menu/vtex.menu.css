@@ -1,17 +1,44 @@
-.menuItem .styledLink .styledLinkContent{
+.menuItem .styledLink .styledLinkContent {
     font-weight: 700;
     color: #071D49;
     font-size: 14px;
     text-transform: uppercase;
 }
 
-.styledLinkContent--menu-sale{
+.styledLinkContent--menu-sale {
     color: red !important;
 }
-.menuContainerNav--menu-atendimento{
+
+.menuContainerHeader-content-nav-item--dropdown-items-category--see-all {
+    background: #071d49;
+    color: #fff !important;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px 5px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 10px;
+    text-transform: uppercase;
+}
+
+.menuContainerNav--menu-atendimento {
     margin-right: 70px;
 }
 
-.styledLinkContent--numero-link-menu{
+.styledLinkContent--numero-link-menu {
     color: #848484 !important;
+}
+
+@media only screen and (max-width:990px) {
+    .menuContainer {
+        flex-direction: column;
+        align-items: unset;
+        justify-content: center;
+        width: 100%;
+        margin: 0 auto;
+        gap: 60px;
+    }
 }

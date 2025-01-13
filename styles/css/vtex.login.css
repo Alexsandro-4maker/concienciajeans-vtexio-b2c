@@ -15,7 +15,9 @@
     color: rgb(7, 29, 73);
     position: fixed;
     margin-right: 10px;
-    font-size: 12px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 0px;
 }
 
 :global(.render-route-store-search-department) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) {
@@ -50,6 +52,8 @@
     display: flex;
     margin-left: 10px;
     visibility: visible;
+    font-weight: bold;
+    font-size: 14px;
 }
 
 :global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) :global(.vtex-flex-layout-0-x-flexRowContent):global(.vtex-button) {
@@ -82,8 +86,7 @@
     display: none;
 }
 
-:global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) :global(.vtex-sticky-layout-0-x-container--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--main-header) :global(.vtex-flex-layout-0-x-flexRowContent--main-header) :global(.vtex-flex-layout-0-x-flexCol) :global(.vtex-flex-layout-0-x-flexColChild) :global(.vtex-store-components-3-x-logoLink)
- {
+:global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) :global(.vtex-sticky-layout-0-x-container--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--main-header) :global(.vtex-flex-layout-0-x-flexRowContent--main-header) :global(.vtex-flex-layout-0-x-flexCol) :global(.vtex-flex-layout-0-x-flexColChild) :global(.vtex-store-components-3-x-logoLink) {
     display: block;
 }
 
@@ -133,75 +136,70 @@
     width: 100%;
 }
 
-:global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) :global(.vtex-sticky-layout-0-x-container--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--menu-topo-bloco-1){
+:global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) :global(.vtex-sticky-layout-0-x-container--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--menu-topo-bloco-1) {
     display: none;
 }
 
-:global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) :global(.vtex-sticky-layout-0-x-container--sticky-header) :global(.vtex-flex-layout-0-x-flexRowContent--main-header) :global(.vtex-login-2-x-container) :global(.vtex-button){
+:global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) :global(.vtex-sticky-layout-0-x-container--sticky-header) :global(.vtex-flex-layout-0-x-flexRowContent--main-header) :global(.vtex-login-2-x-container) :global(.vtex-button) {
     margin-top: 20px;
     margin-left: 30px;
     padding-left: 0;
     width: 30px;
 }
 
-:global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header) :global(.vtex-flex-layout-0-x-flexRowContent--main-header) :global(.vtex-flex-layout-0-x-flexCol ) :global(.vtex-flex-layout-0-x-flexColChild)
-:global(.vtex-menu-2-x-menuContainerNav) :global(.vtex-menu-2-x-menuContainer) :global(.vtex-menu-2-x-menuItem )  :global(.vtex-menu-2-x-styledLinkContainer)
-:global(.vtex-menu-2-x-styledLink) :global(.vtex-menu-2-x-styledLinkContent){
+:global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header) :global(.vtex-flex-layout-0-x-flexRowContent--main-header) :global(.vtex-flex-layout-0-x-flexCol) :global(.vtex-flex-layout-0-x-flexColChild):global(.vtex-menu-2-x-menuContainerNav) :global(.vtex-menu-2-x-menuContainer) :global(.vtex-menu-2-x-menuItem) :global(.vtex-menu-2-x-styledLinkContainer):global(.vtex-menu-2-x-styledLink) :global(.vtex-menu-2-x-styledLinkContent) {
     color: rgb(7, 29, 73);
 }
 
-:global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) :global(.vtex-sticky-layout-0-x-container--sticky-header)  :global(.vtex-flex-layout-0-x-flexRowContent--main-header) :global(.vtex-flex-layout-0-x-flexCol ) :global(.vtex-flex-layout-0-x-flexColChild)
-:global(.vtex-menu-2-x-menuContainerNav) :global(.vtex-menu-2-x-menuContainer) :global(.vtex-menu-2-x-menuItem )  :global(.vtex-menu-2-x-styledLinkContainer)
-:global(.vtex-menu-2-x-styledLink) :global(.vtex-menu-2-x-styledLinkContent){
-    color:rgb(7, 29, 73) ;
+:global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) :global(.vtex-sticky-layout-0-x-container--sticky-header) :global(.vtex-flex-layout-0-x-flexRowContent--main-header) :global(.vtex-flex-layout-0-x-flexCol) :global(.vtex-flex-layout-0-x-flexColChild) :global(.vtex-menu-2-x-menuContainerNav) :global(.vtex-menu-2-x-menuContainer) :global(.vtex-menu-2-x-menuItem) :global(.vtex-menu-2-x-styledLinkContainer) :global(.vtex-menu-2-x-styledLink) :global(.vtex-menu-2-x-styledLinkContent) {
+    color: rgb(7, 29, 73);
 }
 
-:global(.vtex-sticky-layout-0-x-wrapper--sticky-header){
+:global(.vtex-sticky-layout-0-x-wrapper--sticky-header) {
     width: 100%;
 }
 
-:global(.vtex-sticky-layout-0-x-container--sticky-header){
+:global(.vtex-sticky-layout-0-x-container--sticky-header):hover {
     width: 100%;
     box-shadow: unset;
-    background-color: transparent;
-}
-  :global(.render-route-store-search-category) :global(.vtex-sticky-layout-0-x-container--sticky-header),
-:global(.render-route-store-search-department) :global(.vtex-sticky-layout-0-x-container--sticky-header){
-    width: 100%;
-    box-shadow:unset ;
+    background-color: #fff;
 }
 
-:global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--menu-topo-bloco-1)
-:global(.vtex-store-components-3-x-container) :global(.vtex-flex-layout-0-x-stretchChildrenWidth) :global(.vtex-store-components-3-x-logoLink){
+:global(.vtex-sticky-layout-0-x-container--sticky-header):hover :global(.vtex-flex-layout-0-x-flexRow--main-header) :global(.vtex-flex-layout-0-x-flexRowContent--main-header) :global(.vtex-menu-2-x-menuContainerHeader-content-nav) :global(.vtex-menu-2-x-menuContainerHeader-content-nav-item) :global(.vtex-menu-2-x-menuContainerHeader-content-nav-item--title){
+    color: #071D49 !important;
+}
+
+:global(.render-route-store-search-category) :global(.vtex-sticky-layout-0-x-container--sticky-header),
+:global(.render-route-store-search-department) :global(.vtex-sticky-layout-0-x-container--sticky-header) {
+    width: 100%;
+    box-shadow: unset;
+}
+
+:global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--menu-topo-bloco-1):global(.vtex-store-components-3-x-container) :global(.vtex-flex-layout-0-x-stretchChildrenWidth) :global(.vtex-store-components-3-x-logoLink) {
 
     display: flex;
-    align-items:center ;
+    align-items: center;
 }
 
-:global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--menu-topo-bloco-1)
-:global(.vtex-store-components-3-x-container) :global(.vtex-flex-layout-0-x-stretchChildrenWidth) :global(.vtex-store-components-3-x-logoLink) :global(.vtex-store-components-3-x-sizeDesktop){
+:global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--menu-topo-bloco-1):global(.vtex-store-components-3-x-container) :global(.vtex-flex-layout-0-x-stretchChildrenWidth) :global(.vtex-store-components-3-x-logoLink) :global(.vtex-store-components-3-x-sizeDesktop) {
     max-width: 200px;
 }
 
 
-:global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--menu-topo-bloco-1)
-:global(.vtex-store-components-3-x-container) :global(.vtex-flex-layout-0-x-stretchChildrenWidth) :global(.vtex-store-components-3-x-logoLink) :global(.vtex-store-components-3-x-sizeDesktop) :global(.vtex-store-components-3-x-logoImage ){
+:global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--menu-topo-bloco-1):global(.vtex-store-components-3-x-container) :global(.vtex-flex-layout-0-x-stretchChildrenWidth) :global(.vtex-store-components-3-x-logoLink) :global(.vtex-store-components-3-x-sizeDesktop) :global(.vtex-store-components-3-x-logoImage) {
     height: 40px;
     width: 190px;
 
 }
 
-:global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--menu-topo-bloco-1)
-:global(.vtex-store-components-3-x-container) :global(.vtex-flex-layout-0-x-stretchChildrenWidth) :global(.vtex-flex-layout-0-x-flexRow) :global(.vtex-flex-layout-0-x-flexRowContent ) :global(.vtex-flex-layout-0-x-stretchChildrenWidth)
-:global(.vtex-login-2-x-container ) :global(.vtex-button) :global(.vtex-button__label) :global(.vtex-login-2-x-label)::after{
+:global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--menu-topo-bloco-1):global(.vtex-store-components-3-x-container) :global(.vtex-flex-layout-0-x-stretchChildrenWidth) :global(.vtex-flex-layout-0-x-flexRow) :global(.vtex-flex-layout-0-x-flexRowContent) :global(.vtex-flex-layout-0-x-stretchChildrenWidth):global(.vtex-login-2-x-container) :global(.vtex-button) :global(.vtex-button__label) :global(.vtex-login-2-x-label)::after {
     color: rgb(7, 29, 73);
     font-size: 14px;
     font-weight: bold;
 
 }
 
-:global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--menu-topo-bloco-1)
-:global(.vtex-store-components-3-x-container) :global(.vtex-flex-layout-0-x-stretchChildrenWidth) :global(.vtex-store-link-0-x-link--menu-info-header) :global(.vtex-store-link-0-x-label--menu-info-header ){
+:global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--menu-topo-bloco-1):global(.vtex-store-components-3-x-container) :global(.vtex-flex-layout-0-x-stretchChildrenWidth) :global(.vtex-store-link-0-x-link--menu-info-header) :global(.vtex-store-link-0-x-label--menu-info-header) {
     color: rgb(7, 29, 73);
     font-size: 14px;
     font-weight: bold;
@@ -209,18 +207,18 @@
 
 }
 
-:global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header)  :global(.vtex-flex-layout-0-x-flexRowContent--main-header) :global(.vtex-modal-layout-0-x-triggerContainer--search-bar){
+:global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header) :global(.vtex-flex-layout-0-x-flexRowContent--main-header) :global(.vtex-modal-layout-0-x-triggerContainer--search-bar) {
     display: none;
 }
 
-:global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) :global(.vtex-sticky-layout-0-x-container--sticky-header)  :global(.vtex-flex-layout-0-x-flexRowContent--main-header) :global(.vtex-modal-layout-0-x-triggerContainer--search-bar){
+:global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) :global(.vtex-sticky-layout-0-x-container--sticky-header) :global(.vtex-flex-layout-0-x-flexRowContent--main-header) :global(.vtex-modal-layout-0-x-triggerContainer--search-bar) {
     display: block;
     margin-top: 20px;
     margin-right: -20px;
     z-index: 1;
 }
 
-:global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) :global(.vtex-sticky-layout-0-x-container--sticky-header)  :global(.vtex-flex-layout-0-x-flexRowContent--main-header) :global(.vtex-modal-layout-0-x-triggerContainer--search-bar)::after{
+:global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) :global(.vtex-sticky-layout-0-x-container--sticky-header) :global(.vtex-flex-layout-0-x-flexRowContent--main-header) :global(.vtex-modal-layout-0-x-triggerContainer--search-bar)::after {
     display: none;
 }
 
@@ -230,12 +228,28 @@
     padding: 0;
 }
 
-:global(.vtex-search-result-3-x-gallery--grid) div:nth-child(7){
+/*:global(.vtex-search-result-3-x-gallery--grid) div:nth-child(7){
+    display: none;
+}*/
+
+:global(.c-muted-2) {
+    color: #626262;
+}
+
+:global(.review__comment) {
+    border: none;
+}
+
+:global(.render-route-store-home) :global(.vtex-menu-2-x-menuContainerHeader-content-nav-item--title){
+    color: #fff !important;
+}
+
+:global(.vtex-search-result-3-x-gallery--grid) >  div:nth-child(7){
     display: none;
 }
 
 @media only screen and (max-width: 990px) {
-    :global(.vtex-login-2-x-buttonLink){
+    :global(.vtex-login-2-x-buttonLink) {
         display: none;
     }
 }

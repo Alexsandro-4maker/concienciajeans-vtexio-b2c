@@ -93,7 +93,6 @@
   "product-summary-image#shelf": {
     "props": {
       "showBadge": false,
-      "aspectRatio": "2:3",
       // "maxHeight": 300,
       "hoverImage":{
         "criteria":"index",
@@ -146,8 +145,12 @@
     ]
   },
   "product-installments#summary": {
-    "props": {
-      "blockClass": "summary"
+      "props": {
+        "blockClass": "summary",
+        "message": " Em até {installmentsNumber} x de {installmentValue}",
+        "installmentsCriteria": "max-quantity-without-interest",
+        "alwaysShow": true
+ 
     }
   },
   "product-selling-price#summary": {

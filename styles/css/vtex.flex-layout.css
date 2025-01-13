@@ -51,6 +51,43 @@
   font-family: "Montserrat";
 }
 
+.flexRowContent--container-bloco-1 .stretchChildrenWidth::before {
+
+  content: "";
+  background: url(/arquivos/Fotocactolateral.jpg);
+  width: 350px;
+  height: 530px;
+  display: flex;
+  position: absolute;
+  background-size: cover;
+  left: 50px;
+}
+
+.flexRowContent--container-bloco-1 .stretchChildrenWidth::after {
+  height: 100px;
+  width: 100px;
+  content: "";
+  background: url(/arquivos/sol-vermelho.png);
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+  left: 31%;
+  z-index: 1;
+  margin-top: -3px;
+}
+
+.flexRowContent--container-bloco-3 .stretchChildrenWidth::nth-child(2)::before{
+  content: "dds";
+  background: url(/arquivos/imagem-casa.jpg);
+  width: 350px;
+  height: 530px;
+  display: flex;
+  position: absolute;
+  background-size: cover;
+  right: 80px;
+}
+
+
 .flexRowContent--main-header :global(.vtex-menu-2-x-styledLink) {
   color: #727273;
   font-size: 14px;

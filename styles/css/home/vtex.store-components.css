@@ -1,26 +1,28 @@
 .imageElement--banner-image {
     width: 600px !important;
-    height: 650px;
+    height: auto;
 }
 
 .logoImage {
-    height: 25px;
-    width: 160px;
-}
+    height: 40px;
+margin-top: 10px;}
 
 .imageElement--banner-image-2-1 {
-    width: 463px !important;
-    height: 318px !important;
+    width: 450px !important;
+    height: 385px !important;
+    object-fit: cover;
 }
 
 .imageElement--banner-image-2-2 {
-    width: 463px !important;
-    height: 318px !important;
+    width: 450px !important;
+    height: 385px !important;
+    object-fit: cover;
 }
 
 .imageElement--banner-image-principal-2 {
-    width: 740px !important;
-    height: 650px !important;
+    width: 750px !important;
+    height: 780px !important;
+    object-fit: cover;
 }
 
 .imageElement--container-image-3{
@@ -64,6 +66,6 @@
 @media only screen and (min-width: 1400px) {
     .imageElement--banner-image {
         width: 680px !important;
-        height: 650px;
+        height: auto;
     }
 }
