@@ -76,7 +76,7 @@
   margin-top: -3px;
 }
 
-.flexRowContent--container-bloco-3 .stretchChildrenWidth::nth-child(2)::before{
+.flexRowContent--container-bloco-3 .stretchChildrenWidth::nth-child(2)::before {
   content: "dds";
   background: url(/arquivos/imagem-casa.jpg);
   width: 350px;
@@ -204,5 +204,17 @@
   .flexColChild--filterCol {
     width: 480px;
 
+  }
+
+  .flexRowContent--container-bloco-1 .stretchChildrenWidth::before {
+
+    content: "";
+
+    left: 250px;
+  }
+
+  .flexRowContent--container-bloco-1 .stretchChildrenWidth::after {
+    content: "";
+    left: 36%;
   }
 }

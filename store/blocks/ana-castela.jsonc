@@ -91,15 +91,26 @@
             "blockClass": "shelf-ana-castelo"
         }
     },
+
+
     "flex-layout.row#container-3-ana-castelo": {
-        "children": [
-            "flex-layout.col#bloco-3",
-            "image#bloco-3"
+        "children": [        
+           "flex-layout.row#container-3-bloco-2"
         ],
         "props": {
             "blockClass": "container-bloco-3"
         }
     },
+    "flex-layout.row#container-3-bloco-2": {
+        "children": [        
+            "flex-layout.col#bloco-3",
+            "image#bloco-3"
+        ],
+        "props": {
+            "blockClass": ""
+        }
+    },
+
     "image#bloco-2": {
         "props": {
             "src": "https://conscienciajeans.vteximg.com.br/arquivos/Fotosobreposta%20aocacto.jpg?v=638592656165700000",
@@ -172,12 +183,19 @@
             "blockClass": "container-bloco-4"
         }
     },
+
+    "rich-text#title-bloco-4": {
+        "props": {
+            "text": "## O QUE É TENDÊNCIA NESSE VERÃO?",
+            "blockClass": "title-bloco"
+        }
+    },
     "image#bloco-4": {
         "props": {
             "src": "/arquivos/moldura-bloco-5.png?v=638594295728230000",
             "maxHeight": "",
             "maxWidth": "",
-            "blockClass": ["imagem-ana-castelo "," ana-castelo-img-04"]
+            "blockClass": ["imagem-ana-castelo ","ana-castelo-img-04"]
         }
     },
     "flex-layout.col#bloco-4": {
@@ -226,7 +244,7 @@
             "src": "https://conscienciajeans.vteximg.com.br/arquivos/Foto6-2.jpg?v=638592696897630000",
             "maxHeight": "",
             "maxWidth": "",
-            "blockClass": ["imagem-ana-castelo"," ana-castelo-img-05-02"]
+            "blockClass": ["imagem-ana-castelo","ana-castelo-img-05-01"]
         }
     },
     "image#bloco-5-3": {
@@ -234,7 +252,7 @@
             "src": "https://conscienciajeans.vteximg.com.br/arquivos/Foto6-3.jpg?v=638592696895900000",
             "maxHeight": "",
             "maxWidth": "",
-            "blockClass": ["imagem-ana-castelo"," ana-castelo-img-05-03"]
+            "blockClass": ["imagem-ana-castelo","ana-castelo-img-05-01"]
         }
     }
 }

@@ -162,3 +162,12 @@
 .container :global(.vtex-flex-layout-0-x-flexRowContent) {
   padding-top: 10px;
 }
+
+
+.imageElement--ana-castelo-img-05-01{
+  height: 600px !important;
+}
+
+.imageElement--ana-castelo-img-04{
+  margin-top: -100px;
+}
