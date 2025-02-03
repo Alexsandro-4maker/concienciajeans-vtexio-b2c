@@ -60,7 +60,7 @@
 
 .listPrice--summary {
   margin-bottom: 0.25rem;
-  font-size: 16px;
+  font-size: 14px;
   color: #d83c3c;
   text-align: end;
   margin-right: 5px;
@@ -103,11 +103,17 @@
 
 
   .installments--summary {
-    font-size: 15px;
-    display: unset;
-    justify-content: unset;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
     padding: 0;
     font-family: 'Montserrat';
+    margin-left: -10px;
+  }
+
+  .savings--summary {
+    margin-top: 0px;
+    margin-left: 1px;
   }
 
 

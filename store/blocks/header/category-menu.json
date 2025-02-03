@@ -137,8 +137,8 @@
         "type": "internal",
         "href": "/promocao",
         "noFollow": true,
-        "tagTitle": "Sale",
-        "text": "Sale"
+        "tagTitle": "Outlet",
+        "text": "Outlet"
       },
       "children":["menu-desktop"]
     }

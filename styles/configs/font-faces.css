@@ -1,8 +1,28 @@
 @font-face {
+    font-family: "freight-neo-pro";
+    src: url(assets/fonts/Freight-Neo-Pro-Book.otf);
+    font-weight: 400;
+  }
+
+  @font-face {
+    font-family: "freight-neo-pro";
+    src: url(assets/fonts/Freight-Neo-Pro-Bold.otf);
+    font-weight: 600;
+  }
+
+  @font-face {
+    font-family: "freight-neo-pro";
+    src: url(assets/fonts/Freight-Neo-Pro-Black.otf);
+    font-weight: bold;
+  }
+
+
+  @font-face {
     font-family: "Montserrat";
     src: url(assets/fonts/Montserrat-Regular.ttf);
     font-weight: 400;
   }
+  
   
   @font-face {
     font-family: "Montserrat";

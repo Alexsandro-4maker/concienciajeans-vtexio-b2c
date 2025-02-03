@@ -73,6 +73,12 @@
     gap: 15px;
 }
 
+.flexRow--payment-methods-mobile .stretchChildrenWidth .flexRow--bloco-selo-seguranca .flexRowContent--bloco-selo-seguranca :global(.vtex-rich-text-0-x-paragraph--texto-seguranca) {
+
+    font-size: 12px;
+    margin-top: 25px;
+}
+
 @media only screen and (max-width: 990px) {
     .flexCol--bloco-rede-social {
         flex-direction: column;
@@ -83,4 +89,11 @@
         margin-top: -40px;
         gap: 15px;
     }
+
+    .flexRowContent--bloco-developer {
+        padding-top: 25px !important;
+    }
+
+   
+
 }

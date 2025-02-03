@@ -4,5 +4,8 @@
   },
   "custom-menu": {
     "component": "MenuCustom"
-}
+  },
+  "galeria-pdp": {
+    "component": "galeriaPdp"
+  }
 }

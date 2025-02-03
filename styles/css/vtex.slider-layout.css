@@ -69,7 +69,7 @@
 
   .sliderTrackContainer--shelf .sliderTrack--shelf {
 
-    gap: 10px;
+    gap: 0px;
   }
 
   .paginationDotsContainer {
@@ -85,7 +85,7 @@
 }
 
   .slide--shelf {
-    margin-bottom: 25px;
+    margin-bottom: 0px;
     padding-left: .3rem;
     padding-right: .3rem;
     border: 1px solid #C6C6C6;
@@ -96,6 +96,6 @@
 @media only screen and (min-width:320px) and (max-width: 390px)  {
   .slide--shelf {
 
-    width: 170px !important;
+    width: 180px !important;
   }
 }

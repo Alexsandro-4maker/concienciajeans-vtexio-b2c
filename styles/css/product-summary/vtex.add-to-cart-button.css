@@ -1,4 +1,4 @@
-.buttonText--button-view-pdp{
+.buttonText--button-view-pdp {
     color: #2E2E2E;
     font-size: 13px;
     text-transform: lowercase;
@@ -7,14 +7,19 @@
     gap: 5px;
     justify-content: center;
     align-items: center;
-    
     font-family: "Montserrat";
+    width: 105px;
+    text-align: left;
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
 }
 
-.buttonText--button-view-pdp::before{
+.buttonText--button-view-pdp::before {
     content: "";
-    background-image: url("/arquivos/olhada.png");
+    background-image: url(/arquivos/olhada.png);
     width: 25px;
     height: 15px;
     display: flex;
+    padding-left: 10px;
+    background-repeat: no-repeat;
 }

@@ -38,7 +38,7 @@
     .flexRow--bloco-pagamento,
     .flexRowContent--bloco-selo-seguranca{
         border-top: 1px solid #E0E0E0;
-        padding: 30px;
+        padding: 10px;
     }
 
     .flexRowContent--bloco-developer{

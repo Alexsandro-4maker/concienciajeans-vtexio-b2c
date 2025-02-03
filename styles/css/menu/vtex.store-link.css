@@ -7,9 +7,12 @@
 .label--menu-info-header {
     font-weight: 400;
     color: rgb(7, 29, 73);
-    font-size: 12px;
+    font-size: 14px;
     text-transform: uppercase;
     font-weight: bold;
+    margin-top: -2px;
+    
+    font-family: "freight-neo-pro";
 }
 
 :global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) .link--menu-info-header{

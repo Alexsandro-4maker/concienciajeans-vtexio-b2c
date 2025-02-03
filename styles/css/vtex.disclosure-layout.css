@@ -1,0 +1,66 @@
+.trigger {
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+    padding: 0;
+    text-align: left;
+    position: relative;
+    margin-top: -10px;
+    margin-bottom: -20px;
+}
+
+.trigger::after,
+.trigger::before {
+    content: "";
+    display: block;
+    width: 11px;
+    height: 2px;
+    background: #000;
+    position: absolute;
+    top: 25px;
+    right: 0;
+}
+
+.trigger::before {
+    transform: rotate(90deg);
+    transition: ease all .3s;
+}
+
+.trigger--visible::before {
+    transform: rotate(0deg);
+}
+
+.trigger--visible::after {
+    transform: rotate(180deg);
+}
+
+.content {
+    overflow: hidden;
+}
+
+.content--hidden {
+    height: 0;
+    transition: .3s ease all;
+}
+
+.content--visible {
+    height: fit-content;
+    transition: .3s ease all;
+    border-top: none;
+}
+
+
+
+
+
+@media only screen and (max-width: 990px) {
+
+    .trigger::after,
+    .trigger::before {
+        content: "";
+        position: absolute;
+        top: 40px;
+        right: 15px;
+    }
+}

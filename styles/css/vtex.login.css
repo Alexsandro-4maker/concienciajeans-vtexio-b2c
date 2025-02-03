@@ -6,7 +6,6 @@
     visibility: hidden;
     display: flex;
     padding-left: 0;
-    padding-right: 10px;
 }
 
 .label::after {
@@ -18,7 +17,26 @@
     font-size: 14px;
     font-weight: bold;
     margin-top: 0px;
+    margin-left: -30px;
+    font-family: "freight-neo-pro";
 }
+
+::-webkit-scrollbar {
+    width: 8px; /* Largura da barra de rolagem */
+    height: 8px; /* Altura da barra de rolagem horizontal (se houver) */
+  }
+  
+  /* Cor da trilha do scroll */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Cor de fundo da trilha */
+    border-radius: 10px; /* Cantos arredondados */
+  }
+  
+  /* Cor do "thumb" (barra que se move) */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(7,29,73); /* Cor da barra */
+    border-radius: 10px; /* Cantos arredondados */
+  }
 
 :global(.render-route-store-search-department) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) {
     position: relative !important;
@@ -54,6 +72,8 @@
     visibility: visible;
     font-weight: bold;
     font-size: 14px;
+    
+    font-family: "freight-neo-pro";
 }
 
 :global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) :global(.vtex-flex-layout-0-x-flexRowContent):global(.vtex-button) {
@@ -75,7 +95,8 @@
 }
 
 :global(.vtex-address-form__postalCode-forgottenURL) a {
-    color: #000;
+    color: #2e2e2e;
+    font-family: "Montserrat";
 }
 
 :global(.vtex-address-form__postalCode-forgottenURL) .pointer:hover {
@@ -159,15 +180,22 @@
     width: 100%;
 }
 
+:global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) :global(.vtex-sticky-layout-0-x-container--sticky-header){
+    box-shadow: unset !important;
+    height: auto !important;
+}
+
 :global(.vtex-sticky-layout-0-x-container--sticky-header):hover {
     width: 100%;
-    box-shadow: unset;
+    box-shadow: unset !important;
     background-color: #fff;
 }
 
-:global(.vtex-sticky-layout-0-x-container--sticky-header):hover :global(.vtex-flex-layout-0-x-flexRow--main-header) :global(.vtex-flex-layout-0-x-flexRowContent--main-header) :global(.vtex-menu-2-x-menuContainerHeader-content-nav) :global(.vtex-menu-2-x-menuContainerHeader-content-nav-item) :global(.vtex-menu-2-x-menuContainerHeader-content-nav-item--title){
+
+:global(.vtex-sticky-layout-0-x-container--sticky-header):hover :global(.vtex-flex-layout-0-x-flexRow--main-header) :global(.vtex-flex-layout-0-x-flexRowContent--main-header) :global(.vtex-menu-2-x-menuContainerHeader-content-nav) :global(.vtex-menu-2-x-menuContainerHeader-content-nav-item) :global(.vtex-menu-2-x-menuContainerHeader-content-nav-item--title) {
     color: #071D49 !important;
 }
+
 
 :global(.render-route-store-search-category) :global(.vtex-sticky-layout-0-x-container--sticky-header),
 :global(.render-route-store-search-department) :global(.vtex-sticky-layout-0-x-container--sticky-header) {
@@ -207,6 +235,11 @@
 
 }
 
+:global(.vtex-sticky-layout-0-x-container--sticky-header):hover :global(.vtex-flex-layout-0-x-flexRow--main-header) :global(.vtex-flex-layout-0-x-flexRowContent--main-header) :global(.vtex-menu-2-x-menuContainerHeader-content-nav) :global(.vtex-menu-2-x-menuContainerHeader-content-nav-item):last-child :global(.vtex-menu-2-x-menuContainerHeader-content-nav-item--title) {
+    color: #CE0000 !important;
+}
+
+
 :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header) :global(.vtex-flex-layout-0-x-flexRowContent--main-header) :global(.vtex-modal-layout-0-x-triggerContainer--search-bar) {
     display: none;
 }
@@ -240,12 +273,43 @@
     border: none;
 }
 
-:global(.render-route-store-home) :global(.vtex-menu-2-x-menuContainerHeader-content-nav-item--title){
+:global(.render-route-store-home) :global(.vtex-menu-2-x-menuContainerHeader-content-nav-item--title) {
     color: #fff !important;
 }
 
-:global(.vtex-search-result-3-x-gallery--grid) >  div:nth-child(7){
+:global(.vtex-search-result-3-x-gallery--grid)>div:nth-child(7) {
     display: none;
+}
+
+:global(.slick-track) {
+    display: flex;
+    gap: 10px;
+    margin-left: -150px;
+}
+
+:global(.product-image) {
+    height: 800px !important;
+    object-fit: cover;
+    width: 540px;
+}
+
+:global(.render-route-store-home) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header) {
+
+    top: 0;
+    width: 100%;
+    box-shadow: inset 0px 140px 64px -49px rgba(20, 15, 29, 0.2);
+    height: 20%;
+    position: fixed;
+}
+
+:global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) :global(.vtex-sticky-layout-0-x-container--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--main-header)
+
+:global(.vtex-flex-layout-0-x-flexRowContent--main-header) :global(.vtex-menu-2-x-menuContainerHeader-content-nav){
+    gap: 20px;
+    margin-right: 75px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    margin-left: 25px;
 }
 
 @media only screen and (max-width: 990px) {

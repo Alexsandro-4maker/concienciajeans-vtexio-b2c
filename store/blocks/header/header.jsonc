@@ -90,6 +90,7 @@
   },
   "flex-layout.row#container-menu-topo": {
     "children": [
+      
       "modal-trigger#search-bar",
       "logo#desktop",
       "flex-layout.row#container-menu-topo-bloco-3"
@@ -111,9 +112,9 @@
   },
   "image#search-bar": {
     "props": {
-      "src": "assets/imgs/campo-de-lupa.png",
+      "src": "assets/imgs/lupa.svg",
       "alt": "Search Bar",
-      "height": "23px"
+      "height": "25px"
     },
     "title": "Topo - Busca - Desktop"
   },
@@ -153,9 +154,9 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo.png",
-      "width": "160",
-      "height": "25"
+      "url": "https://conscienciajeans.vteximg.com.br/arquivos/logo.png?v=638364704871870000",
+      "width": "179",
+      "height": "38"
     }
   },
   "search-bar": {
@@ -178,7 +179,29 @@
       "flex-layout.row#1-mobile"
     ]
   },
-  "flex-layout.row#1-mobile": {
+
+  "drawer": {
+    "children": [
+       "flex-layout.row#1-mobile-drawer",
+      "menu#drawer"
+    ]
+  },
+
+  "flex-layout.row#1-mobile-drawer": {
+    "children": [
+      "logo#mobile",
+      "modal-trigger#search-bar",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+
+    "flex-layout.row#1-mobile": {
     "children": [
       "drawer",
       "logo#mobile",
@@ -191,11 +214,6 @@
       "preserveLayoutOnMobile": true,
       "fullWidth": true
     }
-  },
-  "drawer": {
-    "children": [
-      "menu#drawer"
-    ]
   },
   "menu#drawer": {
     "children": [

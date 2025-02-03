@@ -60,3 +60,18 @@
     font-weight: bold;
     text-transform: uppercase;
 }
+
+@media only screen and (max-width: 990px) {
+
+    .paragraph--texto-rede-social{
+
+        font-weight: 400;
+    }
+
+    .paragraph--texto-developer,
+    .paragraph--texto-pagamento {
+        
+        font-size: 12px;
+    }
+    
+}

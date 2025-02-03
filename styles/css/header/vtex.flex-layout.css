@@ -1,0 +1,8 @@
+.flexRowContent--menu-topo-bloco-1 {
+    padding-top: 0 !important;
+    width: 1240px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

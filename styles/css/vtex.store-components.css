@@ -119,9 +119,9 @@
 }
 
 .productNameContainer {
-  color: #000;
+  color: #2e2e2e;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 27px;
   text-transform: uppercase;
   line-height: 32px;
   font-family: "Montserrat";
@@ -139,9 +139,19 @@
   height: 40px;
 }
 
+.productDescriptionTitle {
+  display: none;
+}
+
 .skuSelectorItemTextValue {
-  font-size: 18px;
-  color: #888B8D;
+  font-size: 16px;
+  color: #2e2e2e;
+  width: 45px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
 
 .imageElement--imagem-ana-castelo {
@@ -164,10 +174,33 @@
 }
 
 
-.imageElement--ana-castelo-img-05-01{
+.imageElement--ana-castelo-img-05-01 {
   height: 600px !important;
 }
 
-.imageElement--ana-castelo-img-04{
+.imageElement--ana-castelo-img-04 {
   margin-top: -100px;
+}
+
+.productDescriptionText {
+  font-size: 14px;
+  font-weight: 400;
+  color: #2e2e2e;
+  line-height: 15px;
+  font-family: "Montserrat";
+
+}
+
+
+
+@media only screen and (max-width: 990px) {
+  .productNameContainer {
+    color: #2e2e2e;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 22px;
+    font-family: "Montserrat";
+  }
+
 }

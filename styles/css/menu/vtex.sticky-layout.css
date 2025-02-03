@@ -1,8 +1,25 @@
-
-.wrapper--sticky-header--stuck .container--sticky-header :global(.vtex-flex-layout-0-x-flexRowContent--main-header){
+.wrapper--sticky-header--stuck .container--sticky-header :global(.vtex-flex-layout-0-x-flexRowContent--main-header) {
     background-color: #fff !important;
+    padding: 12px;
 }
 
- .wrapper--sticky-header {
+.wrapper--sticky-header {
     position: absolute !important;
+}
+
+.wrapper--sticky-header--stuck .container--sticky-header :global(.vtex-flex-layout-0-x-flexRowContent--main-header) :global(.vtex-menu-2-x-menuContainerHeader) :global(.vtex-menu-2-x-menuContainerHeader-content) :global(.vtex-menu-2-x-menuContainerHeader-content-nav) :global(.vtex-menu-2-x-menuContainerHeader-content-nav-item) :global(.vtex-menu-2-x-menuContainerHeader-content-nav-item--dropdown) {
+    top: 65px;
+}
+
+
+.wrapper--sticky-header--stuck .container--sticky-header :global(.vtex-flex-layout-0-x-flexRowContent--main-header) :global(.vtex-menu-2-x-menuContainerHeader) :global(.vtex-menu-2-x-menuContainerHeader-content) :global(.vtex-menu-2-x-menuContainerHeader-content-nav) :global(.vtex-menu-2-x-menuContainerHeader-content-nav-item) :global(.vtex-menu-2-x-menuContainerHeader-content-nav-item--title) {
+    color: rgb(7, 29, 73) !important;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+
+.wrapper--sticky-header--stuck .container--sticky-header :global(.vtex-flex-layout-0-x-flexRowContent--main-header) :global(.vtex-menu-2-x-menuContainerHeader) :global(.vtex-menu-2-x-menuContainerHeader-content) :global(.vtex-menu-2-x-menuContainerHeader-content-nav) :global(.vtex-menu-2-x-menuContainerHeader-content-nav-item):last-child :global(.vtex-menu-2-x-menuContainerHeader-content-nav-item--title) {
+    color: #CE0000 !important;
 }

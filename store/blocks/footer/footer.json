@@ -90,6 +90,19 @@
       "blockClass": "payment-methods"
     }
   },
+
+
+  "flex-layout.row#footer-2-mobile": {
+    "children": [
+      "flex-layout.row#seguranca",
+      "flex-layout.row#pagamento",
+      "flex-layout.row#developer"
+    ],
+    "props": {
+      "blockClass": ["payment-methods","payment-methods-mobile"]
+    }
+  },
+  
   "flex-layout.row#developer": {
     "children": [
       "rich-text#developer",
@@ -279,7 +292,7 @@
       "teste",
       "flex-layout.row#footer-0-desktop-rede-social",
       "flex-layout.row#1-footer-mobile",
-      
+      "flex-layout.row#footer-2-mobile",
       "flex-layout.row#2-footer-mobile"
     ]
   },

@@ -1,0 +1,20 @@
+.product-images-slider {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.image-container {
+    padding: 10px;
+    text-align: center;
+}
+
+
+.slick-track {
+    display: flex;
+    overflow: visible;
+    align-items: center;
+}
+
+img.product-image {
+    height: 650px;
+}

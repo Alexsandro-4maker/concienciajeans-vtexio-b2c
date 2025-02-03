@@ -46,6 +46,10 @@
     display: none;
 }
 
+:global(.vtex-render__container-id-home-mobile) .sliderLayoutContainer--carousel .sliderArrows {
+    display: none;
+}
+
 @media only screen and (max-width: 990px) {
 
     .sliderLayoutContainer--shelf {
@@ -55,10 +59,12 @@
 
     .sliderRightArrow--shelf {
         margin-right: 20px;
+        margin-top: -130px;
     }
 
     .sliderLeftArrow--shelf {
         margin-left: 20px;
+        margin-top: -130px;
     }
 
     .sliderLayoutContainer--shelf .paginationDotsContainer--shelf{

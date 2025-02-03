@@ -14,6 +14,7 @@
     align-items: center;
     text-transform: uppercase;
     font-size: 16px;
+    font-family: "freight-neo-pro";
 }
 
 .menuContainerHeader-content-nav-item {
@@ -23,10 +24,10 @@
 .menuContainerHeader-content-nav {
     display: flex;
     align-items: center;
-    gap: 40px;
-    margin-right: 60px;
-    margin-top: 0px;
-    margin-bottom: 0;
+    gap: 70px;
+    margin-right: 30px;
+    margin-top: -5px;
+    margin-bottom: 10px;
 }
 
 .menuContainerHeader-content-nav-item--dropdown {
@@ -45,7 +46,7 @@
     width: 100%;
     left: 0;
     right: 0;
-    top: 130px;
+    top: 110px;
     box-shadow: 0 2px 20px rgba(0, 0, 0, .16);
 }
 
@@ -61,10 +62,11 @@
 }
 
 .menuContainerHeader-content-nav-item--dropdown-items-category-items-item--title {
-    font-family: Montserrat;
+
+    font-family: "freight-neo-pro";
     color: #034ea1;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 18px;
 }
 
@@ -94,18 +96,21 @@
 .menuContainerHeader-content-nav-item--dropdown-items-category-items {
 
     display: flex;
-    width: 205px;
+    width: 220px;
     flex-wrap: wrap;
-    gap: 15px;
+    gap: 25px;
     padding-left: 0;
     justify-content: space-between;
+    row-gap: 20px;
 }
 
 .menuContainerHeader-content-nav-item--dropdown-items-category-items-item--title {
     color: #071D49;
     text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 600;
+    font-size: 16px;
+    font-weight: 700;
+
+    font-family: "freight-neo-pro";
 }
 
 .menuContainerHeader-content-nav-item--dropdown-items-number-items-item--title {
@@ -127,29 +132,34 @@
 .menuContainerHeader-content-nav-item--dropdown-items-banners::before {
     content: "Em Destaque";
     position: absolute;
-    margin-top: -10px;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 16px;
     color: #071D49;
     font-weight: bold;
+    font-family: 'Montserrat';
 
 }
 
 .menuContainerHeader-content-nav-item--dropdown-items-number__title {
     text-transform: uppercase;
-    font-size: 20px !important;
+
+    font-size: 16px;
     color: #071D49;
     font-weight: bold;
-    margin-top: 0;
+    font-family: 'Montserrat';
+}
 
+.menuContainerHeader-content-nav-item--dropdown-items-number {
+    margin-top: -15px;
 }
 
 .menuContainerHeader-content-nav-item--dropdown-items-number-items-item--title,
 .menuContainerHeader-content-nav-item--dropdown-items-number-items-item,
 .menuContainerHeader-content-nav-item--dropdown-items-number__title {
-    font-size: 14px;
+    font-size: 16px;
     color: #071D49;
     font-weight: bold;
+    font-family: 'Montserrat';
 }
 
 
@@ -158,14 +168,14 @@
     color: #fff;
 }
 
-:global(.vtex-sticky-layout-0-x-container--sticky-header) :global(.vtex-flex-layout-0-x-flexRowContent--main-header) :global(.vtex-menu-2-x-menuContainerHeader-content-nav) .menuContainerHeader-content-nav-item:last-child .menuContainerHeader-content-nav-item--title{
+:global(.vtex-sticky-layout-0-x-container--sticky-header) :global(.vtex-flex-layout-0-x-flexRowContent--main-header) :global(.vtex-menu-2-x-menuContainerHeader-content-nav) .menuContainerHeader-content-nav-item:last-child .menuContainerHeader-content-nav-item--title {
     color: #CE0000 !important;
 }
 
 
 @media (max-width:990px) {
     :global(.vtex-store-footer-2-x-footerLayout) .menuItem .styledLink .styledLinkContent {
-       text-transform: uppercase;
+        text-transform: uppercase;
     }
 }
 

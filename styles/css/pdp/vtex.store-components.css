@@ -1,38 +1,52 @@
 .skuSelectorName {
     text-transform: lowercase;
-    font-weight: bold;
     font-family: "Montserrat";
     font-size: 16px;
     color: #2e2e2e;
 }
 
 .skuSelectorName::before {
-    content: " Selecionar ";
+    content: " Escolha o ";
     font-weight: 400;
-    text-transform: capitalize;
+    text-transform: math-auto;
 }
 
 .skuSelectorOptionsList {
     margin-left: -2px;
 }
 
+.shippingContainer :global(.vtex-input__label) {
+    display: none;
+}
+
 .skuSelectorInternalBox:hover {
-    border-color: #EC6D62;
+    color: #fff;
+    background-color: #3d3d3d;
+    border-color: #3d3d3d;
+    height: 40px;
+    display: flex;
+    align-items: center;
 }
 
 .skuSelectorInternalBox:hover .skuSelectorItemTextValue {
-    color: #EC6D62;
+    color: #fff;
+    background-color: #3d3d3d;
+    border-color: #3d3d3d;
+    height: 40px;
+    display: flex;
+    align-items: center;
 }
 
 
+
 :global(.vtex-address-form__postalCode) :global(.vtex-input__label) {
-  visibility: hidden;
+    visibility: hidden;
 }
 
 :global(.vtex-address-form__postalCode) :global(.vtex-input__label)::after {
     content: "Calcular Entrega";
     visibility: visible;
-    display:flex;
+    display: flex;
     font-size: 18px;
 }
 
@@ -45,12 +59,16 @@
 }
 
 .skuSelectorItem--selected .skuSelectorItemTextValue {
-    color: rgb(236, 109, 98);
-    border-color: rgb(236, 109, 98);
+    color: #fff;
+    background-color: #3d3d3d;
+    border-color: #3d3d3d;
+    height: 40px;
+    display: flex;
+    align-items: center;
 }
 
 .skuSelectorItem--selected .skuSelectorInternalBox {
-    border-color: rgb(236, 109, 98);
+    border-color: #3d3d3d;
 
 }
 
@@ -58,7 +76,10 @@
     display: flex;
     gap: 10px;
     align-items: center;
+    padding-bottom: 0;
 }
+
+
 
 :global(.vtex-address-form__postalCode-forgottenURL) {
     text-decoration: underline;
@@ -67,7 +88,7 @@
     margin-top: 45px;
 }
 
-.shippingContainer  :global(.vtex-button) {
+.shippingContainer :global(.vtex-button) {
     position: absolute;
     margin-top: -70px;
     width: 100px;
@@ -89,9 +110,7 @@
 }
 
 
-.shippingContainer 
-:global(.vtex-button)
-:global(.vtex-button__label)::after {
+.shippingContainer:global(.vtex-button):global(.vtex-button__label)::after {
     content: "Calcular";
     display: flex;
     position: absolute;
@@ -103,6 +122,24 @@
     cursor: pointer;
 }
 
-.swiperCaret .caretIcon{
+.swiperCaret .caretIcon {
     color: #000;
+}
+
+
+
+
+@media only screen and (max-width: 990px) {
+
+    :global(.vtex-address-form__postalCode-forgottenURL) {
+        text-decoration: underline;
+        color: #000000;
+        font-size: 16px;
+        margin-top: -10px;
+    }
+
+    :global(.vtex-address-form__field-empty) {
+        margin-top: 25px;
+        flex-direction: column;
+    }
 }

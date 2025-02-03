@@ -21,8 +21,16 @@
 .flexRow--shelf-ana-castelo {
     background-color: #85A4B8;
     border-radius: 30px;
-    padding: 50px;
     padding-bottom: 50px;
+    padding-top: 30px;
+}
+
+.flexRowContent--shelf-4{
+    flex-direction: column;
+}
+
+.flexRowContent--shelf-4 .stretchChildrenWidth{
+    width: unset !important;
 }
 
 .flexRow--container-bloco-3 {
@@ -62,7 +70,6 @@
 }
 
 .flexRowContent--container-bloco-5 {
-    padding-top: 70px !important;
     padding-bottom: 70px;
 }
 
@@ -81,7 +88,7 @@
     justify-content: space-around;
 }
 
-.flexRowContent--container-bloco-3 .stretchChildrenWidth{
+.flexRowContent--container-bloco-3 .stretchChildrenWidth {
     width: unset !important;
 }
 
@@ -89,7 +96,7 @@
     width: 570px !important;
 }
 
-.flexRowContent--container-bloco-4  .stretchChildrenWidth{
+.flexRowContent--container-bloco-4 .stretchChildrenWidth {
     width: unset !important;
 }
 

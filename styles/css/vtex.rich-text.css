@@ -80,6 +80,36 @@
 
 }
 
+.container--link-categoria-shelf {
+  justify-content: center;
+}
+
+.paragraph--link-categoria-shelf {
+  font-weight: 700;
+  font-size: 20px;
+  padding-top: 10px;
+  font-family: 'Rocky Compressed';
+  padding-bottom: 10px;
+  color: #000;
+  text-transform: uppercase;
+}
+
+.headingLevel3--title-accordion {
+
+  font-size: 20px;
+  cursor: pointer;
+  color: #2e2e2e;
+  font-family: Montserrat, sans-serif;
+  margin-top: 20px;
+  font-weight: 400;
+}
+
+.container--title-accordion {
+  /*border-bottom: 1px solid #dcdcdc;*/
+  padding: 10px 0;
+}
+
+
 @media only screen and (min-width: 640px) {
   .container--question .strong {
     font-size: 40px;
@@ -108,11 +138,15 @@
   }
 
   .paragraph--footer {
+    font-family: "Montserrat";
     text-align: center;
     font-size: 14px;
     padding: 0 20px;
+    font-weight: 300;
+    color: rgb(103, 103, 103);
   }
-  .flexRow--payment-methods{
+
+  .flexRow--payment-methods {
     margin-top: 0px;
     margin-bottom: 0px;
   }

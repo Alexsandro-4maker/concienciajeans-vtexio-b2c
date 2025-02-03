@@ -1,5 +1,5 @@
 .flexRowContent--deals {
-    max-width: 1240px;
+    max-width: 1360px;
     margin: 0 auto;
     padding-top: 0 !important;
 }
@@ -82,7 +82,13 @@
     padding-right: 0 !important;
 }
 
+.flexRowContent--shelf-4 {
+    padding: 40px;
+}
+
 @media only screen and (min-width: 1400px) {
+
+    
     .flexRowContent--banner-image-home {
         max-width: 1420px;
         margin: 0 auto;
@@ -92,4 +98,11 @@
         width: 205px;
     }
 
+}
+
+@media only screen and (max-width: 900px) {
+
+.flexRowContent--shelf-4 {
+    padding: 5px;
+}
 }

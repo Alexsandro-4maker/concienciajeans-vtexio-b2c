@@ -1,22 +1,80 @@
-.flexRowContent--container-button-pdp .stretchChildrenWidth:first-child {
-    width: 150px !important;
+.flexRowContent--container-button-pdp .stretchChildrenWidth {
+    width: unset !important;
 }
 
-:global(.vtex-add-to-cart-button-0-x-buttonText--button-pdp)::before {
+:global(.vtex-add-to-cart-button-0-x-buttonText--button-pdp)::after {
     content: "";
-    background-image: url(/arquivos/car-pdp.svg);
+    background-image: url(/arquivos/ico-arrow-right.png);
     display: flex;
     height: 30px;
     width: 20px;
     background-repeat: no-repeat;
+    margin-top: 25px;
 }
 
-:global(.vtex-add-to-cart-button-0-x-buttonText--button-pdp){
+:global(.vtex-add-to-cart-button-0-x-buttonText--button-pdp) {
     display: flex;
     align-items: center;
     gap: 5px;
+    text-transform: lowercase;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: Montserrat, sans-serif;
 }
 
-.flexRow--container-shelf-pdp{
+.flexRow--container-shelf-pdp {
     margin-bottom: 50px;
+}
+
+:global(.vtex-render__container-id-galeria-pdp) {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+
+.flexRow--bloco-description-pdp{
+    width: 575px !important;
+    position: absolute;
+    top: 170px;
+    right: 70px;
+    background-color: #fff;
+    padding: 20px;
+    height: 820px;
+    z-index: 1;
+}
+
+
+
+.flexRowContent--container-button-pdp {
+    margin: 0;
+}
+
+.flexColChild--container-description-pdp :global(.vtex-reviews-and-ratings-3-x-summaryContainer) {
+    margin-left: 0;
+}
+
+.flexCol--container-description-pdp .flexCol--bloco-preco .flexColChild--bloco-preco :global(.vtex-product-price-1-x-installments--summary) {
+    padding: 0px;
+}
+
+:global(.vtex-render__container-id-pdp) :global(.vtex-flex-layout-0-x-flexRow) :global(.vtex-store-components-3-x-container) :global(.vtex-flex-layout-0-x-flexRowContent) {
+    padding-top: 0;
+    padding-bottom: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+:global(.vtex-render__container-id-pdp) :global(.vtex-flex-layout-0-x-flexRow) :global(.vtex-store-components-3-x-container) .flexRowContent .stretchChildrenWidth :global(.vtex-breadcrumb-1-x-container) {
+    padding-left: 0;
+}
+
+
+@media only screen and (max-width: 990px) {
+    .flexColChild--container-description-pdp {
+        margin-left: 5px;
+    }
+
+    .flexRowContent--container-button-pdp {
+        display: flex;
+    }
 }

@@ -1,9 +1,26 @@
 {
   "store.product": {
     "children": [
+      "responsive-layout.desktop#pdp",
+      "responsive-layout.mobile#pdp"
+    ]
+  },
+  "responsive-layout.desktop#pdp": {
+    "children": [
       "flex-layout.row#product-breadcrumb",
+      "galeria-pdp",
       "condition-layout.product#availability",
-       "rich-text#shelf-related-title2",
+      "rich-text#shelf-related-title2",
+      "flex-layout.row#shelf-related2",
+      "product-reviews"
+    ]
+  },
+  "responsive-layout.mobile#pdp": {
+    "children": [
+      "flex-layout.row#product-breadcrumb",
+      "stack-layout",
+      "condition-layout.product#availability",
+      "rich-text#shelf-related-title2",
       "flex-layout.row#shelf-related2",
       "product-reviews"
     ]
@@ -26,13 +43,90 @@
       "breadcrumb"
     ]
   },
+  "flex-layout.row#simulator": {
+    "props": {
+      "marginBottom": 7
+    },
+    "children": [
+      "flex-layout.col#simulator"
+    ]
+  },
+  "flex-layout.col#simulator": {
+    "children": [
+      "disclosure-layout#simulator"
+    ]
+  },
+  "disclosure-layout#simulator": {
+    "props": {
+      "animated": true,
+      "initialVisibility": "hidden"
+    },
+    "children": [
+      "disclosure-trigger#simulator",
+      "disclosure-content#simulator"
+    ]
+  },
+  "disclosure-trigger#simulator": {
+    "children": [
+      "rich-text#simulator"
+    ]
+  },
+  "disclosure-content#simulator": {
+    "children": [
+      "shipping-simulator"
+    ]
+  },
+  "rich-text#simulator": {
+    "props": {
+      "blockClass": "title-accordion",
+      "text": "### Calcular Entrega"
+    },
+    "title": "Calcular Entrega"
+  },
   "flex-layout.row#description": {
     "props": {
       "marginBottom": 7
     },
     "children": [
+      "flex-layout.col#description"
+    ]
+  },
+  "flex-layout.col#description": {
+    "children": [
+      "disclosure-layout#description"
+    ]
+  },
+  "disclosure-layout#description": {
+    "props": {
+      "animated": true,
+      "initialVisibility": "hidden"
+    },
+    "children": [
+      "disclosure-trigger#description",
+      "disclosure-content#description"
+    ]
+  },
+  "disclosure-trigger#description": {
+    "children": [
+      "rich-text#description"
+    ]
+  },
+  "disclosure-content#description": {
+    "children": [
       "product-description"
     ]
+  },
+  "product-description": {
+    "props": {
+      "collapseContent": false
+    }
+  },
+  "rich-text#description": {
+    "props": {
+      "blockClass": "title-accordion",
+      "text": "### Descrição"
+    },
+    "title": "Descrição"
   },
   "condition-layout.product#availability": {
     "props": {
@@ -52,10 +146,10 @@
       "marginTop": 4,
       "marginBottom": 7,
       "paddingTop": 7,
-      "paddingBottom": 7
+      "paddingBottom": 7,
+      "blockClass": "bloco-description-pdp"
     },
     "children": [
-      "flex-layout.col#stack",
       "flex-layout.col#right-col"
     ]
   },
@@ -91,11 +185,8 @@
       "product-images"
     ]
   },
-
-  
   "product-images": {
     "props": {
-   
       "displayThumbnailsArrows": false,
       "displayMode": "carousel "
     }
@@ -103,7 +194,8 @@
   "flex-layout.col#right-col": {
     "props": {
       "preventVerticalStretch": true,
-      "rowGap": 0
+      "rowGap": 0,
+      "blockClass": "container-description-pdp"
     },
     "children": [
       "flex-layout.row#product-name",
@@ -117,7 +209,7 @@
       //  "product-gifts",
       "flex-layout.row#buy-button",
       "availability-subscriber",
-      "shipping-simulator",
+      "flex-layout.row#simulator",
       "flex-layout.row#description"
       //   "flex-layout.row#specifications-title",
       //  "product-specification-group#table"
@@ -136,18 +228,26 @@
     "props": {
       "variationsSpacing": 3,
       "showValueNameForImageVariation": true,
-      "initialSelection":"empty"
+      "initialSelection": "empty"
     }
   },
   "flex-layout.col#bloco-preco": {
     "children": [
       "flex-layout.row#selling-price",
-      "product-installments"
+      "product-installments#pdp"
     ],
     "props": {
       "blockClass": [
         "bloco-preco"
       ]
+    }
+  },
+  "product-installments#pdp": {
+    "props": {
+      "blockClass": "summary",
+      "message": " Em até {installmentsNumber} x de {installmentValue}",
+      "installmentsCriteria": "max-quantity-without-interest",
+      "alwaysShow": true
     }
   },
   "flex-layout.row#buy-button": {
@@ -165,7 +265,7 @@
   },
   "add-to-cart-button#pdp": {
     "props": {
-      "text": "Comprar",
+      "text": "adicionar ao carrinho",
       "addToCartFeedback": "customEvent",
       "customPixelEventId": "add-to-cart-button",
       "blockClass": [

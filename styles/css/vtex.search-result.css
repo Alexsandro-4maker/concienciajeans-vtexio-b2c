@@ -84,11 +84,11 @@
 
 
 :global(.vtex-flex-layout-0-x-flexRow--productRating) {
-  display: block;
+  opacity: 0;
 }
 
-.galleryItem--grid:hover :global(.vtex-product-summary-2-x-containerNormal) :global(.vtex-product-summary-2-x-clearLink):global(.vtex-product-summary-2-x-element) :global(.vtex-flex-layout-0-x-flexCol--testandomen):global(.vtex-flex-layout-0-x-flexColChild--testandomen) :global(.vtex-flex-layout-0-x-flexRow--productRating) {
-  display: block;
+.galleryItem--grid:hover :global(.vtex-product-summary-2-x-containerNormal) :global(.vtex-product-summary-2-x-clearLink) :global(.vtex-product-summary-2-x-element) :global(.vtex-flex-layout-0-x-flexCol--testandomen) :global(.vtex-flex-layout-0-x-flexColChild--testandomen) :global(.vtex-flex-layout-0-x-flexRow--productRating) {
+  opacity: 1;
 }
 
 
@@ -189,7 +189,7 @@
 .galleryItem--grid {
   max-width: 32% !important;
   border: 1px solid #C6C6C6;
-  height: 660px;
+  height: 620px;
 }
 
 
@@ -268,6 +268,29 @@
 
   }
 
+  .galleryItem--grid :global(.vtex-product-summary-2-x-containerNormal) :global(.vtex-product-summary-2-x-clearLink) :global(.vtex-product-summary-2-x-element) :global(.vtex-flex-layout-0-x-flexCol--testandomen) :global(.vtex-flex-layout-0-x-flexColChild--testandomen) :global(.vtex-flex-layout-0-x-flexRow--productRating) {
+    opacity: 1 !important;
+  }
+  
+
+  .container--layout :global(.vtex-flex-layout-0-x-flexRow) :global(.vtex-store-components-3-x-container) :global(.vtex-flex-layout-0-x-flexRowContent){
+    flex-direction: row-reverse;
+  }
+
+  .galleryItem--grid :global(.vtex-button) {
+    display: block !important;
+    background-color: #009F35;
+    width: 95%;
+    height: 50px;
+    border-radius: 0;
+  }
+
+
+  .filterApplyButtonWrapper :global(.vtex-button ),
+  .filterClearButtonWrapper  :global(.vtex-button ){
+    background: #03034E;
+    color: #fff;
+  }
   
   .filters--layout {
     position: sticky;
@@ -291,4 +314,22 @@
   .container--layout :global(.vtex-flex-layout-0-x-flexRow) :global(.vtex-store-components-3-x-container ){
     padding: 0;
   }
+}
+
+@media only screen and (min-width: 1400px)  and (max-width: 1550px) {
+
+  .gallery--grid {
+    padding-left: 2rem;
+    gap: 20px;
+  }
+  
+  }
+
+@media only screen and (min-width: 1600px) {
+
+.gallery--grid {
+  padding-left: 2rem;
+  gap: 40px;
+}
+
 }

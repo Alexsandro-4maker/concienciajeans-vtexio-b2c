@@ -15,8 +15,8 @@
       "flex-layout.row#shelf",
       "flex-layout.row#container-3",
       "flex-layout.row#bloco-banner-2",
-      "rich-text#shelf-title-2",
-      "flex-layout.row#shelf2",
+     // "rich-text#shelf-title-2",
+      //"flex-layout.row#shelf2",
       "rich-text#shelf-title-3",
       "flex-layout.row#shelf-3",
       "flex-layout.row#banner-3"
@@ -104,6 +104,7 @@
   "flex-layout.row#bloco-banner-2": {
     "children": [
       "image#banner-home-principal-2",
+      
       "flex-layout.row#banner-2"
     ],
     "props": {
@@ -218,10 +219,18 @@
   },
   "flex-layout.row#shelf-4": {
     "children": [
+      "rich-text#categoria-shelf",
       "list-context.product-list#demo4"
     ],
     "props": {
       "blockClass": "shelf-4"
+    }
+  },
+
+  "rich-text#categoria-shelf": {
+    "props": {
+      "text": "Feminino",
+      "blockClass": "link-categoria-shelf"
     }
   },
   "list-context.product-list#demo1": {
