@@ -1,7 +1,7 @@
 {
     "store.custom#ana-castela": {
         "children": [
-           "list-context.image-list#ana-castelo",
+            "list-context.image-list#ana-castelo",
             "flex-layout.row#container-1",
             "rich-text#bloco-texto-1",
             "flex-layout.row#shelf-ana-castelo",
@@ -13,25 +13,23 @@
             "blockClass": "container-ana-castelo"
         }
     },
-
     "list-context.image-list#ana-castelo": {
         "title": " 1 - Banner Principal",
         "children": [
-          "slider-layout#demo-images"
+            "slider-layout#demo-images"
         ],
         "props": {
-          "height": "100%",
-          "maxHeight": "100%",
-          "preload": true,
-          "images": [
-            {
-              "image": "https://conscienciajeans.vteximg.com.br/arquivos/ids/566144/Varejoo%20Descktop%20-%20Combo5.jpg",
-              "mobileImage": "https://conscienciajeans.vteximg.com.br/arquivos/ids/564721/Varejo%20Mobile%20-%20Combo%205.jpg"
-            }
-           
-          ]
+            "height": "100%",
+            "maxHeight": "100%",
+            "preload": true,
+            "images": [
+                {
+                    "image": "https://conscienciajeans.vteximg.com.br/arquivos/ids/566144/Varejoo%20Descktop%20-%20Combo5.jpg",
+                    "mobileImage": "https://conscienciajeans.vteximg.com.br/arquivos/ids/564721/Varejo%20Mobile%20-%20Combo%205.jpg"
+                }
+            ]
         }
-      },
+    },
     "flex-layout.row#container-1": {
         "children": [
             "image#bloco-2",
@@ -91,32 +89,42 @@
             "blockClass": "shelf-ana-castelo"
         }
     },
-
-
     "flex-layout.row#container-3-ana-castelo": {
-        "children": [        
-           "flex-layout.row#container-3-bloco-2"
+        "children": [
+            "rich-text#title-bloco-1-3",
+            "flex-layout.row#container-3-bloco-2"
         ],
         "props": {
             "blockClass": "container-bloco-3"
         }
     },
+
+    "rich-text#title-bloco-1-3": {
+        "props": {
+            "text": "## O QUE É TENDÊNCIA NESSE VERÃO?",
+            "blockClass": "title-bloco"
+        }
+    },
+    
+
     "flex-layout.row#container-3-bloco-2": {
-        "children": [        
+        "children": [
             "flex-layout.col#bloco-3",
             "image#bloco-3"
         ],
         "props": {
-            "blockClass": ""
+            "blockClass": "container-texto-3-total"
         }
     },
-
     "image#bloco-2": {
         "props": {
             "src": "https://conscienciajeans.vteximg.com.br/arquivos/Fotosobreposta%20aocacto.jpg?v=638592656165700000",
             "maxHeight": "",
             "maxWidth": "",
-            "blockClass": ["imagem-ana-castelo", "ana-castelo-img-02"]
+            "blockClass": [
+                "imagem-ana-castelo",
+                "ana-castelo-img-02"
+            ]
         }
     },
     "image#bloco-3": {
@@ -124,7 +132,10 @@
             "src": "https://conscienciajeans.vteximg.com.br/arquivos/Fotosobreposta2.jpg?v=638592720725400000",
             "maxHeight": "",
             "maxWidth": "",
-            "blockClass": ["imagem-ana-castelo"," ana-castelo-img-03"]
+            "blockClass": [
+                "imagem-ana-castelo",
+                " ana-castelo-img-03"
+            ]
         }
     },
     "flex-layout.col#bloco-3": {
@@ -183,7 +194,6 @@
             "blockClass": "container-bloco-4"
         }
     },
-
     "rich-text#title-bloco-4": {
         "props": {
             "text": "## O QUE É TENDÊNCIA NESSE VERÃO?",
@@ -195,7 +205,10 @@
             "src": "/arquivos/moldura-bloco-5.png?v=638594295728230000",
             "maxHeight": "",
             "maxWidth": "",
-            "blockClass": ["imagem-ana-castelo ","ana-castelo-img-04"]
+            "blockClass": [
+                "imagem-ana-castelo ",
+                "ana-castelo-img-04"
+            ]
         }
     },
     "flex-layout.col#bloco-4": {
@@ -236,7 +249,10 @@
             "src": "https://conscienciajeans.vteximg.com.br/arquivos/Foto6-1.jpg?v=638592696902170000",
             "maxHeight": "",
             "maxWidth": "",
-            "blockClass": ["imagem-ana-castelo", "ana-castelo-img-05-01"]
+            "blockClass": [
+                "imagem-ana-castelo",
+                "ana-castelo-img-05-01"
+            ]
         }
     },
     "image#bloco-5-2": {
@@ -244,7 +260,10 @@
             "src": "https://conscienciajeans.vteximg.com.br/arquivos/Foto6-2.jpg?v=638592696897630000",
             "maxHeight": "",
             "maxWidth": "",
-            "blockClass": ["imagem-ana-castelo","ana-castelo-img-05-01"]
+            "blockClass": [
+                "imagem-ana-castelo",
+                "ana-castelo-img-05-01"
+            ]
         }
     },
     "image#bloco-5-3": {
@@ -252,7 +271,10 @@
             "src": "https://conscienciajeans.vteximg.com.br/arquivos/Foto6-3.jpg?v=638592696895900000",
             "maxHeight": "",
             "maxWidth": "",
-            "blockClass": ["imagem-ana-castelo","ana-castelo-img-05-01"]
+            "blockClass": [
+                "imagem-ana-castelo",
+                "ana-castelo-img-05-01"
+            ]
         }
     }
 }

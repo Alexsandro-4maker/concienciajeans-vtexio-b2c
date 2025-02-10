@@ -8,10 +8,10 @@
     padding-left: 0;
 }
 
-.label::after {
+ :global(.render-route-store-home) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) .label::after {
     content: "Minha Conta";
     visibility: visible;
-    color: rgb(7, 29, 73);
+    color: #fff;
     position: fixed;
     margin-right: 10px;
     font-size: 14px;
@@ -20,6 +20,105 @@
     margin-left: -30px;
     font-family: "freight-neo-pro";
 }
+
+
+.label::after {
+    content: "Minha Conta";
+    visibility: visible;
+    color: #071D49;
+    position: fixed;
+    margin-right: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-left: -30px;
+    font-family: "freight-neo-pro";
+}
+
+:global(.render-route-store-home) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header):hover .label::after {
+    content: "Minha Conta";
+    visibility: visible;
+    color: #071D49;
+    position: fixed;
+    margin-right: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-left: -30px;
+    font-family: "freight-neo-pro";
+}
+
+:global(.render-route-store-home) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header)  :global(.vtex-store-link-0-x-label--menu-info-header)  {
+    font-weight: 400;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: -2px;
+    
+    font-family: "freight-neo-pro";
+}
+
+:global(.render-route-store-home) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header):hover  :global(.vtex-store-link-0-x-label--menu-info-header) {
+    font-weight: 400;
+    color: #071D49;;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: -2px;
+    font-family: "freight-neo-pro";
+}
+
+:global(.vtex-minicart-2-x-minicartIconContainer)::after{
+    content: "";
+    background-image: url(/arquivos/carrinho-minicart.png);
+    width: 20px;
+    height: 25px;
+    visibility: visible;
+    position: absolute;
+    background-repeat: no-repeat;
+    margin-left: -20px;
+    margin-top: -10px;
+}
+
+:global(.render-route-store-home) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header)  :global(.vtex-minicart-2-x-minicartIconContainer)::after{
+    content: "";
+    background-image: url(/arquivos/carrinho-branco.svg);
+    width: 20px;
+    height: 25px;
+    visibility: visible;
+    position: absolute;
+    background-repeat: no-repeat;
+    margin-left: -20px;
+    margin-top: -10px;
+}
+
+
+:global(.render-route-store-home)  :global(.vtex-sticky-layout-0-x-wrapper--sticky-header):hover :global(.vtex-minicart-2-x-minicartIconContainer)::after{
+    content: "";
+    background-image: url(/arquivos/carrinho-minicart.png);
+    width: 20px;
+    height: 25px;
+    visibility: visible;
+    position: absolute;
+    background-repeat: no-repeat;
+    margin-left: -20px;
+    margin-top: -10px;
+}
+
+:global(.render-route-store-home)  :global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) :global(.vtex-minicart-2-x-minicartIconContainer)::after{
+    content: "";
+    background-image: url(/arquivos/carrinho-minicart.png);
+    width: 20px;
+    height: 25px;
+    visibility: visible;
+    position: absolute;
+    background-repeat: no-repeat;
+    margin-left: -20px;
+    margin-top: -10px;
+}
+
+
 
 ::-webkit-scrollbar {
     width: 8px; /* Largura da barra de rolagem */
@@ -68,11 +167,11 @@
     width: 30px;
     align-items: center;
     display: flex;
-    margin-left: 10px;
+    margin-left: 5px !important;
     visibility: visible;
     font-weight: bold;
     font-size: 14px;
-    
+    color: transparent !important;
     font-family: "freight-neo-pro";
 }
 
@@ -310,6 +409,12 @@
     margin-top: 25px;
     margin-bottom: 10px;
     margin-left: 25px;
+}
+
+:global(.product-images-slider) {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
 }
 
 @media only screen and (max-width: 990px) {

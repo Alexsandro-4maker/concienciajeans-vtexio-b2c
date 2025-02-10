@@ -177,6 +177,10 @@
     :global(.vtex-store-footer-2-x-footerLayout) .menuItem .styledLink .styledLinkContent {
         text-transform: uppercase;
     }
+
+    .menuContainer--menu-footer-mobile{
+        align-items: normal !important;
+    }
 }
 
 

@@ -199,6 +199,15 @@
   background-color: #F0F0F0;
 }
 
+.flexRowContent--container-texto-3-total .stretchChildrenWidth:first-child{
+  width: 950px !important;
+}
+
+.flexRowContent--container-bloco-3 {
+  flex-direction: column;
+  align-items: center;
+}
+
 
 @media(max-width:990px) {
 .flexCol--bloco-preco {

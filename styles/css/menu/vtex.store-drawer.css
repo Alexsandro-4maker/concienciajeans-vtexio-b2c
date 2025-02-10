@@ -8,11 +8,30 @@
 
     }
 
+    .drawerContent {
+        margin-top: 20px;
+    }
+
+    .drawerContent .childrenContainer :global(.vtex-flex-layout-0-x-flexRow--main-header-mobile) :global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile) {
+        padding-left: 50px;
+        padding-top: 0;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRow--main-header-mobile) :global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile) :global(.vtex-modal-layout-0-x-triggerContainer--search-bar) {
+        padding-top: 10px !important;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRow--main-header-mobile) :global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile) :global(.vtex-minicart-2-x-openIconContainer) {
+        padding:0;
+        padding-top: 15px;
+    }
+
+
     .closeIconButton {
         z-index: 999;
     }
 
-    .opened  {
+    .opened {
         width: 100% !important;
     }
 }

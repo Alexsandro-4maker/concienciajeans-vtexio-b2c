@@ -1,21 +1,24 @@
-.minicartIconContainer::after{
-    content: "";
-    background-image: url(/arquivos/carrinho-minicart.png);
-    width: 20px;
-    height: 25px;
-    visibility: visible;
-    position: absolute;
-    background-repeat: no-repeat;
-    margin-left: -20px;
-    margin-top: -10px;
-}
-
-
-.minicartIconContainer .cartIcon{
+.minicartIconContainer .cartIcon {
   visibility: hidden;
 }
 
 
-.minicartCheckoutButton  :global(.vtex-button){
+.minicartCheckoutButton :global(.vtex-button) {
   background-color: #009F35;
+}
+
+.minicartQuantityBadgeDefault {
+  z-index: 1;
+}
+
+@media only screen and (max-width: 990px) {
+  .minicartTitle {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }

@@ -1,11 +1,19 @@
-.container--shelfTitle-pdp{
+.container--shelfTitle-pdp {
     justify-content: center;
 
 }
 
-.headingLevel2--shelfTitle-pdp{
+.headingLevel2--shelfTitle-pdp {
     color: #000;
     font-size: 20px;
     text-transform: uppercase;
     font-family: 'Rocky Compressed';
+    margin-top: 150px;
+}
+
+@media only screen and (max-width: 990px) {
+    .headingLevel2--shelfTitle-pdp {
+
+        margin-top: 0px;
+    }
 }

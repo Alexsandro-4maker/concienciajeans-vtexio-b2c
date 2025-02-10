@@ -72,7 +72,6 @@
   padding: 30px;
   margin-top: -5px;
   font-family: 'Montserrat';
-
   font-weight: 400;
   font-size: 15px;
   line-height: 18px;
@@ -149,6 +148,18 @@
   .flexRow--payment-methods {
     margin-top: 0px;
     margin-bottom: 0px;
+  }
+
+  .container--description-seo {
+    background: transparent;
+    padding: 5px;
+    margin-top: -15px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #242424;
+  
   }
 
 }

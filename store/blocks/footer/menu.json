@@ -329,11 +329,13 @@
   },
   "vtex.menu@2.x:menu#footer-mobile": {
     "props": {
-      "orientation": "vertical"
+      "orientation": "vertical",
+      "blockClass": ["menu-footer-mobile"]
     },
     "children": [
-      "rich-text#informacoes",
+      "menu-item#masculino-mobile",
       "menu-item#feminino-mobile",
+      
       "menu-item#institucional-mobile",
       "menu-item#atendimento-mobile"
     ]
@@ -354,7 +356,7 @@
     "props": {
       "id": "menu-item-category-clothing",
       "type": "custom",
-      "blockClass": "title-link-menu",
+      "blockClass": "title-link-menu title-link-menu-mobile",
       "iconId": null,
       "highlight": false,
       "itemProps": {
@@ -370,6 +372,26 @@
     ]
   },
 
+
+  "menu-item#masculino-mobile": {
+    "props": {
+      "id": "menu-item-category-clothing",
+      "type": "custom",
+      "blockClass": "title-link-menu title-link-menu-mobile",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/masculino",
+        "noFollow": true,
+        "tagTitle": "Masculino",
+        "text": "Masculino"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#masculino"
+    ]
+  },
 
   "menu-item#masculino-mobile": {
     "props": {
@@ -436,7 +458,8 @@
     "props": {
       "itemProps": {
         "tagTitle": "Institucional",
-        "text": "Institucional"
+        "text": "Institucional",
+        "blockClass":"title-link-menu-mobile"
       }
     },
     "blocks": [

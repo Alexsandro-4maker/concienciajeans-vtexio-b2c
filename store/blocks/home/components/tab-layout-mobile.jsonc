@@ -1,0 +1,354 @@
+{
+    "responsive-layout.mobile#tab-layout-home": {
+        "children": [
+            "tab-layout#home"
+        ]
+    },
+    "tab-layout#home": {
+        "children": [
+            "tab-list#home",
+            "tab-content#home"
+        ],
+        "title": " 3 - Tab Layout de categorias",
+        "props": {
+            "blockClass": "home",
+            "defaultActiveTabId": "home1"
+        }
+    },
+    "tab-list#home": {
+        "children": [
+            "tab-list.item#home1",
+            "tab-list.item#home2"
+        ],
+        "props": {
+            "blockClass": "title-mobile-list"
+        }
+    },
+    "tab-list.item#home1": {
+        "props": {
+            "tabId": "home1",
+            "label": "Feminino",
+            "defaultActiveTab": true
+        }
+    },
+    "tab-list.item#home2": {
+        "props": {
+            "tabId": "home2",
+            "label": "Masculino"
+        }
+    },
+    "tab-content#home": {
+        "children": [
+            "tab-content.item#home1",
+            "tab-content.item#home2"
+        ]
+    },
+    "tab-content.item#home1": {
+        "title": "Tab Feminino",
+        "children": [
+            "slider-layout#tab-feminino"
+        ],
+        "props": {
+            "tabId": "home1",
+            "blockClass": "Bloco-contant-feminino"
+        }
+    },
+    "tab-content.item#home2": {
+        "children": [
+            "slider-layout#tab-masculino"
+        ],
+        "props": {
+            "tabId": "home2",
+            "blockClass": "Bloco-contant-feminino"
+        }
+    },
+    "slider-layout#tab-masculino": {
+        "children": [
+            "flex-layout.row#tab-masculino-1",
+            "flex-layout.row#tab-masculino-2",
+            "flex-layout.row#tab-masculino-3",
+            "flex-layout.row#tab-masculino-4",
+            "flex-layout.row#tab-masculino-5",
+            "flex-layout.row#tab-masculino-6"
+        ],
+        "props": {
+            "itemsPerPage": {
+                "phone": 2
+            },
+            "infinite": true,
+            "fullWidth": false,
+            "blockClass": "shelf",
+            "showNavigationArrows": "mobileOnly"
+        }
+    },
+    "slider-layout#tab-feminino": {
+        "children": [
+            "flex-layout.row#tab-feminino-1",
+            "flex-layout.row#tab-feminino-2",
+            "flex-layout.row#tab-feminino-3",
+            "flex-layout.row#tab-feminino-4",
+            "flex-layout.row#tab-feminino-5",
+            "flex-layout.row#tab-feminino-6"
+        ],
+        "props": {
+            "itemsPerPage": {
+                "mobile": 2
+            },
+            "infinite": true,
+            "fullWidth": false,
+            "blockClass": "shelf",
+            "showNavigationArrows": "mobileOnly"
+        }
+    },
+    "list-context.product-list#demo1": {
+        "blocks": [
+            "product-summary.shelf"
+        ],
+        "children": [
+            "slider-layout#demo-products"
+        ],
+        "props": {
+            "orderBy": "OrderByTopSaleDESC"
+        }
+    },
+    "flex-layout.row#tab-feminino-1": {
+        "children": [
+            "image#banner-feminino-1",
+            "rich-text#tab-feminino-1"
+        ],
+        "props": {
+            "blockClass": "container-bloco-img-text"
+        }
+    },
+    "image#banner-feminino-1": {
+        "props": {
+            "src": "/arquivos/img-whts.png"
+        }
+    },
+    "rich-text#tab-feminino-1": {
+        "props": {
+            "text": "Receba novidades",
+            "blockClass": "shelfTitle-tab"
+        }
+    },
+    "flex-layout.row#tab-feminino-2": {
+        "children": [
+            "image#banner-feminino-2",
+            "rich-text#tab-feminino-2"
+        ],
+        "props": {
+            "blockClass": "container-bloco-img-text"
+        }
+    },
+    "image#banner-feminino-2": {
+        "props": {
+            "src": "/arquivos/foto-resort.png"
+        }
+    },
+    "rich-text#tab-feminino-2": {
+        "props": {
+            "text": "Resort",
+            "blockClass": "shelfTitle-tab"
+        }
+    },
+    "flex-layout.row#tab-feminino-3": {
+        "children": [
+            "image#banner-feminino-3",
+            "rich-text#tab-feminino-3"
+        ],
+        "props": {
+            "blockClass": "container-bloco-img-text"
+        }
+    },
+    "image#banner-feminino-3": {
+        "props": {
+            "src": "/arquivos/img-lancamento-1.png"
+        }
+    },
+    "rich-text#tab-feminino-3": {
+        "props": {
+            "text": "Lançamentos",
+            "blockClass": "shelfTitle-tab"
+        }
+    },
+    "flex-layout.row#tab-feminino-4": {
+        "children": [
+            "image#banner-feminino-4",
+            "rich-text#tab-feminino-4"
+        ],
+        "props": {
+            "blockClass": "container-bloco-img-text"
+        }
+    },
+    "image#banner-feminino-4": {
+        "props": {
+            "src": "/arquivos/img-wide-leg-1.png"
+        }
+    },
+    "rich-text#tab-feminino-4": {
+        "props": {
+            "text": "wide leg",
+            "blockClass": "shelfTitle-tab"
+        }
+    },
+    "flex-layout.row#tab-feminino-5": {
+        "children": [
+            "image#banner-feminino-5",
+            "rich-text#tab-feminino-5"
+        ],
+        "props": {
+            "blockClass": "container-bloco-img-text"
+        }
+    },
+    "image#banner-feminino-5": {
+        "props": {
+            "src": "/arquivos/img-moletons-1.png"
+        }
+    },
+    "rich-text#tab-feminino-5": {
+        "props": {
+            "text": "MOLETONS",
+            "blockClass": "shelfTitle-tab"
+        }
+    },
+    "flex-layout.row#tab-feminino-6": {
+        "children": [
+            "image#banner-feminino-6",
+            "rich-text#tab-feminino-6"
+        ],
+        "props": {
+            "blockClass": "container-bloco-img-text"
+        }
+    },
+    "image#banner-feminino-6": {
+        "props": {
+            "src": "/arquivos/img-sale-1.png"
+        }
+    },
+    "rich-text#tab-feminino-6": {
+        "props": {
+            "text": "verão",
+            "blockClass": "shelfTitle-tab"
+        }
+    },
+    "flex-layout.row#tab-masculino-1": {
+        "children": [
+            "image#banner-masculino-1",
+            "rich-text#tab-masculino-1"
+        ],
+        "props": {
+            "blockClass": "container-bloco-img-text"
+        }
+    },
+    "image#banner-masculino-1": {
+        "props": {
+            "src": "/arquivos/foto-bermuda.png"
+        }
+    },
+    "rich-text#tab-masculino-1": {
+        "props": {
+            "text": "Bermudas",
+            "blockClass": "shelfTitle-tab"
+        }
+    },
+    "flex-layout.row#tab-masculino-2": {
+        "children": [
+            "image#banner-masculino-2",
+            "rich-text#tab-masculino-2"
+        ],
+        "props": {
+            "blockClass": "container-bloco-img-text"
+        }
+    },
+    "image#banner-masculino-2": {
+        "props": {
+            "src": "/arquivos/foto-calcas.png"
+        }
+    },
+    "rich-text#tab-masculino-2": {
+        "props": {
+            "text": "Calças",
+            "blockClass": "shelfTitle-tab"
+        }
+    },
+    "flex-layout.row#tab-masculino-3": {
+        "children": [
+            "image#banner-masculino-3",
+            "rich-text#tab-masculino-3"
+        ],
+        "props": {
+            "blockClass": "container-bloco-img-text"
+        }
+    },
+    "image#banner-masculino-3": {
+        "props": {
+            "src": "/arquivos/foto-camisas.png"
+        }
+    },
+    "rich-text#tab-masculino-3": {
+        "props": {
+            "text": "Camisas",
+            "blockClass": "shelfTitle-tab"
+        }
+    },
+    "flex-layout.row#tab-masculino-4": {
+        "children": [
+            "image#banner-masculino-4",
+            "rich-text#tab-masculino-4"
+        ],
+        "props": {
+            "blockClass": "container-bloco-img-text"
+        }
+    },
+    "image#banner-masculino-4": {
+        "props": {
+            "src": "/arquivos/foto-jaquetas.png"
+        }
+    },
+    "rich-text#tab-masculino-4": {
+        "props": {
+            "text": "Jaquetas",
+            "blockClass": "shelfTitle-tab"
+        }
+    },
+    "flex-layout.row#tab-masculino-5": {
+        "children": [
+            "image#banner-masculino-5",
+            "rich-text#tab-masculino-5"
+        ],
+        "props": {
+            "blockClass": "container-bloco-img-text"
+        }
+    },
+    "image#banner-masculino-5": {
+        "props": {
+            "src": "/arquivos/foto-moletons.png"
+        }
+    },
+    "rich-text#tab-masculino-5": {
+        "props": {
+            "text": "MOLETONS",
+            "blockClass": "shelfTitle-tab"
+        }
+    },
+    "flex-layout.row#tab-masculino-6": {
+        "children": [
+            "image#banner-masculino-6",
+            "rich-text#tab-masculino-6"
+        ],
+        "props": {
+            "blockClass": "container-bloco-img-text"
+        }
+    },
+    "image#banner-masculino-6": {
+        "props": {
+            "src": "/arquivos/foto-polos.png"
+        }
+    },
+    "rich-text#tab-masculino-6": {
+        "props": {
+            "text": "Polos",
+            "blockClass": "shelfTitle-tab"
+        }
+    }
+}

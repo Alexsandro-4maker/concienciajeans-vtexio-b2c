@@ -29,3 +29,11 @@
     font-family: 'Montserrat';
     font-weight: bold;
 }
+
+
+@media only screen and (max-width: 990px) {
+    .listContainer {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+}

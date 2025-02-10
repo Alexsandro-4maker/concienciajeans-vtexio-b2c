@@ -39,22 +39,23 @@
     .imageElement--banner-image-principal-2,
     .imageElement--banner-image-2-2,
     .imageElement--banner-image-2-1 {
-        width: 95% !important;
-        margin-bottom: 25px;
+        width: 100% !important;
+        margin-bottom: 10px;
     }
 
     .imageElement--banner-image {
-        width: 95% !important;
+        width: 100% !important;
         height: 375px !important;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
         object-fit: cover;
     }
 
     .imageElement--container-image-3 {
         height: auto;
         margin-top: 0px;
-        width: 95%;
+        width: 100%;
         padding-right: 0px;
+        margin-right: 5px;
     }
 
     .imageElement--banner-image-2-1 {

@@ -191,6 +191,7 @@
   },
   "search-result-layout.mobile": {
     "children": [
+      "experimental__visibility-layout#search-seo-mobile",
       "flex-layout.row#searchinfomobile",
       "flex-layout.row#searchbread",
       "flex-layout.row#productCountMobile",
@@ -355,6 +356,32 @@
       "text": "List",
       "textColor": "c-auto",
       "blockClass": "layout-option"
+    }
+  },
+
+  "experimental__visibility-layout#search-seo-mobile": {
+    "title": "Header Seo mobile (On/Off)",
+    "props": {
+      "visible": false
+    },
+    "children": [
+      "flex-layout.row#header-seo"
+    ]
+  },
+
+  "flex-layout.row#header-seo-mobile": {
+    "children":[
+      "flex-layout.col#header-seo-mobile"
+    ]
+  },
+  "flex-layout.col#header-seo-mobile": {
+    "children": [
+
+      "image#banner-category-seo",
+      "rich-text#description-seo"
+    ],
+    "props": {
+      "blockClass": "filterMobileCol"
     }
   },
 

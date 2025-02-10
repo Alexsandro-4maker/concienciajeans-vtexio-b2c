@@ -92,9 +92,6 @@
     width: unset !important;
 }
 
-.flexRowContent--container-bloco-3 .stretchChildrenWidth:first-child {
-    width: 570px !important;
-}
 
 .flexRowContent--container-bloco-4 .stretchChildrenWidth {
     width: unset !important;

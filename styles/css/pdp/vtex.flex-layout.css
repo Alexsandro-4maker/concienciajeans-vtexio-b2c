@@ -26,12 +26,6 @@
     margin-bottom: 50px;
 }
 
-:global(.vtex-render__container-id-galeria-pdp) {
-    overflow: hidden;
-    width: 100%;
-    position: relative;
-}
-
 .flexRow--bloco-description-pdp{
     width: 575px !important;
     position: absolute;
@@ -76,5 +70,15 @@
 
     .flexRowContent--container-button-pdp {
         display: flex;
+    }
+
+    .flexRow--bloco-description-pdp{
+        width: unset !important;
+        position: unset;
+       
+        background-color: #fff;
+        padding: 20px;
+        height: unset;
+        z-index: 1;
     }
 }

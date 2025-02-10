@@ -20,7 +20,7 @@
       },
       "infinite": true,
       "showNavigationArrows": "never",
-      "blockClass": "carousel"
+      "blockClass": ["carousel", "carousel-mobile-deals"]
     },
     "children": [
       "flex-layout.row#deals1",

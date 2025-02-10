@@ -203,4 +203,9 @@
     font-family: "Montserrat";
   }
 
+  .productDescriptionText {
+   line-height: 32px;
+  
+  }
+
 }

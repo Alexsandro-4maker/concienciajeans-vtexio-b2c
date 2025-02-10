@@ -160,5 +160,13 @@ background-color: #000000 !important;
     margin-top: 0px;
     z-index: 0;
   }
+
+  
+.SKUSelectorContainer--sku-selector-vitrine {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  margin-bottom: 200px;
+}
   
 }
