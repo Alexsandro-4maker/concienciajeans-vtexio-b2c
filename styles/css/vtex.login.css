@@ -153,6 +153,10 @@
     position: relative !important;
 }
 
+:global(.render-route-vtex-store-2-x-store-custom-lancamentos) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) {
+    position: relative !important;
+}
+
 :global(.render-route-store-search) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) {
     position: relative !important;
 }
@@ -375,8 +379,8 @@
 :global(.render-route-store-home) :global(.vtex-menu-2-x-menuContainerHeader-content-nav-item--title) {
     color: #fff !important;
 }
-
-:global(.vtex-search-result-3-x-gallery--grid)>div:nth-child(7) {
+:global(.vtex-search-result-3-x-gallery--grid)>div:nth-child(7n),
+:global(.vtex-search-result-3-x-gallery--grid)>div:nth-child(8n) {
     display: none;
 }
 

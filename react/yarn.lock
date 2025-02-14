@@ -189,9 +189,9 @@ classnames@*, classnames@^2.2.5, classnames@^2.3.2:
   resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.5.1.tgz#ba774c614be0f016da105c858e7159eae8e7687b"
   integrity sha512-saHYOzhIQs6wy2sVxTM6bUDsQO4F50V9RQ22qBpEdCW+I+/Wmke2HOl6lS6dTpdxVhb88/I6+Hs+438c3lfUow==
 
-"conscienciajeans.store-theme@https://desenvolvimento--conscienciajeans.myvtex.com/_v/private/typings/linked/v1/conscienciajeans.store-theme@0.0.1-1+build1737321045/public/@types/conscienciajeans.store-theme":
+"conscienciajeans.store-theme@https://desenvolvimento--conscienciajeans.myvtex.com/_v/private/typings/linked/v1/conscienciajeans.store-theme@0.0.1-1+build1739255768/public/@types/conscienciajeans.store-theme":
   version "0.0.1-1"
-  resolved "https://desenvolvimento--conscienciajeans.myvtex.com/_v/private/typings/linked/v1/conscienciajeans.store-theme@0.0.1-1+build1737321045/public/@types/conscienciajeans.store-theme#9afd6dd16f3a2f4d5a07221e54d5061de8a7a54f"
+  resolved "https://desenvolvimento--conscienciajeans.myvtex.com/_v/private/typings/linked/v1/conscienciajeans.store-theme@0.0.1-1+build1739255768/public/@types/conscienciajeans.store-theme#1c9104a108036a25c7c9c3b36e33d329b8f53bc3"
 
 csstype@^3.0.2:
   version "3.1.3"
@@ -430,9 +430,9 @@ undici-types@~5.26.4:
   version "1.29.0"
   resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.my-account@1.29.0/public/@types/vtex.my-account#014ffc22855e21f321b5ed81d1c95e547740b0ba"
 
-"vtex.order-placed@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.order-placed@2.18.0/public/@types/vtex.order-placed":
-  version "2.18.0"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.order-placed@2.18.0/public/@types/vtex.order-placed#e3f5105caf8059e1dcee27c40dc3d52577dd2889"
+"vtex.order-placed@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.order-placed@2.19.0/public/@types/vtex.order-placed":
+  version "2.19.0"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.order-placed@2.19.0/public/@types/vtex.order-placed#277b037e919f0ff1ce75f81a5ae2393788f2cc12"
 
 "vtex.product-bookmark-interfaces@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.product-bookmark-interfaces@1.0.1/public/@types/vtex.product-bookmark-interfaces":
   version "1.0.1"
@@ -502,9 +502,9 @@ undici-types@~5.26.4:
   version "0.1.4"
   resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.responsive-layout@0.1.4/public/@types/vtex.responsive-layout#e67d61ec1e308accb4e0ef2bd172fe04a41bf662"
 
-"vtex.reviews-and-ratings@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.reviews-and-ratings@3.16.0/public/@types/vtex.reviews-and-ratings":
-  version "3.16.0"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.reviews-and-ratings@3.16.0/public/@types/vtex.reviews-and-ratings#d5668b2191c445fed92fe5537bc4fbf59eef55ee"
+"vtex.reviews-and-ratings@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.reviews-and-ratings@3.18.0/public/@types/vtex.reviews-and-ratings":
+  version "3.18.0"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.reviews-and-ratings@3.18.0/public/@types/vtex.reviews-and-ratings#72f13efb054f9b029ea84359b13337ee43530320"
 
 "vtex.rich-text@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.rich-text@0.16.0/public/@types/vtex.rich-text":
   version "0.16.0"
@@ -514,9 +514,9 @@ undici-types@~5.26.4:
   version "3.136.0"
   resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.search-result@3.136.0/public/@types/vtex.search-result#1163d18adfb4059ee80965bb878efe77c7b483b7"
 
-"vtex.search@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.search@2.18.1/public/@types/vtex.search":
-  version "2.18.1"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.search@2.18.1/public/@types/vtex.search#866c6f3c5f68e16bc0257e691a2487c520a62290"
+"vtex.search@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.search@2.18.2/public/@types/vtex.search":
+  version "2.18.2"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.search@2.18.2/public/@types/vtex.search#0c673812e408f7085e9ca7add415b845c3795963"
 
 "vtex.shelf@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.shelf@1.49.0/public/@types/vtex.shelf":
   version "1.49.0"
@@ -538,9 +538,9 @@ undici-types@~5.26.4:
   version "0.3.4"
   resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.sticky-layout@0.3.4/public/@types/vtex.sticky-layout#5b786d6f9ab0a40e4997c955a75885eee32515ef"
 
-"vtex.store-components@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-components@3.176.0/public/@types/vtex.store-components":
-  version "3.176.0"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-components@3.176.0/public/@types/vtex.store-components#aab0c7cdf327d537febab2e1c9e2ac49d92f5de7"
+"vtex.store-components@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-components@3.176.2/public/@types/vtex.store-components":
+  version "3.176.2"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-components@3.176.2/public/@types/vtex.store-components#12958b81c9050e4698faf68ee37cce74f0848df8"
 
 "vtex.store-drawer@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-drawer@0.18.1/public/@types/vtex.store-drawer":
   version "0.18.1"

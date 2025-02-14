@@ -10,5 +10,9 @@
   },
   "store.custom#ana-castela": {
     "path": "/ana-castela"
+  },
+  "store.custom#colletion":{
+    "path": "/colecao",
+    "isSitemapEntry": true
   }
 }
