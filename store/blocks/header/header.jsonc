@@ -234,7 +234,7 @@
   },
   "link#info": {
     "props": {
-      "href": "/login?returnUrl={queryString.returnUrl}",
+      "href": "",
       "label": "Info",
       "blockClass": "menu-info-header"
     }

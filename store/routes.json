@@ -11,7 +11,7 @@
   "store.custom#ana-castela": {
     "path": "/ana-castela"
   },
-  "store.custom#colletion":{
+  "store.custom#colecao":{
     "path": "/colecao",
     "isSitemapEntry": true
   }

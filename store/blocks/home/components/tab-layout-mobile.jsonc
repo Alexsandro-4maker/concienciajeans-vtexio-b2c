@@ -127,7 +127,7 @@
     },
     "rich-text#tab-feminino-1": {
         "props": {
-            "text": "Receba novidades",
+            "text": "Lançamentos",
             "blockClass": "shelfTitle-tab"
         }
     },
@@ -147,7 +147,7 @@
     },
     "rich-text#tab-feminino-2": {
         "props": {
-            "text": "Resort",
+            "text": "Ana Castela",
             "blockClass": "shelfTitle-tab"
         }
     },
@@ -167,7 +167,7 @@
     },
     "rich-text#tab-feminino-3": {
         "props": {
-            "text": "Lançamentos",
+            "text": "Mais Vendidas",
             "blockClass": "shelfTitle-tab"
         }
     },
@@ -187,7 +187,7 @@
     },
     "rich-text#tab-feminino-4": {
         "props": {
-            "text": "wide leg",
+            "text": "Shorts",
             "blockClass": "shelfTitle-tab"
         }
     },
@@ -227,7 +227,7 @@
     },
     "rich-text#tab-feminino-6": {
         "props": {
-            "text": "verão",
+            "text": "Plus Size",
             "blockClass": "shelfTitle-tab"
         }
     },

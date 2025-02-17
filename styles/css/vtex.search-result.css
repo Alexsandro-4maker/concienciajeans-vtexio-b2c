@@ -65,8 +65,12 @@
   background-color: #F0F0F0;
 }
 
+.filter__container--brand{
+  display: none;
+}
+
 .gallery--grid {
-  padding-left: 2rem;
+ /* padding-left: 2rem;*/
   gap: 10px;
 }
 
