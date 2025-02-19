@@ -30,6 +30,15 @@
     margin-bottom: 10px;
 }
 
+:global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) .menuContainerHeader-content-nav {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-right: 40px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
 .menuContainerHeader-content-nav-item--dropdown {
     display: none !important;
 }
@@ -89,9 +98,6 @@
     justify-content: space-between;
     padding-left: 0px;
 }
-
-
-
 
 .menuContainerHeader-content-nav-item--dropdown-items-category-items {
 
@@ -178,7 +184,7 @@
         text-transform: uppercase;
     }
 
-    .menuContainer--menu-footer-mobile{
+    .menuContainer--menu-footer-mobile {
         align-items: normal !important;
     }
 }

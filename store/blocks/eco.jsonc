@@ -1,6 +1,324 @@
 {
-    "store.custom#eco": {
-      "children": [
-      ]
+  "store.custom#eco": {
+    "children": [
+      "video#eco",
+      "flex-layout.row#container-eco-1",
+      "flex-layout.row#sessao-eco-imagens",
+      "rich-text#title-eco-3",
+      "rich-text#sub-eco-3",
+      "rich-text#sub-eco-4",
+      "slider-layout#banner-eco-1",
+      "flex-layout.row#container-eco-2",
+      "rich-text#sub-eco-5",
+      "slider-layout#banner-conciencia-eco-1",
+      "flex-layout.row#mais-populares-eco-imagens",
+      "rich-text##mais-populares-eco",
+      "rich-text##mais-populares-sub-eco"
+    ]
+  },
+  "video#eco": {
+    "props": {
+      "width": "100%",
+      "height": "600px",
+      "loop": false,
+      "autoPlay": true,
+      "muted": false,
+      "src": "https://youtu.be/IEzQwOZ-_9Y",
+      "blockClass": "videoEl"
     }
+  },
+  "flex-layout.row#container-eco-1": {
+    "children": [
+      "flex-layout.col#container-eco-1-1",
+      "flex-layout.col#container-eco-1-2"
+    ],
+    "props": {
+      "blockClass": "container-eco-1"
+    }
+  },
+  "flex-layout.col#container-eco-1-1": {
+    "children": [
+      "rich-text#title-eco-2",
+      "image#logo-eco-1"
+    ],
+    "props": {
+      "blockClass": ""
+    }
+  },
+  "rich-text#title-eco-2": {
+    "props": {
+      "text": "## FONTE DE VIDA.\nCOMBUSTÍVEL.\n ALEGRIA",
+      "blockClass": "title-eco-1"
+    }
+  },
+  "image#logo-eco-1": {
+    "props": {
+      "src": "/arquivos/logo-campanha.png?v=637910568354900000",
+      "blockClass": "logo-eco"
+    }
+  },
+  "flex-layout.col#container-eco-1-2": {
+    "children": [
+      "rich-text#description-eco-1-1"
+    ],
+    "props": {
+      "blockClass": "shelf-4"
+    }
+  },
+  "rich-text#description-eco-1-1": {
+    "props": {
+      "text": "A água é o elemento que traz o movimento da vida, que purifica nossos corpos, que fertiliza nossos plantios. \n\n\n De frente para a realidade, só estamos realmente vivos quando temos a coragem de fazer escolhas. Agora, precisamos escolher: amamos o planeta que nos abriga e que nos alimenta. Amamos a nossa casa?\n\n\n A indústria da moda é uma das maiores consumidoras de água do planeta. Nós não podemos mais ser o problema, nós precisamos ser a solução. O agente motor da mudança é a sua consciência.\n\n\n Estamos tomando ação. Conheça a linha Consciência ECO, um jeans produzido com o método SMART, reduzindo em até 95% o uso de água na sua produção, embalado com matérias bio degradáveis e pensada para o agora! \n\n\nConsciência, um presente para o futuro.",
+      "blockClass": "container-subtitle-1"
+    }
+  },
+  "flex-layout.row#sessao-eco-imagens": {
+    "children": [
+      "image#imagem-eco-1",
+      "image#imagem-eco-2",
+      "image#imagem-eco-3",
+      "image#imagem-eco-4",
+      "image#imagem-eco-5"
+    ],
+    "props": {
+      "blockClass": "container-imagens-eco"
+    }
+  },
+  "image#imagem-eco-1": {
+    "props": {
+      "src": "https://conscienciajeans.vteximg.com.br/arquivos/ids/481738/consciente-01.png?v=637911257557500000",
+      "blockClass": "sub-imagens-eco"
+    }
+  },
+  "image#imagem-eco-2": {
+    "props": {
+      "src": "https://conscienciajeans.vteximg.com.br/arquivos/ids/481739/consciente-02.png?v=637911257559370000",
+      "blockClass": "sub-imagens-eco"
+    }
+  },
+  "image#imagem-eco-3": {
+    "props": {
+      "src": "https://conscienciajeans.vteximg.com.br/arquivos/ids/481740/consciente-03.png?v=637911257561400000",
+      "blockClass": "logo-eco"
+    }
+  },
+  "image#imagem-eco-4": {
+    "props": {
+      "src": "https://conscienciajeans.vteximg.com.br/arquivos/ids/481741/consciente-04.png?v=637911257563100000",
+      "blockClass": "sub-imagens-eco"
+    }
+  },
+  "image#imagem-eco-5": {
+    "props": {
+      "src": "https://conscienciajeans.vteximg.com.br/arquivos/ids/481742/consciente-05.png?v=637911257565130000",
+      "blockClass": "sub-imagens-eco"
+    }
+  },
+  "rich-text#title-eco-3": {
+    "props": {
+      "text": "## Consumo Consciente",
+      "blockClass": "title-eco-3"
+    }
+  },
+  "rich-text#sub-eco-3": {
+    "props": {
+      "text": "Produtos sustentáveis",
+      "blockClass": "sub-eco-3"
+    }
+  },
+  "rich-text#sub-eco-4": {
+    "props": {
+      "text": "## Porque eco",
+      "blockClass": "title-eco-4"
+    }
+  },
+  "slider-layout#banner-eco-1": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "slide-carousel-banner-eco-1"
+    },
+    "children": [
+      "image#slider-imagem-eco-1",
+      "image#slider-imagem-eco-2",
+      "image#slider-imagem-eco-3",
+      "image#slider-imagem-eco-4"
+    ]
+  },
+  "image#slider-imagem-eco-1": {
+    "props": {
+      "src": "https://conscienciajeans.vteximg.com.br/arquivos/ids/481711/porque-01.png?v=637910520487900000",
+      "blockClass": "slider-imagens-eco"
+    }
+  },
+  "image#slider-imagem-eco-2": {
+    "props": {
+      "src": "https://conscienciajeans.vteximg.com.br/arquivos/ids/481714/porque-02.png?v=637910520495870000",
+      "blockClass": "slider-imagens-eco"
+    }
+  },
+  "image#slider-imagem-eco-3": {
+    "props": {
+      "src": "https://conscienciajeans.vteximg.com.br/arquivos/ids/481712/porque-03.png?v=637910520494600000",
+      "blockClass": "slider-imagens-eco"
+    }
+  },
+  "image#slider-imagem-eco-4": {
+    "props": {
+      "src": "https://conscienciajeans.vteximg.com.br/arquivos/ids/481713/porque-04.png?v=637910520495400000",
+      "blockClass": "slider-imagens-eco"
+    }
+  },
+  "flex-layout.row#container-eco-2": {
+    "children": [
+      "image#bloco-imagem-eco-2-1"
+    ],
+    "props": {
+      "blockClass": ""
+    }
+  },
+  "image#bloco-imagem-eco-2-1": {
+    "props": {
+      "src": "https://conscienciajeans.vteximg.com.br/arquivos/ids/481720/banner-meio.png?v=637910527547370000",
+      "blockClass": "slider-imagens-eco"
+    }
+  },
+  "rich-text#sub-eco-5": {
+    "props": {
+      "text": "## Consciência ECO",
+      "blockClass": "title-eco-5"
+    }
+  },
+  "flex-layout.row#mais-populares-eco-imagens": {
+    "children": [
+      "image#mais-populares-eco-1"
+    ],
+    "props": {
+      "blockClass": "container-imagens-eco"
+    }
+  },
+  "image#mais-populares-eco-1": {
+    "props": {
+      "src": "https://conscienciajeans.vteximg.com.br/arquivos/ids/481716/populares-desk.png?v=637910520688600000",
+      "blockClass": ""
+    }
+  },
+
+  "rich-text##mais-populares-eco": {
+    "props": {
+      "text": "## Mais populares",
+      "blockClass": "title-eco-5"
+    }
+  },
+  "rich-text##mais-populares-sub-eco": {
+    "props": {
+      "text": "Ver mais",
+      "blockClass": "sub-eco-3"
+    }
+  },
+  "slider-layout#banner-conciencia-eco-1": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "slide-carousel-eco-1"
+    },
+    "children": [
+      "flex-layout.row#container-conciencia-eco-1",
+      "flex-layout.row#container-conciencia-eco-2",
+      "flex-layout.row#container-conciencia-eco-3"
+    ]
+  },
+  "flex-layout.row#container-conciencia-eco-1": {
+    "children": [
+      "rich-text##conciencia-title-eco-1",
+      "rich-text##conciencia-sub-eco-1",
+      "image#imagem-conciencia-eco-1"
+    ],
+    "props": {
+      "blockClass": "shelf-4"
+    }
+  },
+  "rich-text##conciencia-title-eco-1": {
+    "props": {
+      "text": "## Amaciante de Cupuaçu",
+      "blockClass": "sub-eco-3"
+    }
+  },
+  "rich-text##conciencia-sub-eco-1": {
+    "props": {
+      "text": "Usamos em nossos tecidos amaciantes a base cupuaçu, trazendo maciez para a peça e um baixo impacto ambiental.",
+      "blockClass": "sub-eco-3"
+    }
+  },
+  "image#imagem-conciencia-eco-1": {
+    "props": {
+      "src": "https://conscienciajeans.vteximg.com.br/arquivos/consciencia-eco-01.png?v=637911257429500000",
+      "blockClass": "slider-imagens-eco"
+    }
+  },
+  "flex-layout.row#container-conciencia-eco-2": {
+    "children": [
+      "rich-text##conciencia-title-eco-2",
+      "rich-text##conciencia-sub-eco-2",
+      "image#imagem-conciencia-eco-2"
+    ],
+    "props": {
+      "blockClass": "shelf-4"
+    }
+  },
+  "rich-text##conciencia-title-eco-2": {
+    "props": {
+      "text": "## Amaciante de Cupuaçu",
+      "blockClass": "sub-eco-3"
+    }
+  },
+  "rich-text##conciencia-sub-eco-2": {
+    "props": {
+      "text": "Usamos em nossos tecidos amaciantes a base cupuaçu, trazendo maciez para a peça e um baixo impacto ambiental.",
+      "blockClass": "sub-eco-3"
+    }
+  },
+  "image#imagem-conciencia-eco-2": {
+    "props": {
+      "src": "https://conscienciajeans.vteximg.com.br/arquivos/consciencia-eco-01.png?v=637911257429500000",
+      "blockClass": "slider-imagens-eco"
+    }
+  },
+  "flex-layout.row#container-conciencia-eco-3": {
+    "children": [
+      "rich-text##conciencia-title-eco-3",
+      "rich-text##conciencia-sub-eco-3",
+      "image#imagem-conciencia-eco-3"
+    ],
+    "props": {
+      "blockClass": "shelf-4"
+    }
+  },
+  "rich-text##conciencia-title-eco-3": {
+    "props": {
+      "text": "## Amaciante de Cupuaçu",
+      "blockClass": "sub-eco-3"
+    }
+  },
+  "rich-text##conciencia-sub-eco-3": {
+    "props": {
+      "text": "Usamos em nossos tecidos amaciantes a base cupuaçu, trazendo maciez para a peça e um baixo impacto ambiental.",
+      "blockClass": "sub-eco-3"
+    }
+  },
+  "image#imagem-conciencia-eco-3": {
+    "props": {
+      "src": "https://conscienciajeans.vteximg.com.br/arquivos/consciencia-eco-01.png?v=637911257429500000",
+      "blockClass": "slider-imagens-eco"
+    }
+  }
 }

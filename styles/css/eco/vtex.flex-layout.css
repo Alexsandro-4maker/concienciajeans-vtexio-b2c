@@ -1,0 +1,12 @@
+.flexRow--container-eco-1 {
+    background: #f3f2ed;
+    padding: 40px 80px;
+}
+
+
+.flexRowContent--container-imagens-eco {
+    display: flex;
+    align-items: center;
+    max-width: 1240px;
+    margin: 40px auto 10px;
+}

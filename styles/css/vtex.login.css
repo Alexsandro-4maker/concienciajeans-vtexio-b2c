@@ -8,6 +8,16 @@
     padding-left: 0;
 }
 
+:global(.product-images-slider ) :global(.slick-next) {
+    right: 50%;
+    z-index: 1;
+}
+
+:global(.product-images-slider)  :global(.slick-prev ) {
+    z-index: 1;
+    left: 15%;
+}
+
 :global(.render-route-store-home) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) .label::after {
     content: "Minha Conta";
     visibility: visible;
@@ -165,6 +175,10 @@
 }
 
 :global(.render-route-store-search) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) {
+    position: relative !important;
+}
+
+:global(.render-route-store-custom-eco) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) {
     position: relative !important;
 }
 
@@ -399,7 +413,7 @@
 }
 
 :global(.product-image) {
-    height: 800px !important;
+    height: 650px !important;
     object-fit: cover;
     width: 540px;
 }

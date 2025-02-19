@@ -281,7 +281,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/bags/meus-pedidos",
+        "href": "/account#/orders",
         "noFollow": true,
         "tagTitle": "Meus Pedidos",
         "text": "Meus Pedidos"
@@ -297,7 +297,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/bags/lojas-fisicas",
+        "href": "lojas-fisicas",
         "noFollow": true,
         "tagTitle": "Lojas Físicas",
         "text": "Lojas Físicas"

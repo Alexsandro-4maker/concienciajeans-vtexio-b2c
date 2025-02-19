@@ -1,0 +1,88 @@
+.headingLevel2--title-eco-3 {
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.container--title-eco-3 {
+    justify-content: center;
+}
+
+.container--sub-eco-3 {
+    justify-content: center;
+}
+
+.container--title-eco-5 {
+    
+    justify-content: center;
+}
+
+.headingLevel2--sub-eco-3 {
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.paragraph--title-eco-1,
+.headingLevel2--title-eco-1 {
+    color: #9a7751;
+    font-family: "Montserrat";
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.wrapper--title-eco-1 {
+    margin-top: 35px;
+}
+
+.paragraph--container-subtitle-1 {
+    font-size: 14px;
+    line-height: 26px;
+    color: #2e2e2e;
+    font-family: "Montserrat";
+}
+
+.headingLevel2--title-eco-3 {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 30px;
+    color: #2e2e2e;
+}
+
+.paragraph--sub-eco-3 {
+    margin: 0;
+    font-weight: 600;
+    color: #2e2e2e;
+}
+
+.headingLevel2--title-eco-4 {
+    font-size: 65px;
+    text-transform: uppercase;
+    margin-left: 70px;
+    font-family: "Montserrat";
+}
+
+.headingLevel2--title-eco-5 {
+    font-size: 35px;
+    text-transform: uppercase;
+    font-family: "Montserrat";
+}
+
+:global(.vtex-render__container-id-banner-eco-1) {
+    width: 1050px;
+    margin: 0 auto;
+}
+
+.headingLevel2--title-eco-5 {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-style: normal;
+    font-size: 60px;
+    line-height: 30px;
+    color: #9a7751;
+}

@@ -14,5 +14,13 @@
   "store.custom#colecao":{
     "path": "/colecao",
     "isSitemapEntry": true
+  },
+  "store.custom#eco":{
+    "path": "/eco",
+    "isSitemapEntry": true
+  },
+  "store.custom#lojas-fisica":{
+    "path": "/lojas-fisicas",
+    "isSitemapEntry": true
   }
 }
