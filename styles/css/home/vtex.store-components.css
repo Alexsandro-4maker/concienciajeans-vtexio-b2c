@@ -80,3 +80,19 @@
         height: auto;
     }
 }
+
+
+@media (min-width:1600px) {
+    .imageElement--banner-image-2-2,
+    .imageElement--banner-image-2-1 {
+        width: 520px !important;
+        height: 410px !important;
+        max-width: 520px !important;
+    }
+
+    .imageElement--banner-image-principal-2 {
+        width: 850px !important;
+        height: 835px !important;
+        object-fit: cover;
+    }
+}

@@ -219,3 +219,16 @@
         margin: 0 auto;
     }
 }
+
+
+@media (min-width:1800px) {
+    :global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) .menuContainerHeader-content-nav {
+        display: flex;
+        align-items: center;
+        gap: 50px;
+        margin-right: 40px;
+        margin-top: 25px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+}

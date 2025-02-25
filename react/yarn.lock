@@ -189,9 +189,9 @@ classnames@*, classnames@^2.2.5, classnames@^2.3.2:
   resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.5.1.tgz#ba774c614be0f016da105c858e7159eae8e7687b"
   integrity sha512-saHYOzhIQs6wy2sVxTM6bUDsQO4F50V9RQ22qBpEdCW+I+/Wmke2HOl6lS6dTpdxVhb88/I6+Hs+438c3lfUow==
 
-"conscienciajeans.store-theme@https://desenvolvimento--conscienciajeans.myvtex.com/_v/private/typings/linked/v1/conscienciajeans.store-theme@0.0.1-1+build1739255768/public/@types/conscienciajeans.store-theme":
-  version "0.0.1-1"
-  resolved "https://desenvolvimento--conscienciajeans.myvtex.com/_v/private/typings/linked/v1/conscienciajeans.store-theme@0.0.1-1+build1739255768/public/@types/conscienciajeans.store-theme#1c9104a108036a25c7c9c3b36e33d329b8f53bc3"
+"conscienciajeans.store-theme@https://desenvolvimento--conscienciajeans.myvtex.com/_v/private/typings/linked/v1/conscienciajeans.store-theme@0.0.1-2+build1740065266/public/@types/conscienciajeans.store-theme":
+  version "0.0.1-2"
+  resolved "https://desenvolvimento--conscienciajeans.myvtex.com/_v/private/typings/linked/v1/conscienciajeans.store-theme@0.0.1-2+build1740065266/public/@types/conscienciajeans.store-theme#1e8745fbab4980ef9a7304b701c9777f086094cc"
 
 csstype@^3.0.2:
   version "3.1.3"

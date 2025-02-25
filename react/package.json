@@ -22,7 +22,7 @@
     "@types/react": "^16.9.0",
     "@types/react-slick": "^0.23.13",
     "@vtex/tsconfig": "^0.6.0",
-    "conscienciajeans.store-theme": "https://desenvolvimento--conscienciajeans.myvtex.com/_v/private/typings/linked/v1/conscienciajeans.store-theme@0.0.1-1+build1739255768/public/@types/conscienciajeans.store-theme",
+    "conscienciajeans.store-theme": "https://desenvolvimento--conscienciajeans.myvtex.com/_v/private/typings/linked/v1/conscienciajeans.store-theme@0.0.1-2+build1740065266/public/@types/conscienciajeans.store-theme",
     "sizebay.sizebay": "http://sizebay.vtexassets.com/_v/public/typings/v1/sizebay.sizebay@3.4.14/public/@types/sizebay.sizebay",
     "vtex.add-to-cart-button": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.add-to-cart-button@0.30.2/public/@types/vtex.add-to-cart-button",
     "vtex.breadcrumb": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.breadcrumb@1.9.5/public/@types/vtex.breadcrumb",
