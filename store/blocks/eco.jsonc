@@ -189,8 +189,8 @@
   },
   "rich-text#sub-eco-5": {
     "props": {
-      "text": "## Consciência ECO",
-      "blockClass": "title-eco-5"
+      "text": "Consciência ECO",
+      "blockClass": "title-eco-6"
     }
   },
   "flex-layout.row#mais-populares-eco-imagens": {
@@ -217,7 +217,7 @@
   "rich-text##mais-populares-sub-eco": {
     "props": {
       "text": "Ver mais",
-      "blockClass": "sub-eco-3"
+      "blockClass": "sub-eco-6"
     }
   },
   "slider-layout#banner-conciencia-eco-1": {
@@ -262,7 +262,7 @@
   "image#imagem-conciencia-eco-1": {
     "props": {
       "src": "https://conscienciajeans.vteximg.com.br/arquivos/consciencia-eco-01.png?v=637911257429500000",
-      "blockClass": "slider-imagens-eco"
+      "blockClass": "slider-imagens-bloco-eco"
     }
   },
   "flex-layout.row#container-conciencia-eco-2": {
@@ -290,7 +290,7 @@
   "image#imagem-conciencia-eco-2": {
     "props": {
       "src": "https://conscienciajeans.vteximg.com.br/arquivos/consciencia-eco-01.png?v=637911257429500000",
-      "blockClass": "slider-imagens-eco"
+      "blockClass": "slider-imagens-bloco-eco"
     }
   },
   "flex-layout.row#container-conciencia-eco-3": {
@@ -318,7 +318,7 @@
   "image#imagem-conciencia-eco-3": {
     "props": {
       "src": "https://conscienciajeans.vteximg.com.br/arquivos/consciencia-eco-01.png?v=637911257429500000",
-      "blockClass": "slider-imagens-eco"
+      "blockClass": "slider-imagens-bloco-eco"
     }
   }
 }

@@ -4,3 +4,8 @@
     padding: 10px;
     border-radius: 30px;
 }
+
+.paginationDotsContainer--slide-carousel-banner-eco-1,
+.paginationDotsContainer--slide-carousel-eco-1{
+    display: none;
+}
