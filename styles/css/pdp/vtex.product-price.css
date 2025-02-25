@@ -1,0 +1,10 @@
+.currencyContainer--price-sem-desconto{
+    margin-top: 20px;
+    color: #d83c3c;
+    font-size: 21px;
+}
+
+.listPriceValue--price-sem-desconto{
+    
+    text-decoration-color: #d83c3c;
+}

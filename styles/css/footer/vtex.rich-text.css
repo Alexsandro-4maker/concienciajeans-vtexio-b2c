@@ -33,7 +33,7 @@
 .paragraph--texto-seguranca {
     font-weight: 600;
     font-family: "Montserrat";
-    font-size:14px;
+    font-size: 14px;
 }
 
 .paragraph--texto-developer {
@@ -50,32 +50,35 @@
 .paragraph--title-menu {
     text-transform: uppercase;
     font-weight: 600;
-    font-size: 16px;
-    color: #000;
+    font-size: 18px;
+    color: #2e2e2e;
+    font-family: 'Montserrat';
 }
 
-.paragraph--texto-rede-social{
-    color: #000;
-    font-size: 15px;
+.paragraph--texto-rede-social {
+    color: #2e2e2e;
+    font-size: 23px;
     font-weight: bold;
     text-transform: uppercase;
+    font-family: 'Montserrat';
+
 }
 
 @media only screen and (max-width: 990px) {
 
-    .paragraph--texto-rede-social{
+    .paragraph--texto-rede-social {
 
         font-weight: 400;
     }
 
     .paragraph--texto-developer,
     .paragraph--texto-pagamento {
-        
+
         font-size: 12px;
     }
 
-    .paragraph--title-menu{
+    .paragraph--title-menu {
         display: none;
     }
-    
+
 }
