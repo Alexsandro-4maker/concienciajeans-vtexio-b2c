@@ -1,0 +1,98 @@
+{
+  "store.custom#quem-somos": {
+    "blocks": [
+      "flex-layout.row#quem-somos",
+      "rich-text#conteudo-quem-somos",
+      "flex-layout.row#quem-somos-container",
+        "custom-info-institucionais"
+    ]
+  },
+  "flex-layout.row#quem-somos": {
+    "children": [
+      "flex-layout.col#quem-somos-imagem",
+      "flex-layout.col#quem-somos-texto"
+    ],
+    "props": {
+      "blockClass": "quem-somos",
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.col#quem-somos-imagem": {
+    "children": [
+      "image#quem-somos"
+    ],
+    "props": {
+      "blockClass": "quem-somos-imagem"
+    }
+  },
+  "image#quem-somos": {
+    "props": {
+      "src": "url-da-imagem",
+      "alt": "Imagem Quem Somos",
+      "maxWidth": "100%",
+      "blockClass": "quem-somos-img"
+    }
+  },
+  "flex-layout.col#quem-somos-texto": {
+    "children": [
+      "rich-text#quem-somos"
+    ],
+    "props": {
+      "blockClass": "quem-somos-texto"
+    }
+  },
+  "rich-text#quem-somos": {
+    "props": {
+      "text": "**QUEM SOMOS**  \nFashion. Comprometida. Atualizada. Moderna.  \nEssas são algumas características que falam sobre quem somos!  \nNascemos em 2004 com a vontade de inspirar pessoas, empresas e nosso entorno...",
+      "textPosition": "LEFT",
+      "blockClass": "quem-somos-content"
+    }
+  },
+  "rich-text#conteudo-quem-somos": {
+    "props": {
+      "text": "",
+      "textPosition": "LEFT",
+      "blockClass": "quem-somos-content"
+    }
+  },
+  "flex-layout.row#quem-somos-container": {
+    "children": [
+      "flex-layout.col#quem-somos-container-imagem-2-1",
+      "flex-layout.col#quem-somos-container-imagem-2-2"
+    ],
+    "props": {
+      "blockClass": "quem-somos-container-2",
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.col#quem-somos-container-imagem-2-1": {
+    "children": [
+      "image#quem-somos-imagem-2-1"
+    ],
+    "props": {
+      "blockClass": "quem-somos-container-imagem-2-1"
+    }
+  },
+  "image#quem-somos-imagem-2-1": {
+    "props": {
+      "src": "url-da-imagem",
+      "alt": "Imagem Quem Somos",
+      "blockClass": "quem-somos-imagem-2-1"
+    }
+  },
+  "flex-layout.col#quem-somos-container-imagem-2-2": {
+    "children": [
+      "image#quem-somos-imagem-2-2"
+    ],
+    "props": {
+      "blockClass": "quem-somos-container-imagem-2-2"
+    }
+  },
+  "image#quem-somos-imagem-2-2": {
+    "props": {
+      "src": "url-da-imagem",
+      "alt": "Imagem Quem Somos",
+      "blockClass": "quem-somos-imagem-2-2"
+    }
+  }
+}

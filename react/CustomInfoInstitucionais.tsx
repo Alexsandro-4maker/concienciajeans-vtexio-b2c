@@ -1,0 +1,2 @@
+import CustomInfoInstitucionais from './components/CustomInfoInstitucionais/index'
+export default CustomInfoInstitucionais
