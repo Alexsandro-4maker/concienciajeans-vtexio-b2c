@@ -58,7 +58,7 @@
     background-color: #E8E8E8;
 }
 
-.flexRow--shelf-4{
+.flexRow--shelf-4 {
     background-color: #fff;
 }
 
@@ -73,7 +73,7 @@
     padding: 50px 0 !important;
 }
 
-.flexRowContent--bloco-deals{
+.flexRowContent--bloco-deals {
     gap: 15px;
 }
 
@@ -88,7 +88,7 @@
 
 @media only screen and (min-width: 1400px) {
 
-    
+
     .flexRowContent--banner-image-home {
         max-width: 1420px;
         margin: 0 auto;
@@ -102,7 +102,16 @@
 
 @media only screen and (max-width: 900px) {
 
-.flexRowContent--shelf-4 {
-    padding: 5px;
+    .flexRowContent--shelf-4 {
+        padding: 5px;
+    }
 }
+
+
+@media (min-width:1600px) {
+    .flexRowContent--bloco-container-image-3 {
+        max-width: 1400px;
+    }
+
+   
 }

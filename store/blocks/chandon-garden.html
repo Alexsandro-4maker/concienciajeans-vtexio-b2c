@@ -1,58 +1,147 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-<style>
-    *{
-        margin: 0;
-        padding: 0;
-    }
-    
-    .imagem-topo-1{
-        object-fit: fill;
-    }
-</style>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .imagem-topo-1 {
+            object-fit: fill;
+        }
+
+        .container-title {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding-top: 50px;
+        }
+
+        .container-bloco2 {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        .container {
+            max-width: 1200px;
+            display: flex;
+            align-items: center;
+            padding: 20px;
+        }
+        .text-content {
+            width: 50%;
+            padding-right: 20px;
+        }
+        .text-content h1 {
+            font-size: 24px;
+        }
+        .text-content p {
+            font-size: 16px;
+            color: #333;
+        }
+        .icons {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .icon {
+            text-align: center;
+            width: 22%;
+        }
+        .icon img {
+            width: 50px;
+            height: 50px;
+        }
+        .image-content {
+            width: 50%;
+            text-align: center;
+        }
+        .image-content img {
+            width: 100%;
+            border-radius: 10px;
+        }
+    </style>
 
     <div>
-        <img  class="imagem-topo-1" src="https://images.tcdn.com.br/img/editor/up/1306234/Group_104.png"  width="100%" alt="">
+        <img class="imagem-topo-1" src="https://images.tcdn.com.br/img/editor/up/1306234/Group_104.png" width="100%"
+            alt="">
     </div>
     <div style="background-color: #F2E9DB;">
-        <div class="container">
+        <div class="container-title">
             <h1>CHANDON</h1>
             <h2>GARDEN SPRITZ</h2>
         </div>
-    
-        <div class="container">
+
+        <div class="container-bloco2">
             <div class="image-wrapper">
                 <img alt="Chandon Garden Spritz" src="https://images.tcdn.com.br/img/editor/up/1306234/Group_98.png" />
             </div>
-    
+
             <div class="text-content">
                 <p>SPRITZ FEITO COM O NOSSO ESPUMANTE EXCEPCIONAL CHANDON BRUT E BITTER DE LARANJA.</p>
-    
+
                 <p>UMA NOVA EXPERI&Ecirc;NCIA SPRITZ, PRONTO PARA SERVIR, SEM AROMA ARTIFICIAL E SEM CORANTE.</p>
-    
+
                 <p>DESFRUTE EM UMA TA&Ccedil;A COM GELO.</p>
             </div>
         </div>
     </div>
-    
+
     <div class="container">
         <div class="text-block">
             <h3>Um Spritz sem igual</h3>
-    
+
             <p>Chandon Garden Spritz combina nosso espumante excepcional CHANDON Brut com um licor artesanal de laranja
                 amargo, feito a partir de cascas de laranjas selecionadas.</p>
-    
+
             <p>Ingredientes naturais, sem aromas artificiais ou corantes. Apenas o equil&iacute;brio perfeito entre o
                 amargor da laranja, o dul&ccedil;or natural e a acidez refrescante do espumante.</p>
         </div>
-    
+
         <div class="image-block"><img alt="Chandon com Taça" src="chandon-glass.png" /></div>
     </div>
+
+
+    <div class="container">
+        <div class="text-content">
+            <h1>Um Spritz sem igual</h1>
+            <p>Chandon Garden Spritz combina nosso espumante excepcional CHANDON Brut com um toque único...</p>
+            <p>Uma receita artesanal secreta que vem pronta para servir...</p>
+            <p>Elaborado com metade do açúcar de qualquer outro Spritz...</p>
+            <div class="icons">
+                <div class="icon">
+                    <img src="icon1.png" alt="Ingredientes frescos">
+                    <p>Ingredientes frescos...</p>
+                </div>
+                <div class="icon">
+                    <img src="icon2.png" alt="Ingredientes naturais">
+                    <p>Todos os ingredientes são naturais...</p>
+                </div>
+                <div class="icon">
+                    <img src="icon3.png" alt="Espumante de qualidade">
+                    <p>Espumante seco de alta qualidade...</p>
+                </div>
+                <div class="icon">
+                    <img src="icon4.png" alt="Receita única">
+                    <p>Uma receita única de Spritz...</p>
+                </div>
+            </div>
+        </div>
+        <div class="image-content">
+            <img src="image.png" alt="Chandon Garden Spritz">
+        </div>
+    </div>
 </body>
+
 </html>
