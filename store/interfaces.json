@@ -7,5 +7,8 @@
   },
   "galeria-pdp": {
     "component": "galeriaPdp"
+  },
+  "custom-info-institucionais": {
+    "component": "CustomInfoInstitucionais"
   }
 }

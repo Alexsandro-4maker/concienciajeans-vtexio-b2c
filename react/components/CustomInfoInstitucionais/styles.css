@@ -1,0 +1,12 @@
+.atendimento {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.infoCard{
+    background: #fff;
+    box-shadow: 0 0 10px 2px #dcdcdc;
+    width: 350px;
+    padding: 20px;
+}

@@ -11,16 +11,17 @@
   "store.custom#ana-castela": {
     "path": "/ana-castela"
   },
-  "store.custom#colecao":{
+  "store.custom#colecao": {
     "path": "/colecao",
     "isSitemapEntry": true
   },
-  "store.custom#eco":{
+  "store.custom#eco": {
     "path": "/eco",
     "isSitemapEntry": true
   },
-  "store.custom#lojas-fisica":{
-    "path": "/lojas-fisicas",
+
+  "store.custom#quem-somos": {
+    "path": "/quem-somos",
     "isSitemapEntry": true
   }
 }
