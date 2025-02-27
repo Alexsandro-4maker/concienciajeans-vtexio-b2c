@@ -189,9 +189,9 @@ classnames@*, classnames@^2.2.5, classnames@^2.3.2:
   resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.5.1.tgz#ba774c614be0f016da105c858e7159eae8e7687b"
   integrity sha512-saHYOzhIQs6wy2sVxTM6bUDsQO4F50V9RQ22qBpEdCW+I+/Wmke2HOl6lS6dTpdxVhb88/I6+Hs+438c3lfUow==
 
-"conscienciajeans.store-theme@https://desenvolvimento--conscienciajeans.myvtex.com/_v/private/typings/linked/v1/conscienciajeans.store-theme@0.0.1-2+build1740567612/public/@types/conscienciajeans.store-theme":
-  version "0.0.1-2"
-  resolved "https://desenvolvimento--conscienciajeans.myvtex.com/_v/private/typings/linked/v1/conscienciajeans.store-theme@0.0.1-2+build1740567612/public/@types/conscienciajeans.store-theme#6330d5b4297ee82d121e666f79a1f2c51344d706"
+"conscienciajeans.store-theme@https://desenvolvimento--conscienciajeans.myvtex.com/_v/private/typings/linked/v1/conscienciajeans.store-theme@0.0.1-5+build1740659284/public/@types/conscienciajeans.store-theme":
+  version "0.0.1-5"
+  resolved "https://desenvolvimento--conscienciajeans.myvtex.com/_v/private/typings/linked/v1/conscienciajeans.store-theme@0.0.1-5+build1740659284/public/@types/conscienciajeans.store-theme#606df2049cc1b1d93a441362b0695c84ad1eca0e"
 
 csstype@^3.0.2:
   version "3.1.3"
@@ -510,9 +510,9 @@ undici-types@~5.26.4:
   version "0.16.0"
   resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.rich-text@0.16.0/public/@types/vtex.rich-text#0cdcaccffb37ae0d025894ba7055f69bc3c9aa30"
 
-"vtex.search-result@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.search-result@3.136.0/public/@types/vtex.search-result":
-  version "3.136.0"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.search-result@3.136.0/public/@types/vtex.search-result#1163d18adfb4059ee80965bb878efe77c7b483b7"
+"vtex.search-result@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.search-result@3.136.1/public/@types/vtex.search-result":
+  version "3.136.1"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.search-result@3.136.1/public/@types/vtex.search-result#bf6cd0c5f2340cd70cc5736f4228f6dad34874c4"
 
 "vtex.search@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.search@2.18.2/public/@types/vtex.search":
   version "2.18.2"
