@@ -53,8 +53,8 @@
     "children": [
       "image#instagram",
       "image#facebook",
-      "image#pinterest",
-      "image#tiktok"
+      "image#pinterest"
+      
     ]
   },
   "image#instagram": {
