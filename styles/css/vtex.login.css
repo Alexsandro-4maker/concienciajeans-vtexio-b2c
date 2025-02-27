@@ -555,6 +555,13 @@
     justify-content: space-between;
 }
 
+:global(.container-button) a {
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 :global(.input-form-button) {
     width: 165px;
     height: 45px;

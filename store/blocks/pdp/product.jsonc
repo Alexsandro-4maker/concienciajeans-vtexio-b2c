@@ -136,7 +136,7 @@
         }
       ],
       "Then": "flex-layout.row#product-main",
-      "Else": "flex-layout.row#product-availability"
+      "Else": "flex-layout.row#product-main"
     }
   },
   "flex-layout.row#product-main": {

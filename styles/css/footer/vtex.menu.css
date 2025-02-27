@@ -21,6 +21,7 @@
 
 .menuContainerHeader-content-nav-item {
     list-style: none;
+    
 }
 
 .menuContainerHeader-content-nav {
@@ -223,7 +224,7 @@
 }
 
 
-@media (min-width:1800px) {
+@media (min-width:1600px) {
     :global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) .menuContainerHeader-content-nav {
         display: flex;
         align-items: center;

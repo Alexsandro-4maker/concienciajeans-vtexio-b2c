@@ -28,6 +28,15 @@
     align-items: center;
 }
 
+:global(.vtex-flex-layout-0-x-flexColChild--container-description-pdp) .skuSelectorInternalBox:hover {
+    color: #fff;
+    background-color: #3d3d3d;
+    border-color: #3d3d3d;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
 .skuSelectorInternalBox:hover .skuSelectorItemTextValue {
     color: #fff;
     background-color: #3d3d3d;
