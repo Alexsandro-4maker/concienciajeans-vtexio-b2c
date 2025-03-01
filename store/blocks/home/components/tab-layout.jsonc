@@ -83,7 +83,8 @@
     },
     "image#banner-feminino-1": {
         "props": {
-            "src": "/arquivos/img-whts.png"
+            "src": "/arquivos/img-whts.png",
+            "blockClass":"imagem-tab-layout-home"
         }
     },
     "rich-text#tab-feminino-1": {
@@ -103,7 +104,8 @@
     },
     "image#banner-feminino-2": {
         "props": {
-            "src": "/arquivos/foto-resort.png"
+            "src": "/arquivos/foto-resort.png",
+            "blockClass":"imagem-tab-layout-home"
         }
     },
     "rich-text#tab-feminino-2": {
@@ -123,7 +125,8 @@
     },
     "image#banner-feminino-3": {
         "props": {
-            "src": "/arquivos/img-lancamento-1.png"
+            "src": "/arquivos/img-lancamento-1.png",
+            "blockClass":"imagem-tab-layout-home"
         }
     },
     "rich-text#tab-feminino-3": {
@@ -143,7 +146,8 @@
     },
     "image#banner-feminino-4": {
         "props": {
-            "src": "/arquivos/img-wide-leg-1.png"
+            "src": "/arquivos/img-wide-leg-1.png",
+            "blockClass":"imagem-tab-layout-home"
         }
     },
     "rich-text#tab-feminino-4": {
@@ -163,7 +167,8 @@
     },
     "image#banner-feminino-5": {
         "props": {
-            "src": "/arquivos/img-moletons-1.png"
+            "src": "/arquivos/img-moletons-1.png",
+            "blockClass":"imagem-tab-layout-home"
         }
     },
     "rich-text#tab-feminino-5": {
@@ -183,7 +188,8 @@
     },
     "image#banner-feminino-6": {
         "props": {
-            "src": "/arquivos/img-sale-1.png"
+            "src": "/arquivos/img-sale-1.png",
+            "blockClass":"imagem-tab-layout-home"
         }
     },
     "rich-text#tab-feminino-6": {
@@ -204,7 +210,8 @@
     },
     "image#banner-masculino-1": {
         "props": {
-            "src": "/arquivos/foto-bermuda.png"
+            "src": "/arquivos/foto-bermuda.png",
+            "blockClass":"imagem-tab-layout-home"
         }
     },
     "rich-text#tab-masculino-1": {
@@ -224,7 +231,8 @@
     },
     "image#banner-masculino-2": {
         "props": {
-            "src": "/arquivos/foto-calcas.png"
+            "src": "/arquivos/foto-calcas.png",
+            "blockClass":"imagem-tab-layout-home"
         }
     },
     "rich-text#tab-masculino-2": {
@@ -244,7 +252,8 @@
     },
     "image#banner-masculino-3": {
         "props": {
-            "src": "/arquivos/foto-camisas.png"
+            "src": "/arquivos/foto-camisas.png",
+            "blockClass":"imagem-tab-layout-home"
         }
     },
     "rich-text#tab-masculino-3": {
@@ -264,7 +273,8 @@
     },
     "image#banner-masculino-4": {
         "props": {
-            "src": "/arquivos/foto-jaquetas.png"
+            "src": "/arquivos/foto-jaquetas.png",
+            "blockClass":"imagem-tab-layout-home"
         }
     },
     "rich-text#tab-masculino-4": {
@@ -284,7 +294,8 @@
     },
     "image#banner-masculino-5": {
         "props": {
-            "src": "/arquivos/foto-moletons.png"
+            "src": "/arquivos/foto-moletons.png",
+            "blockClass":"imagem-tab-layout-home"
         }
     },
     "rich-text#tab-masculino-5": {
@@ -304,7 +315,8 @@
     },
     "image#banner-masculino-6": {
         "props": {
-            "src": "/arquivos/foto-polos.png"
+            "src": "/arquivos/foto-polos.png",
+            "blockClass":"imagem-tab-layout-home"
         }
     },
     "rich-text#tab-masculino-6": {

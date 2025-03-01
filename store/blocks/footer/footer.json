@@ -53,7 +53,8 @@
     "children": [
       "image#instagram",
       "image#facebook",
-      "image#pinterest"
+      "image#pinterest",
+      "image#tiktok"
       
     ]
   },
@@ -62,7 +63,7 @@
       "src": "assets/imgs/instagram.png",
       "maxHeight": "",
       "maxWidth": "",
-      "blockClass": "storePrint"
+      "blockClass": ["storePrint", "img-rede-social"]
     }
   },
   "image#facebook": {
@@ -70,7 +71,7 @@
       "src":"assets/imgs/facebook.png",
       "maxHeight": "",
       "maxWidth": "",
-      "blockClass": "storePrint"
+      "blockClass": ["storePrint", "img-rede-social"]
     }
   },
   "image#pinterest": {
@@ -78,15 +79,16 @@
       "src": "assets/imgs/pinterest.png",
       "maxHeight": "",
       "maxWidth": "",
-      "blockClass": "storePrint"
+      "blockClass": ["storePrint", "img-rede-social"]
     }
   },
+
   "image#tiktok": {
     "props": {
       "src": "assets/imgs/tiktok.png",
       "maxHeight": "",
       "maxWidth": "",
-      "blockClass": "storePrint"
+      "blockClass": ["storePrint", "img-rede-social"]
     }
   },
   "flex-layout.row#footer-2-desktop": {

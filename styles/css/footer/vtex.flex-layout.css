@@ -68,9 +68,9 @@
 }
 
 .flexColChild--bloco-rede-social .flexRowContent {
-
     margin-top: -10px;
-    gap: 15px;
+    gap: 5px;
+    align-items: center;
 }
 
 .flexRow--payment-methods-mobile .stretchChildrenWidth .flexRow--bloco-selo-seguranca .flexRowContent--bloco-selo-seguranca :global(.vtex-rich-text-0-x-paragraph--texto-seguranca) {
