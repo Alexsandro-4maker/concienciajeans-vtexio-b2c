@@ -100,4 +100,8 @@
         height: 835px !important;
         object-fit: cover;
     }
+
+    .imageElement--container-image-3 {
+        width: 700px;
+    }
 }
