@@ -52,7 +52,7 @@
     "props": {
       "text": "",
       "textPosition": "LEFT",
-      "blockClass": "quem-somos-content"
+      "blockClass": ["quem-somos-content-texto", "quem-somos-content-bloco-2"]
     }
   },
   "flex-layout.row#quem-somos-container": {

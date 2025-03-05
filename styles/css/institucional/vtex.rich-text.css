@@ -1,0 +1,9 @@
+:global(.vtex-render__container-id-conteudo-quem-somos) .container--quem-somos-content .wrapper--quem-somos-content{
+    width: 1260px;
+    margin: 0 auto;
+}
+
+
+.paragraph--quem-somos-content{
+    margin-top: 0;
+}

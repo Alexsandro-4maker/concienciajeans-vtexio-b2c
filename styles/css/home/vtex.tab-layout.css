@@ -36,4 +36,8 @@
         display: flex;
         flex-wrap: nowrap;
     }
+
+    .container--home {
+        display: none;
+    }
 }

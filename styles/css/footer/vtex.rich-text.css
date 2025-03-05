@@ -67,7 +67,7 @@
 @media only screen and (max-width: 990px) {
 
     .paragraph--texto-rede-social {
-
+        font-size: 16px;
         font-weight: 400;
     }
 

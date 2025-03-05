@@ -79,6 +79,11 @@
     margin-top: 25px;
 }
 
+.container--quem-somos-content {
+    width: 1260px;
+    margin: 0 auto;
+}
+
 @media only screen and (max-width: 990px) {
     .flexCol--bloco-rede-social {
         flex-direction: column;

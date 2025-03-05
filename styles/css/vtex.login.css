@@ -158,7 +158,24 @@
     position: relative !important;
 }
 
+:global(.render-route-vtex-store-2-x-store-custom-Institucional-politica-de-compra) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) {
+    position: relative !important;
+}
+
+
+:global(.render-route-vtex-store-2-x-store-custom-institucional-quem-somos) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) {
+    position: relative !important;
+}
+
+:global(.render-route-vtex-store-2-x-store-custom-Institucional-trocas-e-devolucoes) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) {
+    position: relative !important;
+}
+
 :global(.render-route-store-search-category) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) {
+    position: relative !important;
+}
+
+:global(.render-route-vtex-store-2-x-store-custom-Institucional-politica-de-compra) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) {
     position: relative !important;
 }
 
