@@ -158,6 +158,20 @@
     position: relative !important;
 }
 
+:global(.render-route-store-login)  :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) {
+    position: relative !important;
+}
+
+
+:global(.render-route-vtex-store-2-x-store-custom-Institucional-politica-de-privacidade)  :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) {
+    position: relative !important;
+}
+
+
+:global(.render-route-vtex-store-2-x-store-custom-Institucional-politica-de-entrega) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) {
+    position: relative !important;
+}
+
 :global(.render-route-vtex-store-2-x-store-custom-Institucional-politica-de-compra) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) {
     position: relative !important;
 }
