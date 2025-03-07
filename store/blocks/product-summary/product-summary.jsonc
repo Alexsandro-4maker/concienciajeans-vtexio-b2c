@@ -111,7 +111,9 @@
   "product-summary-sku-selector#vitrine": {
     "props": {
       "blockClass": "sku-selector-vitrine",
-      "initialSelection":"empty"
+      "initialSelection":"empty",
+      "disableUnavailableSelectOptions":true,
+      "displayMode": "default"
     }
   },
   "product-highlight-wrapper": {

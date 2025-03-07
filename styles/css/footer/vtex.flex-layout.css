@@ -69,7 +69,6 @@
 
 .flexColChild--bloco-rede-social .flexRowContent {
     margin-top: -10px;
-    gap: 5px;
     align-items: center;
 }
 
@@ -82,6 +81,11 @@
 .container--quem-somos-content {
     width: 1260px;
     margin: 0 auto;
+}
+
+.flexColChild--bloco-rede-social .flexRow .flexRowContent .stretchChildrenWidth :global(.vtex-store-components-3-x-imageElementLink--storePrint){
+    display: flex;
+    justify-content: center;
 }
 
 @media only screen and (max-width: 990px) {
