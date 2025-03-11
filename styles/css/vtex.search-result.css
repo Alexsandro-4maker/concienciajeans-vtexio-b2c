@@ -69,6 +69,27 @@
   display: none;
 }
 
+
+.buttonShowMore {
+  background: rgb(7, 29, 73) !important;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  width: 350px;
+  height: 45px;
+  border-radius: 20px;
+  color: #fff !important;
+}
+
+.buttonShowMore :global(.vtex-button){
+  background: rgb(7, 29, 73) !important;
+  color: #fff;
+  border-color:  rgb(7, 29, 73) !important;
+}
+
+.buttonShowMore :global(.vtex-button) :global(.vtex-button__label ) {
+  color: #fff !important;
+}
+
 .gallery--grid {
  /* padding-left: 2rem;*/
   gap: 10px;

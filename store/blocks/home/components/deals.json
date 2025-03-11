@@ -19,6 +19,11 @@
         "phone": 1
       },
       "infinite": true,
+      "slideTransition":{
+        "speed": 400,
+        "delay": 0
+      },
+      "autoPlay": true,
       "showNavigationArrows": "never",
       "blockClass": ["carousel", "carousel-mobile-deals"]
     },

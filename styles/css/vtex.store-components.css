@@ -188,6 +188,9 @@
   color: #2e2e2e;
   line-height: 15px;
   font-family: "Montserrat";
+  overflow: overlay;
+  height: 170px;
+  width: 100%;
 
 }
 
@@ -204,8 +207,8 @@
   }
 
   .productDescriptionText {
-   line-height: 32px;
-  
+    line-height: 32px;
+
   }
 
 }

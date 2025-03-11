@@ -121,7 +121,7 @@
 }
 
 
-.shippingContainer:global(.vtex-button):global(.vtex-button__label)::after {
+.shippingContainer :global(.vtex-button) :global(.vtex-button__label)::after {
     content: "Calcular";
     display: flex;
     position: absolute;
@@ -137,6 +137,16 @@
     color: #000;
 }
 
+
+:global(.vtex-availability-notify-1-x-submit ) :global(.vtex-button ){
+    background: #071d49;
+    height: 40px;
+    width: 100px;
+}
+
+:global(.vtex-availability-notify-1-x-submit )  :global(.vtex-button ) :global(.vtex-button__label){
+    color: #fff;
+}
 
 
 
