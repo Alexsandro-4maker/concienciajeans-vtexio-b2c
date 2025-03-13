@@ -1,7 +1,8 @@
 {
     "store.custom#ana-castela": {
         "children": [
-            "list-context.image-list#ana-castelo",
+             "list-context.image-list#ana-castelo",
+           // "custom-banner-ana-castelo",
             "flex-layout.row#container-1",
             "rich-text#bloco-texto-1",
             "flex-layout.row#shelf-ana-castelo",

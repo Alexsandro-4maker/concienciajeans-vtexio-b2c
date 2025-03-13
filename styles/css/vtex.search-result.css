@@ -65,7 +65,7 @@
   background-color: #F0F0F0;
 }
 
-.filter__container--brand{
+.filter__container--brand {
   display: none;
 }
 
@@ -80,18 +80,18 @@
   color: #fff !important;
 }
 
-.buttonShowMore :global(.vtex-button){
+.buttonShowMore :global(.vtex-button) {
   background: rgb(7, 29, 73) !important;
   color: #fff;
-  border-color:  rgb(7, 29, 73) !important;
+  border-color: rgb(7, 29, 73) !important;
 }
 
-.buttonShowMore :global(.vtex-button) :global(.vtex-button__label ) {
+.buttonShowMore :global(.vtex-button) :global(.vtex-button__label) {
   color: #fff !important;
 }
 
 .gallery--grid {
- /* padding-left: 2rem;*/
+  /* padding-left: 2rem;*/
   gap: 10px;
 }
 
@@ -133,7 +133,7 @@
 .filterPopupTitle {
   font-weight: bold;
   text-transform: capitalize;
-  
+
   font-family: 'Montserrat';
 }
 
@@ -269,6 +269,10 @@
   background: #000;
 }
 
+.searchResultContainer :global(.vtex-flex-layout-0-x-flexRow) :global(.vtex-flex-layout-0-x-flexCol) :global(.vtex-flex-layout-0-x-flexColChild)::nth-child(2n)  .buttonShowMore--layout {
+  display: none;
+}
+
 @media only screen and (max-width: 394px) {
   .galleryItem--grid :global(.vtex-product-summary-2-x-containerNormal) {
     width: 170px;
@@ -313,9 +317,9 @@
   .galleryItem--grid :global(.vtex-product-summary-2-x-containerNormal) :global(.vtex-product-summary-2-x-clearLink) :global(.vtex-product-summary-2-x-element) :global(.vtex-flex-layout-0-x-flexCol--testandomen) :global(.vtex-flex-layout-0-x-flexColChild--testandomen) :global(.vtex-flex-layout-0-x-flexRow--productRating) {
     opacity: 1 !important;
   }
-  
 
-  .container--layout :global(.vtex-flex-layout-0-x-flexRow) :global(.vtex-store-components-3-x-container) :global(.vtex-flex-layout-0-x-flexRowContent){
+
+  .container--layout :global(.vtex-flex-layout-0-x-flexRow) :global(.vtex-store-components-3-x-container) :global(.vtex-flex-layout-0-x-flexRowContent) {
     flex-direction: row-reverse;
     justify-content: center;
     gap: 5px;
@@ -329,20 +333,20 @@
     border-radius: 0;
   }
 
-  .filterPopupButton{
+  .filterPopupButton {
     height: 2.3rem;
   }
 
-  .filtersWrapperMobile{
+  .filtersWrapperMobile {
     border: 1px solid #707070;
   }
 
-  .filterApplyButtonWrapper :global(.vtex-button ),
-  .filterClearButtonWrapper  :global(.vtex-button ){
+  .filterApplyButtonWrapper :global(.vtex-button),
+  .filterClearButtonWrapper :global(.vtex-button) {
     background: #03034E;
     color: #fff;
   }
-  
+
   .filters--layout {
     position: sticky;
     width: 150px;
@@ -360,27 +364,46 @@
 
   }
 
- 
 
-  .container--layout :global(.vtex-flex-layout-0-x-flexRow) :global(.vtex-store-components-3-x-container ){
+
+  .container--layout :global(.vtex-flex-layout-0-x-flexRow) :global(.vtex-store-components-3-x-container) {
     padding: 0;
   }
 }
 
-@media only screen and (min-width: 1400px)  and (max-width: 1550px) {
+@media only screen and (min-width: 1400px) and (max-width: 1550px) {
 
   .gallery--grid {
     padding-left: 2rem;
     gap: 20px;
   }
-  
-  }
+
+}
 
 @media only screen and (min-width: 1600px) {
 
-.gallery--grid {
-  padding-left: 2rem;
-  gap: 40px;
+  .gallery--grid {
+    padding-left: 2rem;
+    gap: 40px;
+  }
 }
 
+@media only screen and (min-width: 1750px) {
+
+  .galleryItem--grid :global(.vtex-product-summary-2-x-containerNormal) {
+    width: 350px !important;
+    max-width: 100% !important;
+  }
+
+  .gallery--grid {
+    gap: 20px !important;
+    margin-top: 20px;
+
+  }
+
+  .galleryItem--grid {
+    max-width: 31% !important;
+    height: 680px;
+
+  }
 }

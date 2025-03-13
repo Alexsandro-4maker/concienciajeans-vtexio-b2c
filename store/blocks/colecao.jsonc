@@ -27,12 +27,12 @@
             "breadcrumb.search",
             "search-title.v2",
             "flex-layout.row#top",
-            "search-fetch-previous",
+            // "search-fetch-previous",
             "flex-layout.row#results",
-            "search-fetch-more"
+           "search-fetch-more"
         ],
         "props": {
-            "pagination": "show-more",
+        
             "preventRouteChange": true
         }
     },

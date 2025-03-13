@@ -619,5 +619,6 @@ display: none;
     :global(.product-image) {
         object-fit: cover;
         width: 740px;
+        height: 920px !important;
     }
 }
