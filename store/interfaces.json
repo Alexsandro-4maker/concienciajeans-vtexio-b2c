@@ -10,5 +10,8 @@
   },
   "custom-info-institucionais": {
     "component": "CustomInfoInstitucionais"
+  },
+  "custom-banner-ana-castelo":{
+    "component":"CustomBannerAnaCastelo"
   }
 }

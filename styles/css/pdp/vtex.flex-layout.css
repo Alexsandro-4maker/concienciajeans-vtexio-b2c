@@ -27,7 +27,7 @@
     margin-bottom: 50px;
 }
 
-.flexRow--bloco-description-pdp{
+.flexRow--bloco-description-pdp {
     width: 575px !important;
     position: absolute;
     top: 170px;
@@ -79,13 +79,21 @@
         display: flex;
     }
 
-    .flexRow--bloco-description-pdp{
+    .flexRow--bloco-description-pdp {
         width: unset !important;
         position: unset;
-       
+
         background-color: #fff;
         padding: 20px;
         height: unset;
+        z-index: 1;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    .flexRow--bloco-description-pdp {
+
+        height: 920px;
         z-index: 1;
     }
 }

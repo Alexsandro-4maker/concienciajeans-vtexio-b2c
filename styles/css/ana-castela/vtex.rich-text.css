@@ -45,3 +45,11 @@
 .container--title-bloco-4 {
     width: 570px;
 }
+
+@media(max-width:990px) {
+
+    
+.container--title-bloco-4 {
+    width: 100%;
+}
+}

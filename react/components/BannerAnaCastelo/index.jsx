@@ -1,5 +1,6 @@
 import React from "react";
 import { useCssHandles } from "vtex.css-handles";
+import './banner-anacastelo.css'
 
 const CSS_HANDLES = [
   "bannerContainer",
@@ -13,6 +14,7 @@ const CSS_HANDLES = [
 const CustomBannerAnaCastelo = ({
   backgroundImage,
   title,
+  backgroundImage2,
   subtitle,
   ctaText,
   ctaLink,
@@ -21,14 +23,16 @@ const CustomBannerAnaCastelo = ({
 
   return (
     <div
-      className={`${handles.bannerContainer}`}
-      style={{ backgroundImage: `url(${backgroundImage})`, backgroundSize: "cover", backgroundPosition: "center", height:"720px" } }
+      className="bannerContainer"
+      style={{ backgroundImage: `url(${backgroundImage})` } }
     >
-      <div className={`${handles.bannerContent}`}>
-        <h2 className={`${handles.bannerTitle}`}>{title}</h2>
-        <p className={`${handles.bannerSubtitle}`}>{subtitle}</p>
+      <div className="bannerContent">
+        <h2 className="bannerTitle">{title}</h2>
+
+        <img src={backgroundImage2} alt={title} />
+        <p className="bannerSubtitle">{subtitle}</p>
         {ctaText && ctaLink && (
-          <a href={ctaLink} className={`${handles.bannerCTA}`}>
+          <a href={ctaLink} className="bannerCTA">
             {ctaText}
           </a>
         )}
@@ -44,6 +48,13 @@ CustomBannerAnaCastelo.schema = {
   properties: {
     backgroundImage: {
       title: "Imagem de Fundo",
+      type: "string",
+      widget: {
+        "ui:widget": "image-uploader",
+      },
+    },
+     backgroundImage2: {
+      title: "Imagem",
       type: "string",
       widget: {
         "ui:widget": "image-uploader",

@@ -189,9 +189,9 @@ classnames@*, classnames@^2.2.5, classnames@^2.3.2:
   resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.5.1.tgz#ba774c614be0f016da105c858e7159eae8e7687b"
   integrity sha512-saHYOzhIQs6wy2sVxTM6bUDsQO4F50V9RQ22qBpEdCW+I+/Wmke2HOl6lS6dTpdxVhb88/I6+Hs+438c3lfUow==
 
-"conscienciajeans.store-theme@http://conscienciajeans.vtexassets.com/_v/public/typings/v1/conscienciajeans.store-theme@2.0.1/public/@types/conscienciajeans.store-theme":
-  version "2.0.1"
-  resolved "http://conscienciajeans.vtexassets.com/_v/public/typings/v1/conscienciajeans.store-theme@2.0.1/public/@types/conscienciajeans.store-theme#8f98881ca13050920a7e159b34a4ee2d983be17f"
+"conscienciajeans.store-theme@https://desenvolvimento--conscienciajeans.myvtex.com/_v/private/typings/linked/v1/conscienciajeans.store-theme@2.0.0+build1741758361/public/@types/conscienciajeans.store-theme":
+  version "2.0.0"
+  resolved "https://desenvolvimento--conscienciajeans.myvtex.com/_v/private/typings/linked/v1/conscienciajeans.store-theme@2.0.0+build1741758361/public/@types/conscienciajeans.store-theme#2595241a012484b8a2a43deae25246a925fdae24"
 
 csstype@^3.0.2:
   version "3.1.3"
@@ -542,9 +542,9 @@ undici-types@~5.26.4:
   version "0.3.4"
   resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.sticky-layout@0.3.4/public/@types/vtex.sticky-layout#5b786d6f9ab0a40e4997c955a75885eee32515ef"
 
-"vtex.store-components@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-components@3.177.0/public/@types/vtex.store-components":
-  version "3.177.0"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-components@3.177.0/public/@types/vtex.store-components#f04e0704078aa0531a32fc17a83fea42402dff62"
+"vtex.store-components@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-components@3.176.4/public/@types/vtex.store-components":
+  version "3.176.4"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-components@3.176.4/public/@types/vtex.store-components#7571b95e75378af2f09ff086629164594666fcae"
 
 "vtex.store-drawer@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-drawer@0.18.1/public/@types/vtex.store-drawer":
   version "0.18.1"
@@ -566,9 +566,9 @@ undici-types@~5.26.4:
   version "0.18.0"
   resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-icons@0.18.0/public/@types/vtex.store-icons#0ee94d549aa283ce3a13ab987c13eac4fdfd1bba"
 
-"vtex.store-image@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-image@0.23.1/public/@types/vtex.store-image":
-  version "0.23.1"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-image@0.23.1/public/@types/vtex.store-image#057991d97102568bcd7b1dadfd11e5e8ae6f2d98"
+"vtex.store-image@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-image@0.23.0/public/@types/vtex.store-image":
+  version "0.23.0"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-image@0.23.0/public/@types/vtex.store-image#bda0aba85ba2a151409236d6724aab1701442b03"
 
 "vtex.store-link@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-link@0.9.3/public/@types/vtex.store-link":
   version "0.9.3"

@@ -1,13 +1,14 @@
 {
   "store.home": {
     "blocks": [
+      "list-context.image-list#banner-principal",
       "responsive-layout.desktop#home-desktop",
       "responsive-layout.mobile#home-mobile"
     ]
   },
   "responsive-layout.desktop#home-desktop": {
     "children": [
-      "list-context.image-list#banner-principal",
+     
       "flex-layout.row#deals",
       "__fold__",
       "responsive-layout.desktop#tab-layout-home",
@@ -26,7 +27,6 @@
   },
   "responsive-layout.mobile#home-mobile": {
     "children": [
-      "list-context.image-list#banner-principal",
       "slider-layout#deals-mobile",
       "responsive-layout.mobile#tab-layout-home",
       "__fold__",

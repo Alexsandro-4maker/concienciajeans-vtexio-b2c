@@ -100,3 +100,14 @@
 .flexRowContent--container-bloco-4 {
     justify-content: space-evenly;
 }
+
+
+@media(max-width:990px) {
+.flexRowContent--container-bloco-1 {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding-top: 50px !important;
+    flex-direction: column-reverse;
+}
+}

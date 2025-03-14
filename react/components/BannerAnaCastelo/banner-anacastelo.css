@@ -1,0 +1,59 @@
+:global(.bannerContent) {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+    
+    font-family: "Montserrat";
+}
+
+:global(.bannerContainer) {
+
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 80px;
+    
+    font-family: "Montserrat";
+}
+
+:global(.bannerTitle) {
+    font-size: 29px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    padding-bottom: 30px;
+    color: #fff;
+    font-family: "Montserrat";
+}
+
+:global(.bannerContent) img {
+    height: 200px;
+    object-fit: contain;
+}
+
+:global(.bannerCTA) {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    border: 1px solid #fff;
+    padding: 15px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 30px;
+    margin-top: 30px;
+    font-weight: 300;
+    font-family: "Montserrat";
+}
+
+:global(.bannerSubtitle) {
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    font-family: "Montserrat";
+}

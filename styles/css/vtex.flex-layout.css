@@ -47,7 +47,7 @@
   font-family: "Montserrat";
 }
 
-.flexRowContent--container-bloco-1 .stretchChildrenWidth::before {
+:global(.vtex-render__container-id-container-1) .flexRow--container-bloco-1 .flexRowContent--container-bloco-1 .stretchChildrenWidth::before {
 
   content: "";
   background: url(/arquivos/Fotocactolateral.jpg);
@@ -199,7 +199,7 @@
   background-color: #F0F0F0;
 }
 
-.flexRowContent--container-texto-3-total .stretchChildrenWidth:first-child{
+.flexRowContent--container-texto-3-total .stretchChildrenWidth:first-child {
   width: 950px !important;
 }
 
@@ -210,21 +210,51 @@
 
 
 @media(max-width:990px) {
-.flexCol--bloco-preco {
-  display: flex;
-  flex-direction: row;
-  font-family: "Montserrat";
-  align-items: baseline;
-  gap: 18px;
-  margin-top: 0px;
-  margin-bottom: 15px;
-}
+  .flexCol--bloco-preco {
+    display: flex;
+    flex-direction: row;
+    font-family: "Montserrat";
+    align-items: baseline;
+    gap: 18px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+  }
 
-.flexRowContent--container-button-pdp .stretchChildrenWidth :global(.vtex-button) {
-  background: #009F35;
-  width:100%;
-  height: 65px;
-}
+  .flexRowContent--container-button-pdp .stretchChildrenWidth :global(.vtex-button) {
+    background: #009F35;
+    width: 100%;
+    height: 65px;
+  }
+
+  .flexRowContent--container-texto-3-total .stretchChildrenWidth:first-child {
+    width: 100% !important;
+  }
+
+  :global(.vtex-render__container-id-container-1) .flexRow--container-bloco-1 .flexRowContent--container-bloco-1 .stretchChildrenWidth::before {
+
+    content: "";
+    background: url(/arquivos/Fotocactolateral.jpg);
+    width: 300px;
+    height: 530px;
+    display: flex;
+    position: absolute;
+    background-size: cover;
+    left: 10px;
+  }
+
+  .flexRowContent--container-bloco-1 .stretchChildrenWidth::after {
+    height: 100px;
+    width: 100px;
+    content: "";
+    background: url(/arquivos/sol-vermelho.png);
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    left: 71%;
+    z-index: 1;
+    margin-top: -3px;
+  }
+  
 }
 
 

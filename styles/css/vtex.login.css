@@ -426,9 +426,7 @@ display: none;
     padding: 0;
 }
 
-/*:global(.vtex-search-result-3-x-gallery--grid) div:nth-child(7){
-    display: none;
-}*/
+
 
 :global(.c-muted-2) {
     color: #626262;
@@ -619,5 +617,6 @@ display: none;
     :global(.product-image) {
         object-fit: cover;
         width: 740px;
+        height: 920px !important;
     }
 }
