@@ -23,6 +23,16 @@
     font-weight: 400;
   }
   
+  @font-face {
+    font-family: 'Kcobra-Regular';
+    src: url(assets/fonts/Kcobraletraregular.ttf);
+    font-weight: 400;
+  }
+  @font-face {
+    font-family: 'Kcobra-bold';
+    src: url(assets/fonts/Kcobraletrabold.ttf);
+    font-weight: 600;
+  }
   
   @font-face {
     font-family: "Montserrat";
@@ -68,4 +78,22 @@
     font-family: 'Manrope';
     src: url(assets/fonts/Manrope-Regular.ttf), url(assets/fonts/Manrope-Regular.ttf);
     font-weight: 400;
+  }
+
+  @font-face {
+    font-family: 'Manrope';
+    src: url(assets/fonts/Manrope-Regular.ttf), url(assets/fonts/Manrope-Regular.ttf);
+    font-weight: 400;
+  }
+
+  @font-face {
+    font-family: 'Manrope';
+    src: url(assets/fonts/Manrope-Light.ttf), url(assets/fonts/Manrope-Light.ttf);
+    font-weight: 250;
+  }
+
+  @font-face {
+    font-family: 'Manrope';
+    src: url(assets/fonts/Manrope-ExtraLight.ttf), url(assets/fonts/Manrope-ExtraLight.ttf);
+    font-weight: 200;
   }

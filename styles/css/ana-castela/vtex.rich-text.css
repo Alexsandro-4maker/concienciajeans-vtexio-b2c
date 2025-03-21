@@ -1,10 +1,48 @@
 .headingLevel2--title-bloco {
-    color: #285780;
-    font-size: 21px;
-    font-weight: 500;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    font-family: 'Distillery-Strong';
+    color: #88050C;
+    font-size: 30px;
+    font-weight: 400;
+    margin: 0;
+    font-family: 'Kcobra-Regular';
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.headingLevel2--title-bloco-3-0 {
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+    font-family: 'Manrope';
+    margin-left: 90px;
+}
+
+
+.headingLevel2--title-bloco-promocao {
+    text-transform: uppercase;
+    color: #A81018;
+    font-family: 'Kcobra-Regular';
+    margin: 0;
+    font-size: 55px;
+}
+
+
+
+.headingLevel2--subtitle-bloco-promocao {
+    text-transform: uppercase;
+    color: #000;
+    font-family: 'Kcobra-Regular';
+    margin: 0;
+    font-size: 30px;
+}
+
+.paragraph--title-bloco-principal {
+    width: 480px;
+    text-align: center;
+    font-family: 'Manrope';
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
 }
 
 .paragraph--title-bloco-4 {
@@ -13,43 +51,246 @@
     color: #fff;
     text-align: center;
     font-family: "Manrope", sans-serif;
+    font-weight: 200;
 }
 
 .paragraph--description-bloco-1 {
     color: #071D49;
-    font-size: 17px;
-    font-weight: 400;
-    line-height: 34px;
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 30px;
     font-family: "Manrope", sans-serif;
-}
-
-.container--bloco-2-text {
-    background-color: #F5F3EE;
+    text-align: justify;
+    margin-top: 0;
 }
 
 .container--bloco-2-text {
     justify-content: center;
 }
 
-.paragraph--bloco-2-text {
-    color: #071D49;
-    text-align: center;
+.paragraph--title-bloco-description-3 {
+    width: 600px;
+    margin: 0;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    color: #000;
     font-family: "Manrope", sans-serif;
-    padding-bottom: 50px;
-    font-size: 18px;
-    padding-top: 80px;
-    font-weight: 400;
+    font-size: 17px;
+    font-weight: 200;
 }
 
+.container--title-bloco-3-1::before {
+    content: "";
+    background: url(/arquivos/cadastrar-se.png);
+    width: 80px;
+    height: 80px;
+    background-repeat: no-repeat;
+    margin-top: -25px;
+}
+
+.container--title-bloco-3-2 {
+    margin-left: -30px;
+}
+
+.container--title-bloco-3-1 {
+    margin-left: -60px;
+}
+
+.headingLevel2--title-bloco-description-3-1 {
+    margin-left: 35px;
+}
+
+.headingLevel2--title-bloco-description-3-2 {
+    margin-left: 60px;
+}
+
+.paragraph--p-bloco-3-4 {
+    margin-left: 90px;
+    font-family: "Manrope", sans-serif;
+    color: #000;
+    font-size: 17px;
+}
+
+.container--title-bloco-3-2::before {
+    content: "";
+    background: url(/arquivos/conteudo-crie.png);
+    width: 80px;
+    height: 80px;
+    background-repeat: no-repeat;
+    margin-top: -25px;
+}
+
+.container--title-bloco-3-3::before {
+    content: "";
+    background: url(/arquivos/poste-foto.png);
+    width: 80px;
+    height: 80px;
+    background-repeat: no-repeat;
+    margin-top: -25px;
+}
+
+.paragraph--bloco-2-text {
+    color: #fff;
+    text-align: center;
+    font-family: 'Kcobra-Regular';
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: 400;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.paragraph--bloco-2-text::after {
+    content: "";
+    background-image: url(/arquivos/consi-branco.png);
+    height: 32px;
+    display: flex;
+    background-repeat: no-repeat;
+    width: 200px;
+    margin-top: -10px;
+}
 
 .container--title-bloco-4 {
     width: 570px;
 }
 
+.paragraph--title-bloco-4::after {
+    content: "";
+    margin-top: -300px;
+    width: 150px;
+    background-image: url(/arquivos/selo-consi.png);
+    height: 106px;
+    background-repeat: no-repeat;
+    display: flex;
+    position: absolute;
+    z-index: 99999;
+    right: 20px;
+}
+
 @media(max-width:990px) {
 
-    
-.container--title-bloco-4 {
-    width: 100%;
-}
+
+    .paragraph--title-bloco-4::after {
+        content: "";
+        margin-top: -530px;
+        background-image: url(/arquivos/selo-consi.png);
+        width: 25%;
+        background-size: 80px;
+        right: 0px;
+    }
+
+    .container--title-bloco-4 {
+        width: 100%;
+    }
+
+    .paragraph--title-bloco-description-3 {
+        width: 100%;
+    }
+
+    .headingLevel2--title-bloco-3-0 {
+        margin-left: 80px;
+        font-size: 16px;
+
+    }
+
+    .headingLevel2--title-bloco-description-3-1 {
+        margin-left: 80px;
+    }
+
+    .headingLevel2--title-bloco-description-3-2 {
+        margin-left: 80px;
+    }
+
+    .paragraph--p-bloco-3-4 {
+        margin-left: 0;
+    }
+
+    .container--title-bloco-3-1::before {
+        content: "";
+        background: url(/arquivos/cadastrar-se.png);
+        width: 240px;
+        height: 80px;
+        background-repeat: no-repeat;
+        margin-top: -5px;
+        margin-left: 60px;
+    }
+
+    .headingLevel2--subtitle-bloco-promocao {
+        font-size: 35px;
+        font-weight: 500;
+    }
+
+    .paragraph--title-bloco-description-3 {
+        margin-left: 5px;
+    }
+
+    .container--title-bloco-3-2::before {
+        content: "";
+        background: url(/arquivos/conteudo-crie.png);
+        width: 200px;
+        height: 80px;
+        background-repeat: no-repeat;
+        margin-top: -5px;
+        margin-left: 30px;
+    }
+
+    .container--title-bloco-3-3::before {
+        content: "";
+        background: url(/arquivos/poste-foto.png);
+        width: 200px;
+        height: 80px;
+        background-repeat: no-repeat;
+        margin-top: -5px;
+        margin-left: 0;
+    }
+
+    .paragraph--bloco-2-text {
+        flex-direction: column;
+        font-size: 23px;
+        line-height: 40px;
+    }
+
+    .paragraph--bloco-2-text::after {
+        content: "";
+        margin-top: -5px;
+    }
+
+    .paragraph--description-bloco-1 {
+        font-size: 14px;
+        line-height: 32px;
+        padding: 12px;
+    }
+
+    .paragraph--title-bloco-4 {
+        padding: 5px;
+        font-size: 20px;
+    }
+
+    .paragraph--title-bloco-principal {
+        width: 100%;
+
+    }
+
+    .container--subtitle-bloco-promocao,
+    .container--title-bloco-promocao {
+        justify-content: center;
+    }
+
+    .headingLevel2--title-bloco {
+        color: #88050C;
+        font-size: 28px;
+        padding: 12px;
+    }
+
+
+    .paragraph--p-bloco-3-4 {
+        margin-left: 0;
+        text-align: center;
+        padding: 0px;
+        font-size: 14px;
+    }
+
 }

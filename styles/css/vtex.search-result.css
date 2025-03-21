@@ -92,7 +92,7 @@
 
 .gallery--grid {
   /* padding-left: 2rem;*/
-  gap: 10px;
+  gap: 23px;
   margin-top: 15px;
 }
 
@@ -119,7 +119,7 @@
 
 
 .galleryItem--grid :global(.vtex-product-summary-2-x-containerNormal) {
-  width: 290px;
+  width: 275px;
 }
 
 .orderByText {
@@ -213,7 +213,7 @@
 }
 
 .galleryItem--grid {
-  max-width: 32% !important;
+  max-width: 30% !important;
   border: 1px solid #C6C6C6;
   height: 620px;
   padding:0;

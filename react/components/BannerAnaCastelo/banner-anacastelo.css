@@ -3,20 +3,31 @@
     flex-direction: column;
     margin: 0 auto;
     text-align: center;
-    
+    align-items: center;
     font-family: "Montserrat";
 }
 
 :global(.bannerContainer) {
-
     background-size: cover;
     background-position: center;
-    height: 600px;
+    height: 760px;
     display: flex;
     align-items: center;
     padding-bottom: 80px;
-    
     font-family: "Montserrat";
+}
+
+:global(.bannerContainer)::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    /* sombra semitransparente */
+    z-index: -1;
+    /* Faz com que a sombra fique atrás do conteúdo */
 }
 
 :global(.bannerTitle) {
@@ -29,7 +40,7 @@
 }
 
 :global(.bannerContent) img {
-    height: 200px;
+    width: 500px;
     object-fit: contain;
 }
 
@@ -48,7 +59,7 @@
 
 :global(.bannerSubtitle) {
     color: #fff;
-    font-size: 20px;
+    font-size: 28px;
     text-transform: uppercase;
     letter-spacing: 5px;
     display: flex;
@@ -57,3 +68,46 @@
     padding-top: 10px;
     font-family: "Montserrat";
 }
+
+:global(.bannerSubtitle)::before {
+    content: "";
+    background-image: url(/arquivos/consi-branco.png);
+    height: 32px;
+    display: flex;
+    background-repeat: no-repeat;
+    width: 200px;
+    margin-top: -10px;
+    margin-right: 5px;
+}
+
+@media(max-width:990px) {
+    :global(.bannerContent) {
+        width: 300px;
+    }
+
+    :global(.bannerSubtitle)::before {
+        content: "";
+        height: 32px;
+        display: flex;
+        background-repeat: no-repeat;
+        width: 200px;
+        margin-top: -10px;
+        margin-right: 0px;
+        text-align: center;
+        justify-content: center;
+        margin-left: 0px;
+    }
+
+    :global(.bannerSubtitle) {
+        color: #fff;
+        font-size: 17px;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        display: flex;
+        align-items: center;
+        padding-top: 10px;
+        font-family: "Montserrat";
+        width: 380px;
+    }
+}
+

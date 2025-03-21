@@ -440,10 +440,7 @@ display: none;
     color: #fff !important;
 }
 
-:global(.vtex-search-result-3-x-gallery--grid)>div:nth-child(7n),
-:global(.vtex-search-result-3-x-gallery--grid)>div:nth-child(8n) {
-    display: none;
-}
+
 
 :global(.slick-track) {
     display: flex;

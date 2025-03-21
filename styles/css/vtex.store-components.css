@@ -155,10 +155,16 @@
 }
 
 .imageElement--imagem-ana-castelo {
-  padding-top: 50px;
-  height: 420px;
+  width: 270px;
   object-fit: cover;
   z-index: 1;
+  margin-top: 30px;
+  margin-left: 100px;
+}
+
+.imageElement--ana-castelo-img-04 {
+  width: 780px;
+  padding-left: 35px;
 }
 
 .skuSelectorInternalBox {
@@ -175,11 +181,35 @@
 
 
 .imageElement--ana-castelo-img-05-01 {
-  height: 600px !important;
+  height: 580px !important;
+  width: 400px;
+  object-fit: fill;
+  margin-left: 0 !important;
 }
 
-.imageElement--ana-castelo-img-04 {
-  margin-top: -100px;
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child .imageElementLink--ana-castelo-img-05-01::before{
+  content: "";
+  background-image: url(/arquivos/imagem-footer-branca.png  );
+  display: flex;
+  background-repeat: no-repeat;
+  width: 200px;
+  margin-top: -260px;
+  height: 900px;
+  position: absolute;
+  z-index: 9999;
+  margin-left: 10px;
+}
+
+.imageElement--ana-castelo-img{
+  margin-top: -130px;
+}
+
+.imageElement--logo-preta{
+  height: 35px;
+}
+
+.imageElementLink--imagem-ana-castelo {
+  text-align: center;
 }
 
 .productDescriptionText {
@@ -208,7 +238,36 @@
 
   .productDescriptionText {
     line-height: 32px;
-
   }
 
+  .imageElement--ana-castelo-img-05-01 {
+    margin-left: 0 !important;
+    height: auto !important;
+    width: 95% !important;
+    margin-top: 0 !important;
+  }
+
+
+  .imageElement--imagem-ana-castelo {
+    margin-left: 100px;
+    width: 250px;
+    margin-top: 40px;
+  }
+
+  .imageElement--ana-castelo-img{
+    margin-top: -10px;
+    margin-bottom: 20px;
+  }
+
+
+  .imageElement--ana-castelo-img-04 {
+    padding-left: 0;
+  }
+  
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child .imageElementLink--ana-castelo-img-05-01::before{
+    content: "";
+ 
+    margin-top: 370px;
+  
+  }
 }

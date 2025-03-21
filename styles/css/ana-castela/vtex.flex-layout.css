@@ -19,22 +19,21 @@
 }
 
 .flexRow--shelf-ana-castelo {
-    background-color: #85A4B8;
-    border-radius: 30px;
+    background-color: #88050C;
     padding-bottom: 50px;
     padding-top: 30px;
 }
 
-.flexRowContent--shelf-4{
+.flexRowContent--shelf-4 {
     flex-direction: column;
 }
 
-.flexRowContent--shelf-4 .stretchChildrenWidth{
+.flexRowContent--shelf-4 .stretchChildrenWidth {
     width: unset !important;
 }
 
 .flexRow--container-bloco-3 {
-    background: url(/arquivos/fundo5.jpg);
+    background: #F5F3EE;
     background-repeat: no-repeat;
     width: 100%;
     margin: 0 auto;
@@ -44,20 +43,20 @@
 }
 
 .flexRow--container-bloco-4 {
-    background: url(/arquivos/fundo-51.jpg);
+    background: #8E8D8D;
     width: 100%;
     background-size: cover;
 }
 
 .flexRow--container-bloco-5 {
-    background: url(/arquivos/fundo6.jpg);
+    background: url(/arquivos/dobra-ana-castelo.png);
     background-repeat: no-repeat;
     width: 100%;
     background-size: cover;
 }
 
 .flexCol--container-bloco-texto-1 {
-    max-width: 600px;
+    max-width: 680px;
     font-family: "Manrope", sans-serif;
     margin-top: 40px;
 }
@@ -67,6 +66,7 @@
     justify-content: center;
     gap: 100px;
     padding-top: 50px !important;
+    padding-bottom: 70px;
 }
 
 .flexRowContent--container-bloco-5 {
@@ -80,6 +80,12 @@
 
 .flexRowContent--container-bloco-4 {
     padding: 70px 0;
+    padding-top: 70px !important;
+}
+
+.flexRowContent--container-texto-3-total {
+    flex-direction: row-reverse;
+    width: 1050px;
 }
 
 .flexRowContent--container-bloco-3 {
@@ -92,9 +98,21 @@
     width: unset !important;
 }
 
+.flexRowContent--shelf-ana-castelo .stretchChildrenWidth {
+    width: unset !important;
+}
+
+.flexRowContent--shelf-ana-castelo {
+    flex-direction: column;
+}
 
 .flexRowContent--container-bloco-4 .stretchChildrenWidth {
     width: unset !important;
+}
+
+.flexRowContent--container-bloco-5 {
+    padding-top: 70px !important;
+    justify-content: center;
 }
 
 .flexRowContent--container-bloco-4 {
@@ -103,11 +121,37 @@
 
 
 @media(max-width:990px) {
-.flexRowContent--container-bloco-1 {
-    display: flex;
-    justify-content: center;
-    gap: 100px;
-    padding-top: 50px !important;
-    flex-direction: column-reverse;
-}
+    .flexRowContent--container-bloco-1 {
+        display: flex;
+        justify-content: center;
+        gap: 100px;
+        padding-top: 50px !important;
+        flex-direction: column;
+    }
+
+
+    .flexRowContent--container-texto-3-total {
+        flex-direction: row-reverse;
+        width: 100%;
+    }
+
+    .flexCol--container-bloco-texto-1 {
+        max-width: 680px;
+        font-family: "Manrope", sans-serif;
+        margin-top: -20px;
+    }
+
+    .flexRowContent--container-bloco-5 {
+        padding: 50px 0;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+
+    }
+
+    .flexRow--container-bloco-3 {
+
+        padding-bottom: 50px;
+    }
 }

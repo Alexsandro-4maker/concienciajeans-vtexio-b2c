@@ -1,34 +1,18 @@
 {
     "store.custom#ana-castela": {
         "children": [
-             //"list-context.image-list#ana-castelo",
-            "custom-banner-ana-castelo",
+           "responsive-layout.mobile#custom-banner",
+           "responsive-layout.desktop#custom-banner",
             "flex-layout.row#container-1",
-            "rich-text#bloco-texto-1",
             "flex-layout.row#shelf-ana-castelo",
-            "flex-layout.row#container-3-ana-castelo",
+            "responsive-layout.desktop#container-3-ana-castelo",
+            "responsive-layout.mobile#container-3-ana-castelo",
             "flex-layout.row#container-4",
-            "flex-layout.row#container-5"
+            "flex-layout.row#container-5",
+            "link#confira-pecas"
         ],
         "props": {
             "blockClass": "container-ana-castelo"
-        }
-    },
-    "list-context.image-list#ana-castelo": {
-        "title": " 1 - Banner Principal",
-        "children": [
-            "slider-layout#demo-images"
-        ],
-        "props": {
-            "height": "100%",
-            "maxHeight": "100%",
-            "preload": true,
-            "images": [
-                {
-                    "image": "https://conscienciajeans.vteximg.com.br/arquivos/ids/566144/Varejoo%20Descktop%20-%20Combo5.jpg",
-                    "mobileImage": "https://conscienciajeans.vteximg.com.br/arquivos/ids/564721/Varejo%20Mobile%20-%20Combo%205.jpg"
-                }
-            ]
         }
     },
     "flex-layout.row#container-1": {
@@ -40,6 +24,13 @@
             "blockClass": "container-bloco-1"
         }
     },
+
+    "responsive-layout.desktop#custom-banner": {
+        "children": ["custom-banner-ana-castelo"]
+      },
+      "responsive-layout.mobile#custom-banner": {
+        "children": ["custom-banner-ana-castelo"]
+      },
     "flex-layout.col#bloco-1": {
         "children": [
             "rich-text#title-bloco-1",
@@ -73,7 +64,8 @@
         "props": {
             "href": "/login?returnUrl={queryString.returnUrl}",
             "label": "Ver coleção",
-            "blockClass": "menu-info-bloco-1"
+            "blockClass": "menu-info-bloco-1",
+            "target": "_blank"
         }
     },
     "rich-text#bloco-texto-1": {
@@ -84,34 +76,85 @@
     },
     "flex-layout.row#shelf-ana-castelo": {
         "children": [
+            "rich-text#bloco-texto-1",
             "list-context.product-list#demo1"
         ],
         "props": {
             "blockClass": "shelf-ana-castelo"
         }
     },
+
+    "responsive-layout.desktop#container-3-ana-castelo": {
+        "children": ["flex-layout.row#container-3-ana-castelo"]
+      },
+"responsive-layout.mobile#container-3-ana-castelo": {
+        "children": [ "flex-layout.row#container-3-ana-castelo-mobile"]
+      },
+      "flex-layout.row#container-3-ana-castelo-mobile": {
+        "children": [
+            "rich-text#title-bloco-1-3",
+            "rich-text#title-bloco-1-4",
+            "image#logo-promocao",
+            "rich-text#title-bloco-1-5",
+            "flex-layout.row#container-3-bloco-2-mobile"
+        ],
+        "props": {
+            "blockClass": "container-bloco-3"
+        }
+    },
     "flex-layout.row#container-3-ana-castelo": {
         "children": [
             "rich-text#title-bloco-1-3",
+            "rich-text#title-bloco-1-4",
+            "image#logo-promocao",
+            "rich-text#title-bloco-1-5",
             "flex-layout.row#container-3-bloco-2"
         ],
         "props": {
             "blockClass": "container-bloco-3"
         }
     },
-
-    "rich-text#title-bloco-1-3": {
+    "image#logo-promocao": {
         "props": {
-            "text": "## O QUE É TENDÊNCIA NESSE VERÃO?",
-            "blockClass": "title-bloco"
+            "src": "/arquivos/logo-preta.png",
+            "blockClass": [
+                "logo-preta"
+            ]
         }
     },
-    
+    "rich-text#title-bloco-1-3": {
+        "props": {
+            "text": "## promoção",
+            "blockClass": "title-bloco-promocao"
+        }
+    },
+    "rich-text#title-bloco-1-4": {
+        "props": {
+            "text": "## DECARONA",
+            "blockClass": "subtitle-bloco-promocao"
+        }
+    },
+    "rich-text#title-bloco-1-5": {
+        "props": {
+            "text": "Pegue uma carona com a Ana Castela e torne-se a nova influencer da Coleção On The Road!",
+            "blockClass": "title-bloco-principal"
+        }
+    },
+
+    "flex-layout.row#container-3-bloco-2-mobile": {
+        "children": [
+            "image#bloco-3-imagem",
+            "flex-layout.col#bloco-3"
+        ],
+        "props": {
+            "blockClass": "container-texto-3-total"
+        }
+    },
 
     "flex-layout.row#container-3-bloco-2": {
         "children": [
             "flex-layout.col#bloco-3",
-            "image#bloco-3"
+            "image#bloco-3-imagem"
         ],
         "props": {
             "blockClass": "container-texto-3-total"
@@ -120,22 +163,17 @@
     "image#bloco-2": {
         "props": {
             "src": "https://conscienciajeans.vteximg.com.br/arquivos/Fotosobreposta%20aocacto.jpg?v=638592656165700000",
-            "maxHeight": "",
-            "maxWidth": "",
             "blockClass": [
                 "imagem-ana-castelo",
                 "ana-castelo-img-02"
             ]
         }
     },
-    "image#bloco-3": {
+    "image#bloco-3-imagem": {
         "props": {
             "src": "https://conscienciajeans.vteximg.com.br/arquivos/Fotosobreposta2.jpg?v=638592720725400000",
-            "maxHeight": "",
-            "maxWidth": "",
             "blockClass": [
-                "imagem-ana-castelo",
-                " ana-castelo-img-03"
+                "ana-castelo-img"
             ]
         }
     },
@@ -146,7 +184,9 @@
             "rich-text#title-bloco-3-2",
             "rich-text#description-bloco-3-2",
             "rich-text#title-bloco-3-3",
-            "rich-text#description-bloco-3-3"
+            "rich-text#description-bloco-3-3",
+            "rich-text#description-bloco3-4",
+            "link#button-se-inscreva"
         ],
         "props": {
             "blockclass": "textColumn",
@@ -155,35 +195,59 @@
     },
     "rich-text#title-bloco-3-1": {
         "props": {
-            "text": "## NOSTALGIA E MODERNIDADE",
-            "blockClass": "title-bloco"
+            "text": "## 1. Cadastre-se no botão abaixo.",
+            "blockClass": [
+                "title-bloco-3-0",
+                "title-bloco-description-3-1"
+            ]
         }
     },
     "rich-text#description-bloco-3": {
         "props": {
-            "text": "O verão 25 traz tendências que evocam memórias e abraçam o novo. Os bordados se destacam adicionando sofisticação e um toque de história a cada peça, e transmitindo um conforto aconchegante, perfeito para os dias quentes e ensolarados."
+            "text": "Apenas as 100 primeiras inscritas vão receber um presskit com uma peça exclusiva da coleção On The Road.",
+            "blockClass": [
+                "title-bloco-description-3",
+                "title-bloco-3-1"
+            ]
         }
     },
     "rich-text#title-bloco-3-2": {
         "props": {
-            "text": "## BÁSICOS RENOVADOS",
-            "blockClass": "title-bloco"
+            "text": "## 2. Crie seu conteúdo!",
+            "blockClass": [
+                "title-bloco-3-0",
+                "title-bloco-description-3-2"
+            ]
         }
     },
     "rich-text#description-bloco-3-2": {
         "props": {
-            "text": "Looks básicos e cortes limpos ganham força e expressam uma elegância sem esforço. A tendência é complementada por detalhes delicados e uma estética refinada e moderna."
+            "text": "Inspire-se na foto da Ana Castela e recrie sua própria versão da nossa campanha.",
+            "blockClass": [
+                "title-bloco-description-3",
+                "title-bloco-3-2"
+            ]
         }
     },
     "rich-text#title-bloco-3-3": {
         "props": {
-            "text": "## JEANS, SEMPRE!",
-            "blockClass": "title-bloco"
+            "text": "## 3. Poste com #DeCaronaConsciência",
+            "blockClass": "title-bloco-3-0"
         }
     },
     "rich-text#description-bloco-3-3": {
         "props": {
-            "text": "Versátil e atemporal, o jeans é a peça indispensável em qualquer guarda-roupa de verão. Seja em shorts, saias ou calças, o jeans se reinventa a cada estação, oferecendo conforto e estilo em igual medida."
+            "text": "Publique no Instagram ou TikTok, marque o perfil da Consciência e engaje seu público",
+            "blockClass": [
+                "title-bloco-description-3",
+                "title-bloco-3-3"
+            ]
+        }
+    },
+    "rich-text#description-bloco3-4": {
+        "props": {
+            "text": "O conteúdo mais engajado garante a vaga de influenciadora oficial da Consciência por 6 meses, recebendo uma peça da coleção por mês!",
+            "blockClass": "p-bloco-3-4"
         }
     },
     "flex-layout.row#container-4": {
@@ -195,20 +259,13 @@
             "blockClass": "container-bloco-4"
         }
     },
-    "rich-text#title-bloco-4": {
-        "props": {
-            "text": "## O QUE É TENDÊNCIA NESSE VERÃO?",
-            "blockClass": "title-bloco"
-        }
-    },
     "image#bloco-4": {
         "props": {
             "src": "/arquivos/moldura-bloco-5.png?v=638594295728230000",
             "maxHeight": "",
             "maxWidth": "",
             "blockClass": [
-                "imagem-ana-castelo ",
-                "ana-castelo-img-04"
+                "imagem-ana-castelovvv"
             ]
         }
     },
@@ -232,7 +289,16 @@
         "props": {
             "href": "https://www.instagram.com/conscienciajeans",
             "label": "SIGA @CONSCIENCIAJEANS",
-            "blockClass": "link-info-2"
+            "blockClass": "link-info-2",
+            "target": "_blank"
+        }
+    },
+    "link#button-se-inscreva": {
+        "props": {
+            "href": "https://www.instagram.com/conscienciajeans",
+            "label": "INSCREVA-SE\nAGORA!",
+            "blockClass": "link-info-escreva",
+            "target": "_blank"
         }
     },
     "flex-layout.row#container-5": {
@@ -248,21 +314,16 @@
     "image#bloco-5-1": {
         "props": {
             "src": "https://conscienciajeans.vteximg.com.br/arquivos/Foto6-1.jpg?v=638592696902170000",
-            "maxHeight": "",
-            "maxWidth": "",
             "blockClass": [
-                "imagem-ana-castelo",
-                "ana-castelo-img-05-01"
+                "ana-castelo-img-05-01",
+                "imagem-branco"
             ]
         }
     },
     "image#bloco-5-2": {
         "props": {
             "src": "https://conscienciajeans.vteximg.com.br/arquivos/Foto6-2.jpg?v=638592696897630000",
-            "maxHeight": "",
-            "maxWidth": "",
             "blockClass": [
-                "imagem-ana-castelo",
                 "ana-castelo-img-05-01"
             ]
         }
@@ -270,12 +331,16 @@
     "image#bloco-5-3": {
         "props": {
             "src": "https://conscienciajeans.vteximg.com.br/arquivos/Foto6-3.jpg?v=638592696895900000",
-            "maxHeight": "",
-            "maxWidth": "",
             "blockClass": [
-                "imagem-ana-castelo",
                 "ana-castelo-img-05-01"
             ]
+        }
+    },
+    "link#confira-pecas": {
+        "props": {
+            "href": "#",
+            "label": "Confira as peças da nova coleção",
+            "blockClass": "link-confira-pecas"
         }
     }
 }

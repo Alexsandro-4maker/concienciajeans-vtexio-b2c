@@ -23,16 +23,16 @@ const CustomBannerAnaCastelo = ({
 
   return (
     <div
-      className="bannerContainer"
+      className="bannerContainer" id="bannerContent"
       style={{ backgroundImage: `url(${backgroundImage})` } }
     >
-      <div className="bannerContent">
+      <div className="bannerContent" >
         <h2 className="bannerTitle">{title}</h2>
 
         <img src={backgroundImage2} alt={title} />
         <p className="bannerSubtitle">{subtitle}</p>
         {ctaText && ctaLink && (
-          <a href={ctaLink} className="bannerCTA">
+          <a href={ctaLink} className="bannerCTA" target="_blank">
             {ctaText}
           </a>
         )}

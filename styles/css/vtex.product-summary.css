@@ -66,7 +66,7 @@
 
 .imageNormal {
   object-fit: fill !important;
-  max-height: 400px !important;
+  max-height: 335px !important;
   border-radius: 0;
   z-index: 0;
 }
@@ -83,7 +83,7 @@
   justify-content: center;
   background: #fff9;
   align-items: center;
-  width: 280px;
+  width: 290px;
 }
 
 
@@ -168,6 +168,10 @@
     width: 100%;
     bottom: 0;
     margin-bottom: 200px;
+  }
+
+  .containerNormal .clearLink .element:hover .SKUSelectorContainer--sku-selector-vitrine {
+    display: none;
   }
 
 }

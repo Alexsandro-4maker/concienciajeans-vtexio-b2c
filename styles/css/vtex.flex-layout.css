@@ -50,27 +50,15 @@
 :global(.vtex-render__container-id-container-1) .flexRow--container-bloco-1 .flexRowContent--container-bloco-1 .stretchChildrenWidth::before {
 
   content: "";
-  background: url(/arquivos/Fotocactolateral.jpg);
+  background: url(/arquivos/novo-fundo-cast.png);
   width: 350px;
-  height: 530px;
+  height: 480px;
   display: flex;
   position: absolute;
   background-size: cover;
-  left: 50px;
+  left: 80px;
 }
 
-.flexRowContent--container-bloco-1 .stretchChildrenWidth::after {
-  height: 100px;
-  width: 100px;
-  content: "";
-  background: url(/arquivos/sol-vermelho.png);
-  position: absolute;
-  background-size: cover;
-  background-repeat: no-repeat;
-  left: 31%;
-  z-index: 1;
-  margin-top: -3px;
-}
 
 .flexRowContent--container-bloco-3 .stretchChildrenWidth::nth-child(2)::before {
   content: "dds";
@@ -171,7 +159,7 @@
 .flexRowContent--orderByAndSwitcher {
   align-items: center;
   gap: 15px;
-  margin-left: 25px;
+  margin-left: 0px;
 }
 
 .flexRowContent--orderByAndSwitcher::before {
@@ -220,6 +208,10 @@
     margin-bottom: 15px;
   }
 
+  .flexRow--container-bloco-4 {
+    padding-top: 50px;
+  }
+
   .flexRowContent--container-button-pdp .stretchChildrenWidth :global(.vtex-button) {
     background: #009F35;
     width: 100%;
@@ -230,31 +222,25 @@
     width: 100% !important;
   }
 
-  :global(.vtex-render__container-id-container-1) .flexRow--container-bloco-1 .flexRowContent--container-bloco-1 .stretchChildrenWidth::before {
+  :global(.vtex-render__container-id-container-1) .flexRow--container-bloco-1 .flexRowContent--container-bloco-1 .stretchChildrenWidth:first-child::after {
 
     content: "";
-    background: url(/arquivos/Fotocactolateral.jpg);
-    width: 300px;
-    height: 530px;
+    background: url(/arquivos/novo-fundo-cast.png);
+    width: 270px;
+    height: 480px;
     display: flex;
     position: absolute;
     background-size: cover;
-    left: 10px;
+    left: 15px;
+
   }
 
-  .flexRowContent--container-bloco-1 .stretchChildrenWidth::after {
-    height: 100px;
-    width: 100px;
-    content: "";
-    background: url(/arquivos/sol-vermelho.png);
-    position: absolute;
-    background-size: cover;
-    background-repeat: no-repeat;
-    left: 71%;
-    z-index: 1;
-    margin-top: -3px;
+
+  :global(.vtex-render__container-id-container-1) .flexRow--container-bloco-1 .flexRowContent--container-bloco-1 .stretchChildrenWidth::before{
+  display: none;
   }
-  
+
+
 }
 
 
