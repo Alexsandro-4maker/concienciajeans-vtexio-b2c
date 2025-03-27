@@ -122,6 +122,10 @@
   width: 275px;
 }
 
+.accordionFilterContainer--category-4{
+  display: none;
+}
+
 .orderByText {
   color: #242424;
   text-transform: lowercase;
@@ -343,9 +347,13 @@
     border: 1px solid #707070;
   }
 
-  .filterApplyButtonWrapper :global(.vtex-button),
+  .filterApplyButtonWrapper :global(.vtex-button) ,
   .filterClearButtonWrapper :global(.vtex-button) {
     background: #03034E;
+    color: #fff;
+  }
+
+  .filterApplyButtonWrapper :global(.vtex-button) :global(.vtex-button__label){
     color: #fff;
   }
 

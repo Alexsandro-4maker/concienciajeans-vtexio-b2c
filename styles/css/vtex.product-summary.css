@@ -59,14 +59,20 @@
   border-radius: 0.25rem;
 }
 
+:global(.vtex-search-result-3-x-gallery--grid)
 .containerNormal .clearLink .element {
   height: unset !important;
-  padding-top: 3px;
+  padding-top: 2px;
+}
+
+.containerNormal .clearLink .element {
+  height: unset !important;
+  padding-top: 5px;
 }
 
 .imageNormal {
   object-fit: fill !important;
-  max-height: 335px !important;
+  max-height: 360px !important;
   border-radius: 0;
   z-index: 0;
 }
