@@ -279,17 +279,32 @@
   display: none;
 }
 
-@media only screen and (max-width: 394px) {
+@media only screen and (max-width: 365px) {
+  .galleryItem--grid :global(.vtex-product-summary-2-x-containerNormal) {
+    width: 160px;
+  }
+}
+
+@media only screen and (min-width: 370px)  and (max-width: 394px) {
   .galleryItem--grid :global(.vtex-product-summary-2-x-containerNormal) {
     width: 170px;
   }
 }
+
 
 @media only screen and (min-width: 395px) and (max-width: 420px) {
   .galleryItem--grid :global(.vtex-product-summary-2-x-containerNormal) {
     width: 190px;
   }
 }
+
+@media only screen and (min-width: 421px) and (max-width: 440px) {
+  .galleryItem--grid :global(.vtex-product-summary-2-x-containerNormal) {
+    width: 200px;
+  }
+}
+
+
 
 @media only screen and (max-width: 990px) {
 

@@ -1,4 +1,4 @@
-.paper--search-bar{
+.paper--search-bar {
     width: 50vw;
 }
 
@@ -7,6 +7,18 @@
     padding-top: 30px;
 }
 
-.flexRowContent--shelf-4{
+.flexRowContent--shelf-4 {
     padding: 0 40px;
+}
+
+@media(max-width:990px) {
+
+    .paper--search-bar {
+        width: 95vw;
+        height: 80vh;
+    }
+
+    :global(.vtex-search-2-x-biggy-autocomplete-wrapper) {
+        width: 95%;
+    }
 }

@@ -52,7 +52,8 @@ const NewsletterForm: React.FC = () => {
             width: isMobile ? '250px' : '250px',
             height: '35px',
             marginTop: isMobile ? '10px' : '10pxw',
-            background: 'rgb(7, 29, 73)'
+            background: 'rgb(7, 29, 73)',
+            color:"#fff"
         },
         submitButton: {
             padding: '10px 20px',

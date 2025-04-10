@@ -135,6 +135,7 @@
   "autocomplete-result-list.v2": {
     "props": {
       "maxSuggestedProducts": 3,
+      //"maxSuggestedTerms":3,
       "productLayout": "HORIZONTAL"
     },
     "blocks": [

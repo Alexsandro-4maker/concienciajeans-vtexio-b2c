@@ -162,6 +162,11 @@
     position: relative !important;
 }
 
+:global(.render-route-store-search-subcategory):global(.vtex-sticky-layout-0-x-wrapper--sticky-header) {
+    position: relative !important;
+}
+
+
 
 :global(.render-route-vtex-store-2-x-store-custom-Institucional-politica-de-privacidade)  :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) {
     position: relative !important;
@@ -201,6 +206,13 @@ display: none;
 :global(.render-route-store-custom-ana-castela) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) {
     position: relative !important;
 }
+
+
+:global(.render-route-store-custom-faq) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) {
+    position: relative !important;
+}
+
+
 
 :global(.render-route-store-product) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) {
     position: relative !important;
@@ -512,6 +524,10 @@ display: none;
     background-color: #ffffff63 !important;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+:global(.yourviews-yourviewsreviews-0-x-ratingSummary){
+    display: none;
 }
 
 

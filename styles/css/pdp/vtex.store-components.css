@@ -90,7 +90,7 @@
 
 :global(.vtex-address-form__postalCode) {
     display: flex;
-    align-items: end;
+    align-items: baseline;
     gap: 10px;
 }
 
@@ -100,17 +100,28 @@
     font-size: 16px;
 }
 
-.shippingContainer :global(.vtex-button) {
-    position: absolute;
-    margin-top: -70px;
-    width: 100px;
-    height: 35px;
-    margin-left: 180px;
-    font-size: 12px;
-    background-color: transparent;
-    border-color: transparent;
+.shippingContainer{
+    display: flex
+    ;
+        align-items: self-start;
 }
 
+.shippingContainer :global(.vtex-button) {
+    width: 90px;
+    height: 40px;
+    margin-left: -253px;
+    font-size: 12px;
+    background-color: #f4f4f4;
+    border-color: transparent;
+    position: relative;
+    margin-top: 1px;
+
+}
+
+
+.shippingContainer :global(.vtex-button)  :global(.vtex-button__label ){
+    visibility: hidden;
+}
 
 .productImagesContainer--list {
     display: flex;
