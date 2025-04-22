@@ -14,12 +14,12 @@
 .trigger::before {
     content: "";
     display: block;
-    width: 11px;
-    height: 2px;
-    background: #000;
+    width: 20px;
+    height: 4px;
+    background: #cb424f;
     position: absolute;
     top: 25px;
-    right: 0;
+    right: 30px;
 }
 
 .trigger::before {
@@ -62,5 +62,6 @@
         position: absolute;
         top: 40px;
         right: 15px;
+        background: #cb424f;
     }
 }

@@ -103,6 +103,28 @@
   font-weight: 400;
 }
 
+.container--title-faq {
+  display: flex;
+  justify-content: center;
+  color: #cb424f;
+  font-size: 49px;
+}
+
+.heading--title-faq{
+  font-family: 'Oswald';
+  font-size: 50px;
+}
+
+.headingLevel2--subtitle-faq{
+  font-family: 'Oswald';
+  font-size: 25px;
+}
+
+
+.container--subtitle-faq{
+  background: rgb(242, 242, 242);
+    padding: 0px 40px;
+}
 .container--title-accordion {
   /*border-bottom: 1px solid #dcdcdc;*/
   padding: 10px 0;
@@ -159,7 +181,7 @@
     font-size: 15px;
     line-height: 18px;
     color: #242424;
-  
+
   }
 
 }
